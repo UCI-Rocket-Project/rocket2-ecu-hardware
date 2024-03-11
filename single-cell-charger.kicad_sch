@@ -584,7 +584,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:EC4SAW-xxSxxN") (at 81.915 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fc58fb8-8401-42dc-994f-e17a1c6d5e5f)
-    (property "Reference" "U10" (at 81.915 88.9 0)
+    (property "Reference" "U13" (at 81.915 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 81.915 101.6 0)
@@ -612,22 +612,22 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-          (reference "U10") (unit 1)
+          (reference "U13") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-          (reference "U18") (unit 1)
+          (reference "U21") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-          (reference "U16") (unit 1)
+          (reference "U19") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-          (reference "U14") (unit 1)
+          (reference "U17") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-          (reference "U12") (unit 1)
+          (reference "U15") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-          (reference "U20") (unit 1)
+          (reference "U23") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -723,7 +723,7 @@
   (symbol (lib_id "Device:C_Small") (at 116.84 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b9faaca-5b64-4ad3-95b6-863fa0d9ef44)
-    (property "Reference" "C35" (at 111.76 82.55 0)
+    (property "Reference" "C43" (at 111.76 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 111.76 85.09 0)
@@ -746,22 +746,22 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-          (reference "C35") (unit 1)
+          (reference "C43") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-          (reference "C32") (unit 1)
+          (reference "C40") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-          (reference "C29") (unit 1)
+          (reference "C37") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-          (reference "C26") (unit 1)
+          (reference "C34") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-          (reference "C23") (unit 1)
+          (reference "C31") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-          (reference "C20") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -793,7 +793,7 @@
   (symbol (lib_id "Device:C_Small") (at 191.77 100.33 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 65d861b9-62f2-423a-a913-1059e688c977)
-    (property "Reference" "C37" (at 196.85 100.33 0)
+    (property "Reference" "C45" (at 196.85 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 196.85 97.79 0)
@@ -816,22 +816,22 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-          (reference "C37") (unit 1)
+          (reference "C45") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-          (reference "C34") (unit 1)
+          (reference "C42") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-          (reference "C31") (unit 1)
+          (reference "C39") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-          (reference "C28") (unit 1)
+          (reference "C36") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-          (reference "C25") (unit 1)
+          (reference "C33") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-          (reference "C22") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -1131,7 +1131,7 @@
   (symbol (lib_name "BQ25170_1") (lib_id "UCIRP-KiCAD-Lib:BQ25170") (at 148.59 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid daba862a-d65f-4232-a2f2-31ac1c78192a)
-    (property "Reference" "U11" (at 148.59 80.01 0)
+    (property "Reference" "U14" (at 148.59 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 148.59 92.71 0)
@@ -1161,22 +1161,22 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-          (reference "U11") (unit 1)
+          (reference "U14") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-          (reference "U19") (unit 1)
+          (reference "U22") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-          (reference "U17") (unit 1)
+          (reference "U20") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-          (reference "U15") (unit 1)
+          (reference "U18") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-          (reference "U13") (unit 1)
+          (reference "U16") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-          (reference "U21") (unit 1)
+          (reference "U24") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -1205,7 +1205,7 @@
   (symbol (lib_id "Device:C_Small") (at 125.73 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd57e9d2-f2d1-4476-98eb-8bffc0b4cc8c)
-    (property "Reference" "C36" (at 120.65 82.55 0)
+    (property "Reference" "C44" (at 120.65 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 120.65 85.09 0)
@@ -1228,22 +1228,22 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-          (reference "C36") (unit 1)
+          (reference "C44") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-          (reference "C33") (unit 1)
+          (reference "C41") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-          (reference "C30") (unit 1)
+          (reference "C38") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-          (reference "C27") (unit 1)
+          (reference "C35") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-          (reference "C24") (unit 1)
+          (reference "C32") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-          (reference "C21") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -1275,7 +1275,7 @@
   (symbol (lib_id "Device:LED_Small") (at 165.1 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4e0b0b6-1585-4da6-b598-8870774f3cfa)
-    (property "Reference" "D17" (at 161.29 99.06 90)
+    (property "Reference" "D19" (at 161.29 99.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BLUE_LED" (at 154.94 102.87 90)
@@ -1298,22 +1298,22 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-          (reference "D17") (unit 1)
+          (reference "D19") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-          (reference "D15") (unit 1)
+          (reference "D17") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-          (reference "D13") (unit 1)
+          (reference "D15") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-          (reference "D11") (unit 1)
+          (reference "D13") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-          (reference "D9") (unit 1)
+          (reference "D11") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-          (reference "D7") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -1345,7 +1345,7 @@
   (symbol (lib_id "Device:LED_Small") (at 171.45 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e53a83ee-6f29-4e6f-aa1e-427eae862293)
-    (property "Reference" "D18" (at 173.355 96.52 90)
+    (property "Reference" "D20" (at 173.355 96.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RED_LED" (at 173.355 98.425 90)
@@ -1368,22 +1368,22 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-          (reference "D18") (unit 1)
+          (reference "D20") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-          (reference "D16") (unit 1)
+          (reference "D18") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-          (reference "D14") (unit 1)
+          (reference "D16") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-          (reference "D12") (unit 1)
+          (reference "D14") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-          (reference "D10") (unit 1)
+          (reference "D12") (unit 1)
         )
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-          (reference "D8") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
       (project "rocket2-battery"

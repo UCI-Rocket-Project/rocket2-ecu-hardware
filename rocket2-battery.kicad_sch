@@ -2947,7 +2947,7 @@
   (symbol (lib_id "Device:C_Small") (at 275.59 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08082a55-9feb-49ed-acc9-7dfa06b2cb20)
-    (property "Reference" "C19" (at 278.13 59.69 0)
+    (property "Reference" "C27" (at 278.13 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 278.13 62.2363 0)
@@ -2970,7 +2970,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C19") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -2989,7 +2989,7 @@
   (symbol (lib_id "power:GND") (at 152.4 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09ea9d8e-a433-4429-a03f-433037f3bdcb)
-    (property "Reference" "#PWR050" (at 152.4 198.12 0)
+    (property "Reference" "#PWR079" (at 152.4 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 148.59 194.31 0)
@@ -3005,7 +3005,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3019,7 +3019,7 @@
   (symbol (lib_id "Device:C_Small") (at 223.52 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b5f10ea-eaf2-4049-9c12-547a51afc2ab)
-    (property "Reference" "C14" (at 226.06 21.59 0)
+    (property "Reference" "C22" (at 226.06 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 226.06 24.1363 0)
@@ -3042,7 +3042,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C14") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3061,7 +3061,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:ARM_Cortex_Debug") (at 257.81 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d5e997a-d7b7-4436-9939-27befde87d32)
-    (property "Reference" "J4" (at 257.81 33.02 0)
+    (property "Reference" "J9" (at 257.81 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ARM Cortex Debug" (at 257.81 35.56 0)
@@ -3092,7 +3092,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "J4") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3111,7 +3111,7 @@
   (symbol (lib_id "power:GND") (at 261.62 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e5a5aa9-cebd-429a-aeb3-9be49fbc0ac0)
-    (property "Reference" "#PWR080" (at 261.62 31.75 0)
+    (property "Reference" "#PWR0109" (at 261.62 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 29.21 0)
@@ -3127,7 +3127,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3146,7 +3146,7 @@
   (symbol (lib_id "power:GND") (at 190.5 137.16 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11c4eccd-ed42-406d-9d53-037366b44260)
-    (property "Reference" "#PWR059" (at 184.15 137.16 0)
+    (property "Reference" "#PWR088" (at 184.15 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 135.89 90)
@@ -3162,7 +3162,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3176,7 +3176,7 @@
   (symbol (lib_id "Device:LED_Small") (at 222.25 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1263777c-9ab3-4d74-ae77-dbe3dd8f28dd)
-    (property "Reference" "D5" (at 222.25 57.15 0)
+    (property "Reference" "D7" (at 222.25 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 222.25 59.69 0)
@@ -3199,7 +3199,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "D5") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3218,7 +3218,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:NCV8730") (at 157.48 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 126d2ab0-2d07-466c-bbc3-1465a3edf846)
-    (property "Reference" "U7" (at 157.48 158.75 0)
+    (property "Reference" "U10" (at 157.48 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3V3 LDO" (at 157.47 161.29 0)
@@ -3244,7 +3244,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "U7") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3329,7 +3329,7 @@
   (symbol (lib_id "power:GND") (at 274.32 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b7b155b-411c-4c4e-9176-64546039610e)
-    (property "Reference" "#PWR082" (at 274.32 31.75 0)
+    (property "Reference" "#PWR0111" (at 274.32 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 29.21 0)
@@ -3345,7 +3345,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3364,7 +3364,7 @@
   (symbol (lib_id "power:GND") (at 237.49 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ca94cb9-0924-4d7e-a853-2ad2222ef0a3)
-    (property "Reference" "#PWR071" (at 243.84 93.98 0)
+    (property "Reference" "#PWR0100" (at 243.84 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 93.98 90)
@@ -3380,7 +3380,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3399,7 +3399,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x07") (at 113.03 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fa07db2-873e-4dac-86e7-72588efd2ab1)
-    (property "Reference" "J2" (at 115.57 92.075 0)
+    (property "Reference" "J7" (at 115.57 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x07" (at 115.57 94.615 0)
@@ -3427,7 +3427,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "J2") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3549,7 +3549,7 @@
   (symbol (lib_id "power:GND") (at 160.02 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b043fb2-8667-4078-be95-fb61fa78d3cd)
-    (property "Reference" "#PWR054" (at 153.67 33.02 0)
+    (property "Reference" "#PWR083" (at 153.67 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 33.02 90)
@@ -3565,7 +3565,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3617,7 +3617,7 @@
   (symbol (lib_id "power:GND") (at 223.52 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d621a40-c4f3-463b-bbd0-46dd4b424d8d)
-    (property "Reference" "#PWR066" (at 223.52 31.75 0)
+    (property "Reference" "#PWR095" (at 223.52 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 29.21 0)
@@ -3633,7 +3633,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3690,7 +3690,7 @@
   (symbol (lib_id "power:+3V3") (at 275.59 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e9d7547-cb77-409f-9bfd-53e8209a1db5)
-    (property "Reference" "#PWR084" (at 275.59 62.23 0)
+    (property "Reference" "#PWR0113" (at 275.59 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 275.59 54.61 0)
@@ -3706,7 +3706,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -3789,7 +3789,7 @@
   (symbol (lib_id "Device:C_Small") (at 210.82 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46674352-1447-4f40-96b5-23689e2fccee)
-    (property "Reference" "C13" (at 213.36 21.59 0)
+    (property "Reference" "C21" (at 213.36 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 213.36 24.1363 0)
@@ -3812,7 +3812,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C13") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3831,7 +3831,7 @@
   (symbol (lib_id "power:GND") (at 182.88 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a0306d3-5318-458d-b2e4-9c697e573264)
-    (property "Reference" "#PWR058" (at 182.88 104.14 0)
+    (property "Reference" "#PWR087" (at 182.88 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 101.6 0)
@@ -3847,7 +3847,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -3866,7 +3866,7 @@
   (symbol (lib_id "power:+3V3") (at 236.22 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c05a196-60e4-417a-a128-b51dbdffe9eb)
-    (property "Reference" "#PWR069" (at 236.22 24.13 0)
+    (property "Reference" "#PWR098" (at 236.22 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 236.22 16.51 0)
@@ -3882,7 +3882,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -3965,7 +3965,7 @@
   (symbol (lib_id "power:+3V3") (at 210.82 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4eca8013-3658-4fdd-8668-604b8f8f26d0)
-    (property "Reference" "#PWR060" (at 210.82 24.13 0)
+    (property "Reference" "#PWR089" (at 210.82 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 210.82 16.51 0)
@@ -3981,7 +3981,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -4023,7 +4023,7 @@
   (symbol (lib_id "power:GND") (at 255.27 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5048ac07-e95d-44a9-875b-8c3c2ad95700)
-    (property "Reference" "#PWR078" (at 255.27 102.87 0)
+    (property "Reference" "#PWR0107" (at 255.27 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 100.33 0)
@@ -4039,7 +4039,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4095,7 +4095,7 @@
   (symbol (lib_id "Device:C_Small") (at 248.92 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5266f08b-a05a-4ab6-b2bf-97e6e8812ba1)
-    (property "Reference" "C16" (at 251.46 21.59 0)
+    (property "Reference" "C24" (at 251.46 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 251.46 24.1363 0)
@@ -4118,7 +4118,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C16") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4170,7 +4170,7 @@
   (symbol (lib_id "Device:C_Small") (at 236.22 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55bb121c-08e5-4a33-b956-ab780d4fd1b9)
-    (property "Reference" "C15" (at 238.76 21.59 0)
+    (property "Reference" "C23" (at 238.76 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 238.76 24.1363 0)
@@ -4193,7 +4193,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C15") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4212,7 +4212,7 @@
   (symbol (lib_id "power:GND") (at 241.3 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57971927-a240-4cdb-aee9-8cec65b354f3)
-    (property "Reference" "#PWR073" (at 241.3 58.42 0)
+    (property "Reference" "#PWR0102" (at 241.3 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 55.88 0)
@@ -4228,7 +4228,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4247,7 +4247,7 @@
   (symbol (lib_id "Device:C_Small") (at 171.45 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58987d2d-85b1-4fcf-9968-9407fa34fb24)
-    (property "Reference" "C12" (at 165.1 167.64 0)
+    (property "Reference" "C20" (at 165.1 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 165.1 170.18 0)
@@ -4270,7 +4270,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C12") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4284,7 +4284,7 @@
   (symbol (lib_id "power:GND") (at 153.67 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c5d9d56-7157-4c6b-987c-dfff44c88c45)
-    (property "Reference" "#PWR051" (at 147.32 118.11 0)
+    (property "Reference" "#PWR080" (at 147.32 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 118.745 90)
@@ -4300,7 +4300,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4314,7 +4314,7 @@
   (symbol (lib_id "power:GND") (at 168.91 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 644324b8-c3db-44b0-bf8d-22f8566f0694)
-    (property "Reference" "#PWR055" (at 168.91 146.05 0)
+    (property "Reference" "#PWR084" (at 168.91 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 144.78 0)
@@ -4330,7 +4330,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4344,7 +4344,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:RFM95W") (at 255.27 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66e71bf3-765e-4eb5-9091-aa33b8476cff)
-    (property "Reference" "U9" (at 260.35 57.15 0)
+    (property "Reference" "U12" (at 260.35 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 255.27 77.47 0)
@@ -4381,7 +4381,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "U9") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4437,7 +4437,7 @@
   (symbol (lib_id "power:+3V3") (at 248.92 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 697e4f3a-4392-4464-82a6-e5f853dae7ae)
-    (property "Reference" "#PWR075" (at 248.92 24.13 0)
+    (property "Reference" "#PWR0104" (at 248.92 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 248.92 16.51 0)
@@ -4453,7 +4453,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -4462,7 +4462,7 @@
   (symbol (lib_id "power:GND") (at 142.24 26.67 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70f3f1e8-1d74-41da-9602-b6db45edfa18)
-    (property "Reference" "#PWR049" (at 135.89 26.67 0)
+    (property "Reference" "#PWR078" (at 135.89 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 26.67 90)
@@ -4478,7 +4478,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4497,7 +4497,7 @@
   (symbol (lib_id "Device:C_Small") (at 274.32 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72396267-edaa-4267-8994-11fd652a89be)
-    (property "Reference" "C18" (at 276.86 21.59 0)
+    (property "Reference" "C26" (at 276.86 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 276.86 24.1363 0)
@@ -4520,7 +4520,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C18") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4539,7 +4539,7 @@
   (symbol (lib_id "power:GND") (at 274.32 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7587afdd-06e1-4acb-9fbd-1d2528623198)
-    (property "Reference" "#PWR083" (at 280.67 156.21 0)
+    (property "Reference" "#PWR0112" (at 280.67 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.13 156.845 90)
@@ -4555,7 +4555,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4569,7 +4569,7 @@
   (symbol (lib_id "power:GND") (at 237.49 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e17a094-07e5-47b4-aa79-0e47f63b296c)
-    (property "Reference" "#PWR072" (at 237.49 146.05 0)
+    (property "Reference" "#PWR0101" (at 237.49 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 144.78 0)
@@ -4585,7 +4585,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4599,7 +4599,7 @@
   (symbol (lib_id "power:GND") (at 36.195 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90701cde-f0dc-48bb-91d2-26a76f841805)
-    (property "Reference" "#PWR047" (at 36.195 196.85 0)
+    (property "Reference" "#PWR076" (at 36.195 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 192.405 0)
@@ -4615,7 +4615,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4629,7 +4629,7 @@
   (symbol (lib_id "Device:C_Small") (at 144.78 26.67 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93bf3195-e820-4846-9b08-6d44925d4ce4)
-    (property "Reference" "C11" (at 142.24 30.48 90)
+    (property "Reference" "C19" (at 142.24 30.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 142.24 33.0263 90)
@@ -4652,7 +4652,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C11") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4671,7 +4671,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:STM32F103C8T6") (at 182.88 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97e8ef05-29be-40ab-9be6-360c704bb87f)
-    (property "Reference" "U8" (at 190.5 93.98 0)
+    (property "Reference" "U11" (at 190.5 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 182.88 60.96 0)
@@ -4740,7 +4740,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "U8") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4759,7 +4759,7 @@
   (symbol (lib_id "power:GND") (at 248.92 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 980123f0-214e-4a74-b57c-03b56dcfb4de)
-    (property "Reference" "#PWR076" (at 248.92 31.75 0)
+    (property "Reference" "#PWR0105" (at 248.92 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 29.21 0)
@@ -4775,7 +4775,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4794,7 +4794,7 @@
   (symbol (lib_id "power:+3V3") (at 177.8 158.75 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98081971-b1e5-4b51-ac60-4a107bc9d482)
-    (property "Reference" "#PWR056" (at 173.99 158.75 0)
+    (property "Reference" "#PWR085" (at 173.99 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 180.975 159.385 90)
@@ -4810,7 +4810,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -4819,7 +4819,7 @@
   (symbol (lib_id "power:GND") (at 227.33 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9824aec3-29f3-48bc-9391-8be90b3e19f8)
-    (property "Reference" "#PWR068" (at 233.68 156.21 0)
+    (property "Reference" "#PWR097" (at 233.68 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 156.845 90)
@@ -4835,7 +4835,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4882,7 +4882,7 @@
   (symbol (lib_id "power:GND") (at 222.25 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99010a43-e409-488b-b89e-df1c8fd7d7c2)
-    (property "Reference" "#PWR064" (at 215.9 118.11 0)
+    (property "Reference" "#PWR093" (at 215.9 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.44 118.745 90)
@@ -4898,7 +4898,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4912,7 +4912,7 @@
   (symbol (lib_id "power:GND") (at 210.82 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f641c8c-2f9c-483f-9cc1-f9551d1d3f48)
-    (property "Reference" "#PWR061" (at 210.82 31.75 0)
+    (property "Reference" "#PWR090" (at 210.82 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 29.21 0)
@@ -4928,7 +4928,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -4947,7 +4947,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 262.89 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fd32e72-c880-4cd5-afdd-eeee2f4f0bba)
-    (property "Reference" "D6" (at 263.2075 118.11 0)
+    (property "Reference" "D8" (at 263.2075 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30V 2A" (at 263.2075 120.65 0)
@@ -4970,7 +4970,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "D6") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -5168,7 +5168,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 232.41 93.98 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a923e563-a382-4ea8-93de-9694961f0042)
-    (property "Reference" "J3" (at 233.68 100.33 90)
+    (property "Reference" "J8" (at 233.68 100.33 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMA" (at 233.68 97.79 90)
@@ -5191,7 +5191,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "J3") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -5215,7 +5215,7 @@
   (symbol (lib_id "power:GND") (at 224.79 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac8dce61-53d6-4490-abf8-06a1d18d80c7)
-    (property "Reference" "#PWR067" (at 231.14 62.23 0)
+    (property "Reference" "#PWR096" (at 231.14 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 62.23 90)
@@ -5231,7 +5231,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -5283,7 +5283,7 @@
   (symbol (lib_id "power:+3V3") (at 217.17 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad20d91b-71ed-48c9-bb2e-715571c0c9d8)
-    (property "Reference" "#PWR063" (at 213.36 88.9 0)
+    (property "Reference" "#PWR092" (at 213.36 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 220.98 89.535 90)
@@ -5299,7 +5299,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -5308,7 +5308,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 147.32 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aebc6bfa-e32f-4a80-838a-d62f90b62cbe)
-    (property "Reference" "D2" (at 137.16 151.13 90)
+    (property "Reference" "D4" (at 137.16 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30V 2A" (at 137.16 157.48 90)
@@ -5331,7 +5331,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "D2") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -5382,7 +5382,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 149.86 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0dd2a8e-5f42-43cd-a4a3-e0df2e7cd94b)
-    (property "Reference" "D3" (at 139.7 160.02 90)
+    (property "Reference" "D5" (at 139.7 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30V 2A" (at 139.7 153.67 90)
@@ -5405,7 +5405,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "D3") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -5459,7 +5459,7 @@
   (symbol (lib_id "power:+3V3") (at 274.32 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba217b81-0eb1-4420-9a48-b0a7669621d1)
-    (property "Reference" "#PWR081" (at 274.32 24.13 0)
+    (property "Reference" "#PWR0110" (at 274.32 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 274.32 16.51 0)
@@ -5475,7 +5475,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -5594,7 +5594,7 @@
   (symbol (lib_id "power:+3V3") (at 223.52 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c457d950-18b6-49f3-b3a5-551c6677ceab)
-    (property "Reference" "#PWR065" (at 223.52 24.13 0)
+    (property "Reference" "#PWR094" (at 223.52 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 223.52 16.51 0)
@@ -5610,7 +5610,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -5726,7 +5726,7 @@
   (symbol (lib_id "Device:C_Small") (at 142.24 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d503b993-32ca-4f84-b9b2-1c556f7be7e4)
-    (property "Reference" "C10" (at 144.78 167.64 0)
+    (property "Reference" "C18" (at 144.78 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 144.78 170.18 0)
@@ -5749,7 +5749,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C10") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -5800,7 +5800,7 @@
   (symbol (lib_id "power:GND") (at 275.59 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8969ff4-d5d8-4a9f-a0ca-9b5e9fce8b61)
-    (property "Reference" "#PWR085" (at 275.59 69.85 0)
+    (property "Reference" "#PWR0114" (at 275.59 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 67.31 0)
@@ -5816,7 +5816,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -5835,7 +5835,7 @@
   (symbol (lib_id "power:+3V3") (at 243.84 39.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9d96c26-5cf6-496b-81ad-d088c2f5ba9e)
-    (property "Reference" "#PWR074" (at 247.65 39.37 0)
+    (property "Reference" "#PWR0103" (at 247.65 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 240.03 40.005 90)
@@ -5851,7 +5851,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -5860,7 +5860,7 @@
   (symbol (lib_id "Device:LED_Small") (at 45.72 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da231af5-3d88-4b7c-855b-6e683aa62005)
-    (property "Reference" "D1" (at 48.26 169.4815 90)
+    (property "Reference" "D3" (at 48.26 169.4815 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 48.26 172.0215 90)
@@ -5883,7 +5883,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "D1") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -5897,7 +5897,7 @@
   (symbol (lib_id "power:GND") (at 114.3 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db89964f-13ba-480e-a631-cbef6653434a)
-    (property "Reference" "#PWR048" (at 114.3 163.83 0)
+    (property "Reference" "#PWR077" (at 114.3 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 162.56 0)
@@ -5913,7 +5913,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -6002,7 +6002,7 @@
   (symbol (lib_id "power:+3V3") (at 157.48 26.67 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df649d5d-938d-43d2-882e-18d3df97d370)
-    (property "Reference" "#PWR052" (at 153.67 26.67 0)
+    (property "Reference" "#PWR081" (at 153.67 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 160.655 27.305 90)
@@ -6018,7 +6018,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -6069,7 +6069,7 @@
   (symbol (lib_id "power:GND") (at 157.48 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e57cb95e-701e-4a51-9a1a-f7f9798d9ed7)
-    (property "Reference" "#PWR053" (at 157.48 181.61 0)
+    (property "Reference" "#PWR082" (at 157.48 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 180.34 0)
@@ -6085,7 +6085,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -6132,7 +6132,7 @@
   (symbol (lib_id "power:GND") (at 212.09 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f01d1f45-b89e-4315-b4ed-ccc0a76471c7)
-    (property "Reference" "#PWR062" (at 205.74 88.9 0)
+    (property "Reference" "#PWR091" (at 205.74 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 88.9 90)
@@ -6148,7 +6148,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -6172,7 +6172,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 194.31 123.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0ed5ac7-eef1-442a-8cd3-67ed3c9babbf)
-    (property "Reference" "D4" (at 194.6275 118.11 0)
+    (property "Reference" "D6" (at 194.6275 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30V 2A" (at 194.6275 120.65 0)
@@ -6195,7 +6195,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "D4") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -6258,7 +6258,7 @@
   (symbol (lib_id "power:+3V3") (at 182.88 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4956132-052b-4eaa-9d3d-4c2eb5c39d20)
-    (property "Reference" "#PWR057" (at 182.88 27.94 0)
+    (property "Reference" "#PWR086" (at 182.88 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 182.88 20.32 0)
@@ -6274,7 +6274,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -6283,7 +6283,7 @@
   (symbol (lib_id "power:GND") (at 236.22 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4ba562f-ec5e-4499-8980-646576d96de7)
-    (property "Reference" "#PWR070" (at 236.22 31.75 0)
+    (property "Reference" "#PWR099" (at 236.22 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 29.21 0)
@@ -6299,7 +6299,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -6355,7 +6355,7 @@
   (symbol (lib_id "power:+3V3") (at 261.62 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbae3ce9-5122-441a-9167-3785975731fd)
-    (property "Reference" "#PWR079" (at 261.62 24.13 0)
+    (property "Reference" "#PWR0108" (at 261.62 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 261.62 16.51 0)
@@ -6371,7 +6371,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -6380,7 +6380,7 @@
   (symbol (lib_id "Device:C_Small") (at 261.62 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcc132f8-8fbf-4ffa-af5c-2964cf11fc1f)
-    (property "Reference" "C17" (at 264.16 21.59 0)
+    (property "Reference" "C25" (at 264.16 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 264.16 24.1363 0)
@@ -6403,7 +6403,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "C17") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
       (project "rocket2-battery"
@@ -6422,7 +6422,7 @@
   (symbol (lib_id "power:+3V3") (at 255.27 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe5fb8c9-3538-442c-8e72-75834ce87b90)
-    (property "Reference" "#PWR077" (at 255.27 64.77 0)
+    (property "Reference" "#PWR0106" (at 255.27 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 255.27 57.15 0)
@@ -6438,7 +6438,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )

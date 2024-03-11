@@ -954,7 +954,7 @@
   (symbol (lib_id "power:GND") (at 155.575 80.645 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 037cd9c7-d027-469a-93f2-8a6225940b72)
-    (property "Reference" "#PWR0126" (at 155.575 86.995 0)
+    (property "Reference" "#PWR0155" (at 155.575 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.575 84.455 0)
@@ -970,7 +970,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -984,7 +984,7 @@
   (symbol (lib_id "power:GND") (at 147.955 55.245 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0437e3dd-d568-4290-a254-ebfc29ee1c2b)
-    (property "Reference" "#PWR0124" (at 147.955 48.895 0)
+    (property "Reference" "#PWR0153" (at 147.955 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.955 51.435 0)
@@ -1000,7 +1000,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1014,7 +1014,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput") (at 95.885 145.415 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 084c45e9-b64f-4966-9e8d-2ac170472176)
-    (property "Reference" "U27" (at 95.885 139.065 0)
+    (property "Reference" "U30" (at 95.885 139.065 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 95.885 137.795 0)
@@ -1038,7 +1038,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "U27") (unit 1)
+          (reference "U30") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1052,7 +1052,7 @@
   (symbol (lib_id "Device:LED_Small") (at 215.265 107.315 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e7cd944-e37d-442d-a261-39f5aebfc54d)
-    (property "Reference" "D28" (at 217.805 105.9815 90)
+    (property "Reference" "D30" (at 217.805 105.9815 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 217.805 108.5215 90)
@@ -1075,7 +1075,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "D28") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1166,7 +1166,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 169.545 52.705 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 223157a8-1b0d-4320-8262-676f99a02323)
-    (property "Reference" "D25" (at 172.085 51.435 90)
+    (property "Reference" "D27" (at 172.085 51.435 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SDT8A100P5-7" (at 172.085 53.975 90)
@@ -1189,7 +1189,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "D25") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1203,7 +1203,7 @@
   (symbol (lib_id "Device:LED_Small") (at 215.265 57.785 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 390b60f0-56dc-4fc4-9c51-78a7b77d9dac)
-    (property "Reference" "D27" (at 217.805 56.4515 90)
+    (property "Reference" "D29" (at 217.805 56.4515 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 217.805 59.055 90)
@@ -1226,7 +1226,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "D27") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1240,7 +1240,7 @@
   (symbol (lib_id "power:GND") (at 201.295 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3abf231e-78f0-408b-908e-9edc39460901)
-    (property "Reference" "#PWR0132" (at 201.295 61.595 0)
+    (property "Reference" "#PWR0161" (at 201.295 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.295 59.055 0)
@@ -1256,7 +1256,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1270,7 +1270,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 169.545 102.235 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f934438-f204-4f08-8fcb-1a19583ec9ab)
-    (property "Reference" "D26" (at 172.085 100.965 90)
+    (property "Reference" "D28" (at 172.085 100.965 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SDT8A100P5-7" (at 172.085 103.505 90)
@@ -1293,7 +1293,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "D26") (unit 1)
+          (reference "D28") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1307,7 +1307,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:LM3485") (at 155.575 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 505fc9f1-3c75-4562-a80f-b9415f31cb16)
-    (property "Reference" "U28" (at 164.465 76.835 0)
+    (property "Reference" "U31" (at 164.465 76.835 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 155.575 66.675 0)
@@ -1336,7 +1336,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "U28") (unit 1)
+          (reference "U31") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1350,7 +1350,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput") (at 95.885 121.285 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 573ad041-0dd2-42e6-82ba-522bce8a6785)
-    (property "Reference" "U26" (at 95.885 114.935 0)
+    (property "Reference" "U29" (at 95.885 114.935 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 95.885 113.665 0)
@@ -1374,7 +1374,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "U26") (unit 1)
+          (reference "U29") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1388,7 +1388,7 @@
   (symbol (lib_id "power:GND") (at 94.615 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b3f474c-5f28-4fb0-8d5e-44f39832981e)
-    (property "Reference" "#PWR0118" (at 88.265 91.44 0)
+    (property "Reference" "#PWR0147" (at 88.265 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 92.075 90)
@@ -1404,7 +1404,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -1413,7 +1413,7 @@
   (symbol (lib_id "power:GND") (at 201.295 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ccaaf8c-d383-4f3d-a2e2-393b75cc0b48)
-    (property "Reference" "#PWR0133" (at 201.295 111.125 0)
+    (property "Reference" "#PWR0162" (at 201.295 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.295 108.585 0)
@@ -1429,7 +1429,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1443,7 +1443,7 @@
   (symbol (lib_id "UCIRP-KiCAD-Lib:LM3485") (at 155.575 116.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e99d50b-91d8-4cdd-85f5-610754a47685)
-    (property "Reference" "U29" (at 164.465 126.365 0)
+    (property "Reference" "U32" (at 164.465 126.365 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 155.575 116.205 0)
@@ -1472,7 +1472,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "U29") (unit 1)
+          (reference "U32") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1524,7 +1524,7 @@
   (symbol (lib_id "power:GND") (at 95.885 154.305 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7df93ce4-14ed-4ab0-b402-1940ea2311aa)
-    (property "Reference" "#PWR0120" (at 95.885 160.655 0)
+    (property "Reference" "#PWR0149" (at 95.885 160.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.885 158.115 0)
@@ -1540,7 +1540,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1554,7 +1554,7 @@
   (symbol (lib_id "Device:C_Small") (at 201.295 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8697a81e-f38d-4326-a44d-d5d90abd5b84)
-    (property "Reference" "C46" (at 203.835 100.965 0)
+    (property "Reference" "C54" (at 203.835 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 203.835 103.505 0)
@@ -1577,7 +1577,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "C46") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1591,7 +1591,7 @@
   (symbol (lib_id "power:GND") (at 95.885 130.175 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 888f03c6-d9a9-4ce6-ab33-0951fc04be27)
-    (property "Reference" "#PWR0119" (at 95.885 136.525 0)
+    (property "Reference" "#PWR0148" (at 95.885 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.885 133.985 0)
@@ -1607,7 +1607,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1621,7 +1621,7 @@
   (symbol (lib_id "Device:LED_Small") (at 128.905 84.455 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89397da1-8769-45ef-9092-fc7980d127f3)
-    (property "Reference" "D24" (at 131.445 83.1215 90)
+    (property "Reference" "D26" (at 131.445 83.1215 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 131.445 85.6615 90)
@@ -1644,7 +1644,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "D24") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1696,7 +1696,7 @@
   (symbol (lib_id "power:GND") (at 215.265 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0bba0aa-e01e-4be5-bdc8-97c7f85ef4cf)
-    (property "Reference" "#PWR0134" (at 215.265 66.675 0)
+    (property "Reference" "#PWR0163" (at 215.265 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.265 64.135 0)
@@ -1712,7 +1712,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1726,7 +1726,7 @@
   (symbol (lib_id "power:GND") (at 155.575 130.175 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5ea1bc9-3954-4ea2-b823-88c10542ebb3)
-    (property "Reference" "#PWR0127" (at 155.575 136.525 0)
+    (property "Reference" "#PWR0156" (at 155.575 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.575 133.985 0)
@@ -1742,7 +1742,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1756,7 +1756,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.905 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a95a5ae7-d88e-4a93-b1a6-7d261b038084)
-    (property "Reference" "C43" (at 131.445 51.435 0)
+    (property "Reference" "C51" (at 131.445 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 131.445 53.975 0)
@@ -1779,7 +1779,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "C43") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1873,7 +1873,7 @@
   (symbol (lib_id "power:GND") (at 189.865 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b48be32b-1596-427e-b7d1-9798edddf81d)
-    (property "Reference" "#PWR0131" (at 189.865 130.175 0)
+    (property "Reference" "#PWR0160" (at 189.865 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 127.635 0)
@@ -1889,7 +1889,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1903,7 +1903,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.905 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7073e1a-d5e6-4837-8d1e-2f960f2558e6)
-    (property "Reference" "C44" (at 131.445 100.965 0)
+    (property "Reference" "C52" (at 131.445 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 131.445 103.505 0)
@@ -1926,7 +1926,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "C44") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1940,7 +1940,7 @@
   (symbol (lib_id "power:GND") (at 189.865 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c804e245-c4ef-4ae0-b037-80771b6867f1)
-    (property "Reference" "#PWR0130" (at 189.865 80.645 0)
+    (property "Reference" "#PWR0159" (at 189.865 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 78.105 0)
@@ -1956,7 +1956,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -1970,7 +1970,7 @@
   (symbol (lib_id "power:GND") (at 169.545 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9eee0ab-a4e8-4199-89be-9c66a8ca0b19)
-    (property "Reference" "#PWR0128" (at 169.545 61.595 0)
+    (property "Reference" "#PWR0157" (at 169.545 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 169.545 59.055 0)
@@ -1986,7 +1986,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -2077,7 +2077,7 @@
   (symbol (lib_id "power:GND") (at 147.955 104.775 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d33a46da-833c-46e0-bdd8-b24712535d39)
-    (property "Reference" "#PWR0125" (at 147.955 98.425 0)
+    (property "Reference" "#PWR0154" (at 147.955 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.955 100.965 0)
@@ -2093,7 +2093,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -2107,7 +2107,7 @@
   (symbol (lib_id "power:GND") (at 128.905 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6f9c087-c582-4d2b-b8e0-efda2be041da)
-    (property "Reference" "#PWR0121" (at 128.905 61.595 0)
+    (property "Reference" "#PWR0150" (at 128.905 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.905 59.055 0)
@@ -2123,7 +2123,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -2137,7 +2137,7 @@
   (symbol (lib_id "power:GND") (at 128.905 86.995 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d803c694-6c0f-4bf4-8dbe-bb1de40002f8)
-    (property "Reference" "#PWR0122" (at 128.905 93.345 0)
+    (property "Reference" "#PWR0151" (at 128.905 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.905 90.805 0)
@@ -2153,7 +2153,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -2287,7 +2287,7 @@
   (symbol (lib_id "power:GND") (at 169.545 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f090c2b8-2b53-4578-9dd4-c42e1dd2ce8e)
-    (property "Reference" "#PWR0129" (at 169.545 111.125 0)
+    (property "Reference" "#PWR0158" (at 169.545 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 169.545 108.585 0)
@@ -2303,7 +2303,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -2317,7 +2317,7 @@
   (symbol (lib_id "power:GND") (at 128.905 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0fb57f6-b3db-4dfd-b3e9-70c85349c952)
-    (property "Reference" "#PWR0123" (at 128.905 111.125 0)
+    (property "Reference" "#PWR0152" (at 128.905 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.905 108.585 0)
@@ -2333,7 +2333,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -2347,7 +2347,7 @@
   (symbol (lib_id "power:GND") (at 215.265 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd61cf5d-3d80-4cc9-911c-a2bd3e364448)
-    (property "Reference" "#PWR0135" (at 215.265 116.205 0)
+    (property "Reference" "#PWR0164" (at 215.265 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.265 113.665 0)
@@ -2363,7 +2363,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
       (project "rocket2-gse"
@@ -2377,7 +2377,7 @@
   (symbol (lib_id "Device:C_Small") (at 201.295 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fddec119-d70f-4340-9c79-fd191cd827ef)
-    (property "Reference" "C45" (at 203.835 51.435 0)
+    (property "Reference" "C53" (at 203.835 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100uF" (at 203.835 53.975 0)
@@ -2400,7 +2400,7 @@
     (instances
       (project "rocket2-ecu"
         (path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-          (reference "C45") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
       (project "rocket2-gse"
