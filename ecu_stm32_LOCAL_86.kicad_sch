@@ -25775,6 +25775,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "033d05eb-1fde-453f-941c-39f886434b0c")
 		(property "Reference" "J4"
 			(at 57.15 125.73 0)
@@ -25820,7 +25821,7 @@
 			)
 		)
 		(property "Manufacturer" "GCT"
-			(at 57.15 137.668 0)
+			(at 57.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25828,7 +25829,7 @@
 			)
 		)
 		(property "Part #" "USB4105-GF-A"
-			(at 57.15 139.954 0)
+			(at 57.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

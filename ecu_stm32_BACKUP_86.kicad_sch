@@ -25775,6 +25775,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "033d05eb-1fde-453f-941c-39f886434b0c")
 		(property "Reference" "J4"
 			(at 57.15 125.73 0)
@@ -25820,7 +25821,7 @@
 			)
 		)
 		(property "Manufacturer" "GCT"
-			(at 57.15 137.668 0)
+			(at 57.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25828,7 +25829,7 @@
 			)
 		)
 		(property "Part #" "USB4105-GF-A"
-			(at 57.15 139.954 0)
+			(at 57.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27230,7 +27231,76 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< HEAD
 		(at 270.51 71.12 0)
+=======
+		(at 214.63 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "323c5bad-3229-4c0e-8cc6-289d5cc5daf3")
+		(property "Reference" "#PWR0259"
+			(at 214.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90292bd0-f256-49f9-91ec-ea71c0595d9f")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d71af74c-6b83-4356-8066-aa44d85885b6"
+					(reference "#PWR0259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 74.93 0)
+>>>>>>> 71c4071b3b6738344bbcd416c0f955bcd6eaf7b2
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27732,6 +27802,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 215.9 151.13 0)
 		(unit 1)
@@ -27797,6 +27868,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> 71c4071b3b6738344bbcd416c0f955bcd6eaf7b2
 		(lib_id "Device:D_Zener_Small")
 		(at 39.37 144.78 270)
 		(unit 1)
@@ -31461,6 +31534,94 @@
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d71af74c-6b83-4356-8066-aa44d85885b6"
 					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 214.63 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bce6ea3-35bd-4f9c-9356-32012ea3ec97")
+		(property "Reference" "D36"
+			(at 217.17 148.5264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 151.0664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 214.63 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 214.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0603 Green LED"
+			(at 214.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c401f7ba-d854-4822-8ae5-7cef5f25164e")
+		)
+		(pin "2"
+			(uuid "2d0baa9e-d34c-4799-9f05-c6e291561558")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d71af74c-6b83-4356-8066-aa44d85885b6"
+					(reference "D36")
 					(unit 1)
 				)
 			)
