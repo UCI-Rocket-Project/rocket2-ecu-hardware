@@ -4131,7 +4131,7 @@
 		)
 		(uuid fefd90cc-bd7c-445b-a8e7-b2e9e0f9d1a6)
 	)
-	(text_box "need to increase (done, increased to 128Mbit)"
+	(text_box "Increased to 1Gbit"
 		(exclude_from_sim no)
 		(at 147.32 97.79 0)
 		(size 16.51 11.43)
@@ -5354,7 +5354,7 @@
 			)
 		)
 	)
-	(global_label "MEM_nCE"
+	(global_label "MEM_nCS"
 		(shape input)
 		(at 114.3 104.14 180)
 		(fields_autoplaced yes)
@@ -5366,7 +5366,7 @@
 		)
 		(uuid "ba87c2c5-7a5f-406e-b1fe-88770d74ca4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8068 104.14 0)
+			(at 102.6669 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10072,7 +10072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.renesas.com/us/en/document/dst/at25sl128a-datasheet?r=1608821"
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25n01gv%20revl%20050918%20unsecured.pdf"
 			(at 122.936 107.95 0)
 			(effects
 				(font
@@ -10090,7 +10090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Renesas Electronics Corporation"
+		(property "Manufacturer" "Winbond Electronics"
 			(at 121.92 98.425 0)
 			(effects
 				(font
@@ -10098,7 +10098,7 @@
 				)
 			)
 		)
-		(property "Part #" "AT25SL128A-MHE-T"
+		(property "Part #" "W25N01GVZEIG TR"
 			(at 118.745 100.33 0)
 			(effects
 				(font
