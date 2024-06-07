@@ -409,7 +409,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "UCIRP-KiCAD-Lib"
+    ]
   },
   "meta": {
     "filename": "rocket2-ecu.kicad_pro",

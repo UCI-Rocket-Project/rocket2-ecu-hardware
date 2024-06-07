@@ -1423,7 +1423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4124e47e-9fc2-4f05-9396-8c3f73be4a92")
-		(property "Reference" "U27"
+		(property "Reference" "U31"
 			(at 152.4 88.9 0)
 			(effects
 				(font
@@ -1509,7 +1509,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "U27")
+					(reference "U31")
 					(unit 1)
 				)
 			)
@@ -1550,7 +1550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69f6745a-9064-47a0-8c34-1e77719df2a7")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0121"
 			(at 152.4 78.74 0)
 			(effects
 				(font
@@ -1600,7 +1600,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "#PWR0135")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -1682,7 +1682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75f9dd72-9b20-4bbd-bb38-280ed6e4d0af")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0120"
 			(at 135.89 105.41 0)
 			(effects
 				(font
@@ -1733,7 +1733,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "#PWR0134")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -1885,7 +1885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b38af767-998e-4246-80a4-4e92973391ac")
-		(property "Reference" "C49"
+		(property "Reference" "C42"
 			(at 154.94 76.2 0)
 			(effects
 				(font
@@ -1957,7 +1957,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "C49")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -2039,7 +2039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d30ce513-e1f6-4d82-becf-89032922dbf3")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0119"
 			(at 146.05 97.79 0)
 			(effects
 				(font
@@ -2090,7 +2090,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "#PWR0133")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -2131,7 +2131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3cf5b99-8bbc-4b6a-a93c-a7fc0b817a2e")
-		(property "Reference" "C48"
+		(property "Reference" "C41"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -2203,7 +2203,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "C48")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2248,7 +2248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7b3a503-1b90-43a0-80dd-fb5be115f3c1")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0122"
 			(at 152.4 86.36 0)
 			(effects
 				(font
@@ -2298,7 +2298,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "#PWR0136")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)

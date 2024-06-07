@@ -489,36 +489,50 @@
 		)
 	)
 	(junction
-		(at 185.42 101.6)
+		(at 193.04 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d8ea372-3afa-490d-941d-f9776ed3a31f")
+		(uuid "0253a0ec-c192-4e3a-aa9a-8222126b52d8")
 	)
 	(junction
-		(at 138.43 101.6)
+		(at 139.7 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cc8ecb76-2e4d-4cba-be2c-5c4e6a1f824a")
+		(uuid "2416f9f0-b03e-43d6-b245-8c2691b8c135")
+	)
+	(junction
+		(at 149.86 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "347cbb8c-c385-400d-bdd8-e3c09546e144")
+	)
+	(junction
+		(at 129.54 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5547a262-a164-4d65-8c5b-d11e02f0af77")
+	)
+	(junction
+		(at 172.72 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a27610f-3d77-44ef-bdb9-84a181f830b6")
+	)
+	(junction
+		(at 182.88 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0ab297f-9c93-47eb-a12b-8af57ab56773")
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 149.86 91.44)
+			(xy 193.04 90.17) (xy 196.85 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09bbb2eb-d697-48d1-880a-6bd4c87ecaf7")
-	)
-	(wire
-		(pts
-			(xy 149.86 88.9) (xy 148.59 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cedf553-d9cd-4ad7-9ccf-a2ddfaf21781")
+		(uuid "01661b83-fa5d-4835-932f-485ac3cb1002")
 	)
 	(wire
 		(pts
@@ -542,63 +556,93 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 91.44) (xy 173.99 88.9)
+			(xy 149.86 100.33) (xy 149.86 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "251ac298-ada2-4df7-81ad-49a260c5c2f2")
+		(uuid "1d604e7a-20f9-431f-95b1-1e27584f6509")
 	)
 	(wire
 		(pts
-			(xy 138.43 101.6) (xy 149.86 101.6)
+			(xy 129.54 101.6) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29e66365-31c6-4299-9288-a5f24f5aaf30")
+		(uuid "28ef543b-909d-4847-9c1b-60a049242552")
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 127 91.44)
+			(xy 193.04 100.33) (xy 193.04 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d7a058c-b784-46eb-8898-54b8dc56429e")
+		(uuid "2e2c9852-0f54-4788-9f4e-21e8cd2eec69")
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 138.43 101.6)
+			(xy 149.86 90.17) (xy 149.86 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "448158a4-2b4e-4c27-835b-f051848a9622")
+		(uuid "3332422a-7d47-4a18-8740-10d51090ea84")
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 138.43 101.6)
+			(xy 149.86 90.17) (xy 153.67 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47f961e8-e016-491c-808c-3993dc522feb")
+		(uuid "3862c3c6-668e-4102-bf70-e88ae21c3ed9")
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 196.85 101.6)
+			(xy 168.91 90.17) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "521b7444-4c75-42fd-a35e-120f94a4ed90")
+		(uuid "41f385a8-45ce-43df-aecf-2061ca3c3cc1")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e9e989-313e-4751-9cd0-a58ecdd3f70e")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59323025-e944-43d2-a3c8-cb88ce2a1a0d")
+	)
+	(wire
+		(pts
+			(xy 193.04 90.17) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607ae91d-0b59-4020-b737-740958dcb161")
 	)
 	(wire
 		(pts
@@ -612,63 +656,63 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 101.6) (xy 185.42 101.6)
+			(xy 172.72 100.33) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69c8178c-e507-4bd3-8c26-2f78d8d44bc4")
+		(uuid "8d162091-72d8-4038-9dc3-ec1020c4b601")
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 149.86 101.6)
+			(xy 129.54 90.17) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7002a063-ad6c-45e7-8c2a-b1abae4d7ce0")
+		(uuid "952c78c6-3631-4ff0-8bba-8c7437543d97")
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 128.27 88.9)
+			(xy 125.73 90.17) (xy 129.54 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "797ce7fe-d645-4a32-a0e8-30c7ed06efad")
+		(uuid "99c53fe3-7ba6-4c07-8315-beb37b34c295")
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 185.42 100.33)
+			(xy 182.88 101.6) (xy 182.88 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85454c1a-69b6-4221-8520-a92d91c355f9")
+		(uuid "a71e7db5-25a6-4e72-bed3-b5a3cdb679e2")
 	)
 	(wire
 		(pts
-			(xy 196.85 96.52) (xy 196.85 101.6)
+			(xy 139.7 101.6) (xy 139.7 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3b06cf1-2c8e-4caa-9443-5e23b6a8c187")
+		(uuid "b3c24e24-db24-46bf-acbe-d7d5a5faded6")
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 127 101.6)
+			(xy 172.72 90.17) (xy 172.72 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd4e08dd-fbc5-4086-856d-8c5dd79fe177")
+		(uuid "b9cc1a67-bec5-4a49-8e2d-3a78184b8971")
 	)
 	(wire
 		(pts
@@ -682,46 +726,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 88.9) (xy 196.85 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6722ac0-9c78-45b4-b8a4-020911d6f689")
-	)
-	(wire
-		(pts
-			(xy 185.42 102.87) (xy 185.42 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2de9903-add7-4e65-b3aa-d92f448552df")
-	)
-	(wire
-		(pts
-			(xy 173.99 96.52) (xy 173.99 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7bd553e-cb21-41cc-86f5-8cc6a9147915")
-	)
-	(wire
-		(pts
-			(xy 196.85 88.9) (xy 195.58 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f3a3b8-633d-412a-a1b7-7a641d66720a")
-	)
-	(wire
-		(pts
 			(xy 214.63 95.25) (xy 223.52 95.25)
 		)
 		(stroke
@@ -729,16 +733,6 @@
 			(type default)
 		)
 		(uuid "da15d295-95e6-491d-a837-d6bbd79b08a3")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 138.43 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e30f0fb8-e61b-4db1-a01b-538997cf9f98")
 	)
 	(wire
 		(pts
@@ -752,13 +746,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 175.26 88.9)
+			(xy 129.54 100.33) (xy 129.54 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e81ebec8-0b9b-4439-af01-f30e59a1dff1")
+		(uuid "e571ef70-d1f0-40d2-bc48-6280bfca4ca4")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3dbf2d-8aca-4c5e-a578-f15f6ce147ad")
 	)
 	(wire
 		(pts
@@ -770,10 +774,10 @@
 		)
 		(uuid "fa1e3142-8c17-46cf-88e0-bdc14c1a1637")
 	)
-	(text_box "ST LDOS"
+	(text_box "3.3V 2A"
 		(exclude_from_sim no)
-		(at 143.51 109.22 0)
-		(size 29.21 7.62)
+		(at 172.72 110.49 0)
+		(size 17.78 5.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -787,7 +791,26 @@
 			)
 			(justify left top)
 		)
-		(uuid "4931d5a1-a22b-448b-a890-d165462715eb")
+		(uuid "72135e42-2290-417e-b2d8-eb25325debac")
+	)
+	(text_box "5V 2A"
+		(exclude_from_sim no)
+		(at 129.54 110.49 0)
+		(size 17.78 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "aa48b454-832e-42c7-aeed-8d6265cc9908")
 	)
 	(text_box "0ohm disconnects to isolate regs first"
 		(exclude_from_sim no)
@@ -807,6 +830,16 @@
 			(justify left top)
 		)
 		(uuid "e21ea3d1-4916-4bb4-8d26-8808257dffab")
+	)
+	(text "I'm assuming low freq noise from power supply and higher freq noise from the regs"
+		(exclude_from_sim no)
+		(at 161.544 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e6fddd6-f1e8-4028-84b8-28df1b0f8559")
 	)
 	(label "3V3OUT"
 		(at 214.63 95.25 180)
@@ -830,8 +863,19 @@
 		)
 		(uuid "35e9de82-7117-48ee-8c31-31370560aaaf")
 	)
+	(label "3V3OUT"
+		(at 196.85 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41f956c7-ac28-4a90-8c76-6c17c1c47242")
+	)
 	(label "24VIN"
-		(at 127 88.9 180)
+		(at 125.73 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -853,7 +897,7 @@
 		(uuid "90cef6fd-40eb-43de-b1da-10b1ef056338")
 	)
 	(label "24VIN"
-		(at 175.26 88.9 180)
+		(at 168.91 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -861,21 +905,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a013de4a-5c6a-4443-b32b-942c2f45e06f")
-	)
-	(label "3V3OUT"
-		(at 196.85 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf8b0aa6-dfd9-4706-963e-459ff40a1f88")
+		(uuid "c46afaaf-7494-449d-9acc-e66e512dbe67")
 	)
 	(label "5VOUT"
-		(at 148.59 88.9 0)
+		(at 153.67 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -934,32 +967,16 @@
 		(uuid "9d02d2ba-475a-4837-95e8-188798aa4a70")
 	)
 	(symbol
-		(lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput")
-		(at 185.42 91.44 0)
+		(lib_id "power:GND")
+		(at 182.88 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "084c45e9-b64f-4966-9e8d-2ac170472176")
-		(property "Reference" "U30"
-			(at 185.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 185.42 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 185.42 83.82 0)
+		(uuid "02d37f19-9119-4200-aaba-5c940c323ba3")
+		(property "Reference" "#PWR0135"
+			(at 182.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,8 +984,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78l.pdf"
-			(at 185.42 83.82 0)
+		(property "Value" "GND"
+			(at 182.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,96 +1001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.digikey.com/en/products/detail/stmicroelectronics/L78L33ABUTR/1038302"
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "L78L33ABUTR"
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ec2f4cd-3d37-4e3b-befc-33c39f9f5e74")
-		)
-		(pin "2"
-			(uuid "7c5f6225-afd3-406f-950e-4a730360ba8c")
-		)
-		(pin "3"
-			(uuid "06c6dd4c-9a1c-4083-b905-129dbebf59d0")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "U30")
-					(unit 1)
-				)
-			)
-			(project "rocket2-gse"
-				(path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-					(reference "U26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 149.86 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bac1e3d-fb7b-4ee6-b082-7ba3db63bdd7")
-		(property "Reference" "C87"
-			(at 152.4 92.7163 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 152.4 95.2563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 93.98 0)
+		(property "Datasheet" ""
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1011,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 93.98 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,15 +1020,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "13b10267-fae8-4e42-8492-6458274ac417")
-		)
-		(pin "2"
-			(uuid "986db49d-2f97-4df9-9d2c-c5ca14990601")
+			(uuid "b2eb95b3-69be-42a0-b792-c9b454ea7a05")
 		)
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "C87")
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 172.72 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08d44f16-6d20-4006-8bc5-fb640f1345e4")
+		(property "Reference" "C46"
+			(at 166.878 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 165.354 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "089d0b47-9a23-4594-9dd2-f02a4934b354")
+		)
+		(pin "2"
+			(uuid "3b47f4d8-96a4-41ca-8282-714f2cb34347")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -1106,7 +1109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33e27f67-dbaf-4bc6-8d0d-cb6748684a17")
-		(property "Reference" "R64"
+		(property "Reference" "R80"
 			(at 226.06 100.33 90)
 			(effects
 				(font
@@ -1158,7 +1161,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "R64")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -1166,15 +1169,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 173.99 93.98 0)
+		(at 149.86 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "45e2b2cf-8b1a-4d97-a365-926e6ffe0f9e")
-		(property "Reference" "C88"
-			(at 166.37 92.964 0)
+		(fields_autoplaced yes)
+		(uuid "4c145018-45c0-4ee3-a336-f89af1f1e535")
+		(property "Reference" "C45"
+			(at 152.4 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,8 +1186,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330nF"
-			(at 166.37 95.504 0)
+		(property "Value" "0.1uF"
+			(at 152.4 99.0662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,8 +1195,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 173.99 93.98 0)
+		(property "Footprint" ""
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 93.98 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,8 +1213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 173.99 93.98 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,56 +1223,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "993e5112-e5cc-41dc-b97a-0b157c74d6be")
+			(uuid "82ebb6cc-78b2-43cf-b1a2-400e32e2c5a1")
 		)
 		(pin "2"
-			(uuid "7ba5a452-f005-4244-935f-897cfa76a33f")
+			(uuid "25841bab-db73-46a3-8743-307a584f894c")
 		)
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "C88")
+					(reference "C45")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput")
-		(at 138.43 91.44 0)
+		(lib_id "Device:C_Small")
+		(at 193.04 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "573ad041-0dd2-42e6-82ba-522bce8a6785")
-		(property "Reference" "U29"
-			(at 138.43 85.09 0)
+		(fields_autoplaced yes)
+		(uuid "50425e76-42cb-4350-974e-95b418b12464")
+		(property "Reference" "C47"
+			(at 195.58 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 138.43 83.82 0)
+		(property "Value" "0.1uF"
+			(at 195.58 99.0662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 138.43 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78l.pdf"
-			(at 138.43 83.82 0)
+		(property "Footprint" ""
+			(at 193.04 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,8 +1274,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.digikey.com/en/products/detail/stmicroelectronics/L78L05ACD13TR/585706"
-			(at 138.43 91.44 0)
+		(property "Datasheet" "~"
+			(at 193.04 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,17 +1283,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "L78L05ACD13TR"
-			(at 138.43 91.44 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 193.04 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,24 +1293,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d07c6668-219a-4269-93a0-cabe564dc51c")
+			(uuid "3b60ce5a-272c-40da-99f5-2d5e94285fce")
 		)
 		(pin "2"
-			(uuid "2e1b1ade-72ef-406a-96c4-95812be07769")
-		)
-		(pin "3"
-			(uuid "819fe62e-54a4-4a57-a5aa-b08813be2de7")
+			(uuid "5d4eb724-9b39-4637-b002-ce915d17953f")
 		)
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "U29")
-					(unit 1)
-				)
-			)
-			(project "rocket2-gse"
-				(path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-					(reference "U25")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -1337,7 +1317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b3f474c-5f28-4fb0-8d5e-44f39832981e")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0133"
 			(at 107.95 104.14 0)
 			(effects
 				(font
@@ -1388,78 +1368,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7df93ce4-14ed-4ab0-b402-1940ea2311aa")
-		(property "Reference" "#PWR0149"
-			(at 185.42 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1503332-3b5f-44a4-b2de-de7567c42440")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-			(project "rocket2-gse"
-				(path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-					(reference "#PWR0238")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -1467,15 +1376,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 127 93.98 0)
+		(at 129.54 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "809ebb73-9e86-4ef6-8004-74d37b7d4514")
-		(property "Reference" "C86"
-			(at 119.38 92.964 0)
+		(uuid "a241eb88-94f0-4dea-baf3-0081ea94c1f2")
+		(property "Reference" "C44"
+			(at 123.698 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,8 +1392,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330nF"
-			(at 119.38 95.504 0)
+		(property "Value" "1uF"
+			(at 122.174 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,8 +1401,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127 93.98 0)
+		(property "Footprint" ""
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 93.98 0)
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,8 +1419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 127 93.98 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,86 +1429,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d46d879e-a8c6-430c-807b-406780baef87")
+			(uuid "730acae0-1926-43d7-b7b2-f78a634c608a")
 		)
 		(pin "2"
-			(uuid "a4ce0700-bbac-419b-88a3-468c58ffec1b")
+			(uuid "a6ce5346-2a3b-4c59-bd54-0901a3368efa")
 		)
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "888f03c6-d9a9-4ce6-ab33-0951fc04be27")
-		(property "Reference" "#PWR0148"
-			(at 138.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a96f68d4-3e03-43b9-92e4-a264ecd65595")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "#PWR0148")
-					(unit 1)
-				)
-			)
-			(project "rocket2-gse"
-				(path "/94c3ca0c-6aa1-4bff-ab47-a0279d059895"
-					(reference "#PWR0235")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -1615,7 +1453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1551811-577d-4eb5-aaa5-fe7a687aa28e")
-		(property "Reference" "R63"
+		(property "Reference" "R79"
 			(at 226.06 86.36 90)
 			(effects
 				(font
@@ -1667,42 +1505,39 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "R63")
+					(reference "R79")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 196.85 93.98 0)
+		(lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput")
+		(at 139.7 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5526712-6c24-41b6-8c55-2ec3524410c3")
-		(property "Reference" "C89"
-			(at 199.39 92.7163 0)
+		(uuid "bff30c54-31bd-4449-ab90-1d93e5f8522a")
+		(property "Reference" "U33"
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 199.39 95.2563 0)
+		(property "Value" "~"
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 196.85 93.98 0)
+		(property "Footprint" ""
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,8 +1545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 196.85 93.98 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/687/tsr2_datasheet-3049803.pdf"
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1555,182 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 93.98 0)
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Traco Power"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TSR 2-2450"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6cc023f2-6fdd-4198-a5d9-889a15e18d51")
+		)
+		(pin "2"
+			(uuid "c78490d2-bb64-44e6-b96a-cbbd6d5f6565")
+		)
+		(pin "1"
+			(uuid "4006bd12-700d-4c93-bad0-6498941103d5")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UCIRP-KiCAD-Lib:Generic_Regulator_InputGroundOutput")
+		(at 182.88 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef82c47f-d2f8-4cac-b0f2-f30f1f79a7fa")
+		(property "Reference" "U34"
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/687/tsr2_datasheet-3049803.pdf"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Traco Power"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TSR 2-2433"
+			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "03e7e14c-b8c7-439f-8eea-0051df2821b2")
+		)
+		(pin "2"
+			(uuid "4b0a8701-964d-4d0a-98fe-0f34584c9c44")
+		)
+		(pin "1"
+			(uuid "a5736cff-06ad-40eb-af71-7eab7547fca0")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcb73f60-e486-49c7-b2d7-48da873fdf8f")
+		(property "Reference" "#PWR0134"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,15 +1739,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ce2761b-5ed6-4e45-b9a2-e245f51a9d78")
-		)
-		(pin "2"
-			(uuid "a8e38935-1fff-457d-968b-853376138bfd")
+			(uuid "c6ff8731-7a0b-4864-8454-6101c8a49a53")
 		)
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/944e98dc-4249-4ad7-a352-e05a5cc42499"
-					(reference "C89")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
