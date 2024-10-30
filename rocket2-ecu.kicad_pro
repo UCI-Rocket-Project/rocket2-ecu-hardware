@@ -664,6 +664,14 @@
     [
       "73fee80e-cb02-417f-82e2-743851f828a9",
       "PT4"
+    ],
+    [
+      "2e42eb37-4c52-4f5f-835d-7e84f50db3a9",
+      "ECU_Radios"
+    ],
+    [
+      "fc637a4d-3fde-405d-ae60-ec7da7a8a72d",
+      "ECU_Memory"
     ]
   ],
   "text_variables": {}
