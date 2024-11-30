@@ -3457,28 +3457,6 @@
 		)
 		(uuid "ada36007-6f0f-4eba-99bf-3b87966f8155")
 	)
-	(text "1 extra TC\n\n(NEED TO ADD CS \nTO STM)"
-		(exclude_from_sim no)
-		(at 113.284 174.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 26 30 1)
-			)
-		)
-		(uuid "be9257a9-842e-4c2a-8f69-3c3fe2184f97")
-	)
-	(text "Two extra PTs \nfor redundancy \n(5 and 6)\n\n(NEED TO ADD TO STM)"
-		(exclude_from_sim no)
-		(at 69.85 148.844 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 26 30 1)
-			)
-		)
-		(uuid "c29d2b3c-47a8-41db-9b01-b6ddb0a1420d")
-	)
 	(text "I want this to actually work"
 		(exclude_from_sim no)
 		(at 27.432 181.61 0)

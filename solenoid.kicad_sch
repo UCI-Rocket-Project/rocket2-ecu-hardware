@@ -1811,7 +1811,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1R"
+		(property "Value" "0.1R"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -1856,7 +1856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 1R 2W 1% 2512 Resistor"
+		(property "Part #" "Generic 0.1R 2W 1% 2512 Resistor"
 			(at 139.7 106.68 0)
 			(effects
 				(font
@@ -3307,7 +3307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 121.92 81.28 0)
 			(effects
 				(font

@@ -10183,6 +10183,17 @@
 		)
 		(uuid "62a53b1a-d121-468e-bf9b-80bc656e6b76")
 	)
+	(text "Power reg circuits taken from WEBENCH.\nComponent reliability should be good."
+		(exclude_from_sim no)
+		(at 253.492 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 56 91 1)
+			)
+		)
+		(uuid "68fa13b5-1d4f-493d-a774-6ceebd846670")
+	)
 	(text "Charging Circuit"
 		(exclude_from_sim no)
 		(at 94.234 194.31 0)

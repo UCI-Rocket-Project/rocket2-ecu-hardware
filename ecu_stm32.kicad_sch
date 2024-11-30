@@ -22094,10 +22094,6 @@
 		(uuid "15ae9fd9-609b-400e-8da8-dcaced213c5f")
 	)
 	(no_connect
-		(at 256.54 114.3)
-		(uuid "16942ccc-9458-4b40-9f1a-21fbee804923")
-	)
-	(no_connect
 		(at 44.45 158.75)
 		(uuid "17456e29-2786-4c29-9bed-0b2a8f2ae929")
 	)
@@ -22108,10 +22104,6 @@
 	(no_connect
 		(at 162.56 68.58)
 		(uuid "1a3965dd-9867-4d41-b2c6-3d466797ddc0")
-	)
-	(no_connect
-		(at 226.06 58.42)
-		(uuid "2539111d-30ad-4bcb-a22a-329dca081d0a")
 	)
 	(no_connect
 		(at 226.06 43.18)
@@ -22210,10 +22202,6 @@
 		(uuid "8724f44a-bd8c-4cb6-8f51-f34b5c42012e")
 	)
 	(no_connect
-		(at 256.54 20.32)
-		(uuid "874a4a81-4faa-40e6-87bc-c005ce918772")
-	)
-	(no_connect
 		(at 162.56 96.52)
 		(uuid "87a68349-9015-4ef3-8fbd-c518f8566aaa")
 	)
@@ -22258,10 +22246,6 @@
 		(uuid "a67e3566-4cba-414c-9189-fa9016d5ffba")
 	)
 	(no_connect
-		(at 256.54 111.76)
-		(uuid "a8328d46-4255-457e-9b1b-194ea688d848")
-	)
-	(no_connect
 		(at 226.06 35.56)
 		(uuid "aa4019b3-96fa-4638-bd88-6e8c8e7f2bdb")
 	)
@@ -22276,10 +22260,6 @@
 	(no_connect
 		(at 256.54 48.26)
 		(uuid "ba04e449-b906-4845-adbc-290440646857")
-	)
-	(no_connect
-		(at 226.06 55.88)
-		(uuid "bb0e1682-8aeb-474e-bc7a-013c9d37b4c9")
 	)
 	(no_connect
 		(at 226.06 76.2)
@@ -23902,6 +23882,17 @@
 		)
 		(uuid "70bca566-d6c0-408f-8cc4-699c49ba0e89")
 	)
+	(text "NOTE THESE ARE ON ANALOG PINS\nNOT ADC (idk how much this matters)"
+		(exclude_from_sim no)
+		(at 283.972 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 39 10 1)
+			)
+		)
+		(uuid "918bc8a9-56fa-4590-8347-20cf81d22f43")
+	)
 	(text "USB-C + SWD"
 		(exclude_from_sim no)
 		(at 106.172 178.054 0)
@@ -24148,6 +24139,28 @@
 		(uuid "1e8210cf-ee31-4275-85f9-7cdaee628b51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 267.9919 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PT5"
+		(shape input)
+		(at 256.54 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f9db801-0cca-4361-b91c-d0187f60d40d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.9723 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24465,6 +24478,28 @@
 			)
 		)
 	)
+	(global_label "RADIO2_DIO1"
+		(shape input)
+		(at 256.54 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "543c374b-9246-44e0-9e9d-30de9b6c803b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.681 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_nRST"
 		(shape input)
 		(at 127 162.56 0)
@@ -24566,29 +24601,6 @@
 		(uuid "65f33b5a-4ae1-4be6-8520-844ebd6a972f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.3623 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UNUSED_GPIO"
-		(shape input)
-		(at 256.54 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 10 19 1)
-			)
-			(justify left)
-		)
-		(uuid "71d1a36d-a6cd-40b0-bf81-f15aaa8b998a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.5881 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25016,29 +25028,6 @@
 			)
 		)
 	)
-	(global_label "UNUSED_GPIO"
-		(shape input)
-		(at 162.56 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 10 19 1)
-			)
-			(justify right)
-		)
-		(uuid "9b3d0155-8ad9-4568-9e1e-52610b9d7a17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.5119 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MAG_DRDY"
 		(shape input)
 		(at 193.04 33.02 0)
@@ -25061,9 +25050,31 @@
 			)
 		)
 	)
-	(global_label "GPS_INT"
+	(global_label "RADIO2_nRST"
 		(shape input)
-		(at 256.54 73.66 0)
+		(at 226.06 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9dfc9021-3b22-42d3-9909-226fd667d8d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7377 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RADIO2_DIO0"
+		(shape input)
+		(at 256.54 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25071,9 +25082,31 @@
 			)
 			(justify left)
 		)
-		(uuid "adb086a5-f306-419f-8559-055898b37690")
+		(uuid "9fa86e61-9bce-4835-98b7-94f3d38f232d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.0658 73.66 0)
+			(at 271.681 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TC1_nCS"
+		(shape input)
+		(at 256.54 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a911108f-6f4c-4e48-9d43-6acb8b28cae4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.5684 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25299,6 +25332,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_INT"
+		(shape input)
+		(at 162.56 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d004984f-9e45-435d-b76e-eed06b674a39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.9548 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RADIO2_nCS"
+		(shape input)
+		(at 226.06 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2318b4a-5b29-44f4-98e8-46c8075419b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7053 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -25580,6 +25657,28 @@
 		(uuid "e68cb416-8bb3-4f8d-be91-aa1279925b45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.0735 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PT6"
+		(shape input)
+		(at 256.54 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef639e77-eae7-48c9-b477-490bd86d01dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.9723 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
