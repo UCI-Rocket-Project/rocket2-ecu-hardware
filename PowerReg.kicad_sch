@@ -1069,7 +1069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -1088,6 +1088,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0603 1uF 6.3V X7R MLCC"
 			(at 172.72 97.79 0)
 			(effects
 				(font
@@ -1206,7 +1215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 149.86 97.79 0)
 			(effects
 				(font
@@ -1225,6 +1234,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0603 0.1uF 6.3V X7R MLCC"
 			(at 149.86 97.79 0)
 			(effects
 				(font
@@ -1276,7 +1294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.04 97.79 0)
 			(effects
 				(font
@@ -1295,6 +1313,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0603 0.1uF 6.3V X7R MLCC"
 			(at 193.04 97.79 0)
 			(effects
 				(font
@@ -1412,7 +1439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -1431,6 +1458,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0603 1uF 6.3V X7R MLCC"
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -1547,7 +1583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT"
 			(at 139.7 85.09 0)
 			(effects
 				(font
@@ -1634,7 +1670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT"
 			(at 182.88 85.09 0)
 			(effects
 				(font

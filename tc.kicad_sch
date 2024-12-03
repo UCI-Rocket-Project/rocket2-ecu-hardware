@@ -1638,7 +1638,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "U50")
+					(reference "U49")
 					(unit 1)
 				)
 			)
@@ -1707,7 +1707,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "#PWR0336")
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1776,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "#PWR0338")
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -1847,7 +1847,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "#PWR0335")
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -1878,7 +1878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:AM-K-PCB"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:AM-K-PCB"
 			(at 83.185 100.33 0)
 			(effects
 				(font
@@ -2027,7 +2027,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "C101")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -2098,7 +2098,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "#PWR0334")
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -2122,7 +2122,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 175.26 96.52 0)
 			(effects
 				(font
@@ -2131,7 +2131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "kicad-egglib:0402_1005M"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -2167,7 +2167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100k 1% 0402 Chip Resistor"
+		(property "Part #" "Generic 100K 5% 0402 Resistor"
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -2189,7 +2189,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "R125")
+					(reference "R124")
 					(unit 1)
 				)
 			)
@@ -2280,7 +2280,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "C100")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -2349,7 +2349,7 @@
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "#PWR0337")
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)

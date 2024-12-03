@@ -26078,7 +26078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.79 22.86 0)
 			(effects
 				(font
@@ -26114,7 +26114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 97.79 22.86 0)
 			(effects
 				(font
@@ -26165,7 +26165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.63 22.86 0)
 			(effects
 				(font
@@ -26201,7 +26201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 87.63 22.86 0)
 			(effects
 				(font
@@ -26669,7 +26669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -26705,7 +26705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -26768,7 +26768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 26.67 22.86 0)
 			(effects
 				(font
@@ -26804,7 +26804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 26.67 22.86 0)
 			(effects
 				(font
@@ -27578,7 +27578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 215.9 148.59 90)
 			(effects
 				(font
@@ -28051,7 +28051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.94 39.37 0)
 			(effects
 				(font
@@ -28087,7 +28087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 27.94 39.37 0)
 			(effects
 				(font
@@ -28138,7 +28138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 39.37 0)
 			(effects
 				(font
@@ -28174,7 +28174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 58.42 39.37 0)
 			(effects
 				(font
@@ -28312,7 +28312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 109.22 39.37 0)
 			(effects
 				(font
@@ -28348,7 +28348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 109.22 39.37 0)
 			(effects
 				(font
@@ -28823,7 +28823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 17.78 39.37 0)
 			(effects
 				(font
@@ -28859,7 +28859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 17.78 39.37 0)
 			(effects
 				(font
@@ -29582,7 +29582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.63 39.37 0)
 			(effects
 				(font
@@ -29618,7 +29618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 87.63 39.37 0)
 			(effects
 				(font
@@ -29936,7 +29936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -29972,7 +29972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -30943,7 +30943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 39.37 0)
 			(effects
 				(font
@@ -30979,7 +30979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 77.47 39.37 0)
 			(effects
 				(font
@@ -31470,7 +31470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 22.86 0)
 			(effects
 				(font
@@ -31506,7 +31506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 36.83 22.86 0)
 			(effects
 				(font
@@ -32538,7 +32538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 39.37 0)
 			(effects
 				(font
@@ -32574,7 +32574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 38.1 39.37 0)
 			(effects
 				(font
@@ -34279,7 +34279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -34315,7 +34315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -34496,7 +34496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.31 22.86 0)
 			(effects
 				(font
@@ -34532,7 +34532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 67.31 22.86 0)
 			(effects
 				(font
@@ -34574,7 +34574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 220.726 144.78 0)
 			(effects
 				(font
@@ -34583,7 +34583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.9 143.51 0)
 			(effects
 				(font
@@ -34619,7 +34619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100 1% Resistor"
+		(property "Part #" "Generic 100R 1% 0402 Resistor"
 			(at 215.9 143.51 0)
 			(effects
 				(font
@@ -34670,7 +34670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 17.78 22.86 0)
 			(effects
 				(font
@@ -34706,7 +34706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 17.78 22.86 0)
 			(effects
 				(font
@@ -34887,7 +34887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -34923,7 +34923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -35646,7 +35646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 39.37 0)
 			(effects
 				(font
@@ -35682,7 +35682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 48.26 39.37 0)
 			(effects
 				(font
@@ -35810,7 +35810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.31 39.37 0)
 			(effects
 				(font
@@ -35846,7 +35846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 67.31 39.37 0)
 			(effects
 				(font
@@ -36115,7 +36115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 58.42 22.86 0)
 			(effects
 				(font
@@ -36151,7 +36151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 58.42 22.86 0)
 			(effects
 				(font
@@ -36267,7 +36267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.81 55.88 0)
 			(effects
 				(font
@@ -36303,7 +36303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 130.81 55.88 0)
 			(effects
 				(font
@@ -36686,7 +36686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.95 22.86 0)
 			(effects
 				(font
@@ -36722,7 +36722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 107.95 22.86 0)
 			(effects
 				(font
@@ -36836,7 +36836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 132.08 0)
 			(effects
 				(font
@@ -36863,7 +36863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 111.76 132.08 0)
 			(effects
 				(font
@@ -37601,7 +37601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -37637,7 +37637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -37688,7 +37688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 22.86 0)
 			(effects
 				(font
@@ -37724,7 +37724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 48.26 22.86 0)
 			(effects
 				(font
@@ -37903,7 +37903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.92 132.08 0)
 			(effects
 				(font
@@ -37930,7 +37930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 121.92 132.08 0)
 			(effects
 				(font
@@ -38498,7 +38498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.31 53.34 0)
 			(effects
 				(font
@@ -38534,7 +38534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 67.31 53.34 0)
 			(effects
 				(font
@@ -38662,7 +38662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 22.86 0)
 			(effects
 				(font
@@ -38698,7 +38698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 77.47 22.86 0)
 			(effects
 				(font

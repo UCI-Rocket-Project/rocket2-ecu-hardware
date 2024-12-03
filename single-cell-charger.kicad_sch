@@ -2533,7 +2533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 182.88 62.23 0)
 			(effects
 				(font
@@ -2552,6 +2552,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 1K 1% 0402 Resistor"
 			(at 182.88 62.23 0)
 			(effects
 				(font
@@ -2793,7 +2802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:EC4SAW-xxSxxN"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:EC4SAW-xxSxxN"
 			(at 81.915 100.33 0)
 			(effects
 				(font
@@ -2937,7 +2946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 96.52 0)
 			(effects
 				(font
@@ -2973,7 +2982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 176.53 96.52 0)
 			(effects
 				(font
@@ -3070,7 +3079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -3207,7 +3216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 191.77 100.33 0)
 			(effects
 				(font
@@ -3345,7 +3354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -3364,6 +3373,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0402 1.5K 0.1% Resistor"
 			(at 205.74 48.26 0)
 			(effects
 				(font
@@ -3434,7 +3452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 165.1 101.6 0)
 			(effects
 				(font
@@ -3522,7 +3540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-4_4.4x2.6mm_P1.27mm"
 			(at 193.04 55.88 0)
 			(effects
 				(font
@@ -3633,7 +3651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 106.68 0)
 			(effects
 				(font
@@ -3669,7 +3687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 177.8 106.68 0)
 			(effects
 				(font
@@ -3766,7 +3784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 117.475 104.14 0)
 			(effects
 				(font
@@ -3900,7 +3918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 104.14 0)
 			(effects
 				(font
@@ -3936,7 +3954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 129.54 104.14 0)
 			(effects
 				(font
@@ -4024,7 +4042,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "375"
+		(property "Value" "375R"
 			(at 119.38 105.41 0)
 			(effects
 				(font
@@ -4033,7 +4051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.46 104.14 0)
 			(effects
 				(font
@@ -4069,7 +4087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 375ohm 0.1% Resistor"
+		(property "Part #" "Generic 0402 375ohm 0.1% Resistor"
 			(at 124.46 104.14 0)
 			(effects
 				(font
@@ -4318,7 +4336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 82.55 0)
 			(effects
 				(font
@@ -4446,7 +4464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BLUE_LED"
+		(property "Value" "LED"
 			(at 163.83 110.49 0)
 			(effects
 				(font

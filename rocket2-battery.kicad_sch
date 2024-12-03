@@ -8340,6 +8340,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dc9d8b-d492-4250-bc54-52c801d5113f")
+	)
+	(wire
+		(pts
 			(xy 167.64 156.21) (xy 171.45 156.21)
 		)
 		(stroke
@@ -9977,16 +9987,6 @@
 			(type default)
 		)
 		(uuid "fa8dddc6-a951-4fb8-b89a-90405c6688ef")
-	)
-	(wire
-		(pts
-			(xy 86.36 92.71) (xy 107.95 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb4ad486-df55-4444-82e6-ccf0e81b8ac8")
 	)
 	(wire
 		(pts
@@ -11766,7 +11766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 340.36 60.96 0)
 			(effects
 				(font
@@ -11865,7 +11865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.52 22.86 0)
 			(effects
 				(font
@@ -11901,7 +11901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 223.52 22.86 0)
 			(effects
 				(font
@@ -12086,7 +12086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.71 218.44 0)
 			(effects
 				(font
@@ -12105,6 +12105,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 92.71 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 2K 5% 0402 Resistor"
 			(at 92.71 218.44 0)
 			(effects
 				(font
@@ -12302,7 +12311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 237.49 62.23 90)
 			(effects
 				(font
@@ -12616,7 +12625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 208.28 215.9 0)
 			(effects
 				(font
@@ -12652,7 +12661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 5% Resistor"
+		(property "Part #" "Generic 0402 1.5K 0.1% Resistor"
 			(at 208.28 215.9 0)
 			(effects
 				(font
@@ -13044,7 +13053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 271.78 114.3 0)
 			(effects
 				(font
@@ -13080,7 +13089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 271.78 114.3 0)
 			(effects
 				(font
@@ -13136,7 +13145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 331.47 129.54 0)
 			(effects
 				(font
@@ -13172,7 +13181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 5% Resistor"
+		(property "Part #" "Generic 0402 1.5K 0.1% Resistor"
 			(at 331.47 129.54 0)
 			(effects
 				(font
@@ -13615,7 +13624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.73 134.62 0)
 			(effects
 				(font
@@ -13651,7 +13660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 1K 10% Resistor"
+		(property "Part #" "Generic 1K 1% 0402 Resistor"
 			(at 252.73 134.62 0)
 			(effects
 				(font
@@ -13881,7 +13890,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 331.47 116.84 90)
 			(effects
 				(font
@@ -13889,7 +13898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 331.47 119.38 0)
 			(effects
 				(font
@@ -13925,7 +13934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 5% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 331.47 119.38 0)
 			(effects
 				(font
@@ -13981,7 +13990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.17 175.26 0)
 			(effects
 				(font
@@ -14017,7 +14026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 5% Resistor"
+		(property "Part #" "Generic 0402 1.5K 0.1% Resistor"
 			(at 217.17 175.26 0)
 			(effects
 				(font
@@ -14059,7 +14068,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 180.34 120.65 90)
 			(effects
 				(font
@@ -14067,7 +14076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.34 123.19 0)
 			(effects
 				(font
@@ -14103,7 +14112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100ohm 5% Resistor"
+		(property "Part #" "Generic 100R 1% 0402 Resistor"
 			(at 180.34 123.19 0)
 			(effects
 				(font
@@ -14159,7 +14168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.09 233.68 0)
 			(effects
 				(font
@@ -14178,6 +14187,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0603 0.1uF 6.3V X7R MLCC"
 			(at 85.09 233.68 0)
 			(effects
 				(font
@@ -14228,7 +14246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 187.96 219.71 90)
 			(effects
 				(font
@@ -14405,7 +14423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 191.77 182.88 0)
 			(effects
 				(font
@@ -14492,7 +14510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 210.82 22.86 0)
 			(effects
 				(font
@@ -14810,7 +14828,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 275.59 120.65 90)
 			(effects
 				(font
@@ -14818,7 +14836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 275.59 123.19 0)
 			(effects
 				(font
@@ -14854,7 +14872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100ohm 5% Resistor"
+		(property "Part #" "Generic 100R 1% 0402 Resistor"
 			(at 275.59 123.19 0)
 			(effects
 				(font
@@ -14910,7 +14928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.1 156.21 0)
 			(effects
 				(font
@@ -14946,7 +14964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 15K 0.1% Resistor"
+		(property "Part #" "Generic 0402 15K 0.1% Resistor"
 			(at 165.1 156.21 0)
 			(effects
 				(font
@@ -15320,7 +15338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 114.3 0)
 			(effects
 				(font
@@ -15356,7 +15374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 176.53 114.3 0)
 			(effects
 				(font
@@ -15413,7 +15431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.92 22.86 0)
 			(effects
 				(font
@@ -15449,7 +15467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 248.92 22.86 0)
 			(effects
 				(font
@@ -15664,7 +15682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 236.22 22.86 0)
 			(effects
 				(font
@@ -15700,7 +15718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 236.22 22.86 0)
 			(effects
 				(font
@@ -16145,7 +16163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:RFM95W"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:RFM95W"
 			(at 320.04 77.47 0)
 			(effects
 				(font
@@ -16362,7 +16380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 283.21 66.04 0)
 			(effects
 				(font
@@ -16371,7 +16389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 64.77 0)
 			(effects
 				(font
@@ -16407,7 +16425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100k 1% 0402 Chip Resistor"
+		(property "Part #" "Generic 100K 5% 0402 Resistor"
 			(at 280.67 64.77 0)
 			(effects
 				(font
@@ -16457,7 +16475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.09 156.21 0)
 			(effects
 				(font
@@ -16493,7 +16511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 15K 0.1% Resistor"
+		(property "Part #" "Generic 0402 15K 0.1% Resistor"
 			(at 212.09 156.21 0)
 			(effects
 				(font
@@ -16778,7 +16796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.32 22.86 0)
 			(effects
 				(font
@@ -16814,7 +16832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 274.32 22.86 0)
 			(effects
 				(font
@@ -16878,7 +16896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.82 218.44 0)
 			(effects
 				(font
@@ -16897,6 +16915,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 83.82 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 2K 5% 0402 Resistor"
 			(at 83.82 218.44 0)
 			(effects
 				(font
@@ -17224,7 +17251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.78 26.67 0)
 			(effects
 				(font
@@ -17260,7 +17287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 144.78 26.67 0)
 			(effects
 				(font
@@ -18044,7 +18071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 212.09 0)
 			(effects
 				(font
@@ -18063,6 +18090,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 76.2 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 5R 0402 Resistor"
 			(at 76.2 212.09 0)
 			(effects
 				(font
@@ -18724,7 +18760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 147.32 182.88 0)
 			(effects
 				(font
@@ -18733,7 +18769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/ABA0000C1221-1280637.pdf"
 			(at 147.32 182.88 0)
 			(effects
 				(font
@@ -19188,7 +19224,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 196.85 153.67 90)
 			(effects
 				(font
@@ -19196,7 +19232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.85 156.21 0)
 			(effects
 				(font
@@ -19232,7 +19268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100K 0.1% Resistor"
+		(property "Part #" "Generic 100K 5% 0402 Resistor"
 			(at 196.85 156.21 0)
 			(effects
 				(font
@@ -19770,7 +19806,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.75 134.62 0)
 			(effects
 				(font
@@ -19806,7 +19842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 1K 10% Resistor"
+		(property "Part #" "Generic 1K 1% 0402 Resistor"
 			(at 158.75 134.62 0)
 			(effects
 				(font
@@ -20197,7 +20233,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 331.47 107.95 90)
 			(effects
 				(font
@@ -20205,7 +20241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 331.47 110.49 0)
 			(effects
 				(font
@@ -20241,7 +20277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 5% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 331.47 110.49 0)
 			(effects
 				(font
@@ -20283,7 +20319,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 162.56 127 90)
 			(effects
 				(font
@@ -20291,7 +20327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 129.54 0)
 			(effects
 				(font
@@ -20327,7 +20363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100ohm 5% Resistor"
+		(property "Part #" "Generic 100R 1% 0402 Resistor"
 			(at 162.56 129.54 0)
 			(effects
 				(font
@@ -20375,7 +20411,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 149.86 153.67 90)
 			(effects
 				(font
@@ -20383,7 +20419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.86 156.21 0)
 			(effects
 				(font
@@ -20419,7 +20455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100K 0.1% Resistor"
+		(property "Part #" "Generic 100K 5% 0402 Resistor"
 			(at 149.86 156.21 0)
 			(effects
 				(font
@@ -20534,7 +20570,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 256.54 127 90)
 			(effects
 				(font
@@ -20542,7 +20578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 256.54 129.54 0)
 			(effects
 				(font
@@ -20578,7 +20614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100ohm 5% Resistor"
+		(property "Part #" "Generic 100R 1% 0402 Resistor"
 			(at 256.54 129.54 0)
 			(effects
 				(font
@@ -20845,7 +20881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.23 212.09 0)
 			(effects
 				(font
@@ -20864,6 +20900,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0603 4.7uF 6.3V X7R MLCC"
 			(at 62.23 212.09 0)
 			(effects
 				(font
@@ -21226,7 +21271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 154.94 26.67 0)
 			(effects
 				(font
@@ -21262,7 +21307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 1% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 154.94 26.67 0)
 			(effects
 				(font
@@ -21390,7 +21435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 228.6 62.23 0)
 			(effects
 				(font
@@ -21417,7 +21462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 1K 1% Resistor"
+		(property "Part #" "Generic 1K 1% 0402 Resistor"
 			(at 228.6 62.23 0)
 			(effects
 				(font
@@ -21490,7 +21535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 147.32 215.9 0)
 			(effects
 				(font
@@ -21499,7 +21544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/ABA0000C1221-1280637.pdf"
 			(at 147.32 215.9 0)
 			(effects
 				(font
@@ -21986,7 +22031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 331.47 139.7 0)
 			(effects
 				(font
@@ -22022,7 +22067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 5% Resistor"
+		(property "Part #" "Generic 0402 1.5K 0.1% Resistor"
 			(at 331.47 139.7 0)
 			(effects
 				(font
@@ -22191,7 +22236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 187.96 186.69 90)
 			(effects
 				(font
@@ -22589,7 +22634,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 38.1 165.1 90)
 			(effects
 				(font
@@ -22597,7 +22642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -22633,7 +22678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10K 5% Resistor"
+		(property "Part #" "Generic 10K 1% 0402 Resistor"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -22773,7 +22818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 191.77 215.9 0)
 			(effects
 				(font
@@ -22926,7 +22971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.62 22.86 0)
 			(effects
 				(font
@@ -22962,7 +23007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 100nF 6.3V X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 261.62 22.86 0)
 			(effects
 				(font

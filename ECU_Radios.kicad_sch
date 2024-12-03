@@ -2024,7 +2024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:RFM95W"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:RFM95W"
 			(at 137.16 129.54 0)
 			(effects
 				(font
@@ -2135,7 +2135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "157b083e-5577-4504-abc4-b4f1a45a16a6")
-		(property "Reference" "#PWR0299"
+		(property "Reference" "#PWR0301"
 			(at 172.72 125.73 0)
 			(effects
 				(font
@@ -2185,7 +2185,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0299")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -2200,7 +2200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1702cb7d-2975-4fe0-bd81-67afe0c84826")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0302"
 			(at 191.77 57.15 0)
 			(effects
 				(font
@@ -2250,7 +2250,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0304")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -2265,7 +2265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1da21200-6e43-42f0-9792-bedca37685b2")
-		(property "Reference" "#PWR0300"
+		(property "Reference" "#PWR0298"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -2315,7 +2315,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0300")
+					(reference "#PWR0298")
 					(unit 1)
 				)
 			)
@@ -2330,7 +2330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23139932-52c9-41e0-b45c-e0bf8defae3f")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0305"
 			(at 227.33 66.04 0)
 			(effects
 				(font
@@ -2380,7 +2380,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0309")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -2395,7 +2395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b9b72e1-1224-4d7a-ab64-6eb339f99b98")
-		(property "Reference" "#PWR0289"
+		(property "Reference" "#PWR0292"
 			(at 104.14 148.59 0)
 			(effects
 				(font
@@ -2445,7 +2445,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0289")
+					(reference "#PWR0292")
 					(unit 1)
 				)
 			)
@@ -2460,7 +2460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d3bf86c-cb7b-40d0-aa4e-d5d0912a6298")
-		(property "Reference" "#PWR0290"
+		(property "Reference" "#PWR0289"
 			(at 59.69 58.42 0)
 			(effects
 				(font
@@ -2510,7 +2510,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0290")
+					(reference "#PWR0289")
 					(unit 1)
 				)
 			)
@@ -2525,7 +2525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d77147a-3e23-48cb-bf41-5e917b2f1560")
-		(property "Reference" "#PWR0292"
+		(property "Reference" "#PWR0290"
 			(at 91.44 57.15 0)
 			(effects
 				(font
@@ -2575,7 +2575,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0292")
+					(reference "#PWR0290")
 					(unit 1)
 				)
 			)
@@ -2607,7 +2607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:RFM95W"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:RFM95W"
 			(at 91.44 69.85 0)
 			(effects
 				(font
@@ -2815,7 +2815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 62.23 58.42 0)
 			(effects
 				(font
@@ -2824,7 +2824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -2860,7 +2860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100k 1% 0402 Chip Resistor"
+		(property "Part #" "Generic 100K 5% 0402 Resistor"
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -2893,7 +2893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e8daa2f-cf65-4020-aeff-3011868e108e")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0299"
 			(at 160.02 58.42 0)
 			(effects
 				(font
@@ -2943,7 +2943,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0302")
+					(reference "#PWR0299")
 					(unit 1)
 				)
 			)
@@ -2958,7 +2958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fce7189-5eb6-4b7a-b49d-5c52eea468b0")
-		(property "Reference" "#PWR0296"
+		(property "Reference" "#PWR0294"
 			(at 127 58.42 0)
 			(effects
 				(font
@@ -3008,7 +3008,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0296")
+					(reference "#PWR0294")
 					(unit 1)
 				)
 			)
@@ -3110,7 +3110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "549b5121-2c63-45ab-8a08-83d70e3f46db")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0303"
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -3160,7 +3160,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0305")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -3175,7 +3175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "695c96d0-0f24-43dd-90de-7b96a3fe5dfb")
-		(property "Reference" "#PWR0297"
+		(property "Reference" "#PWR0295"
 			(at 127 66.04 0)
 			(effects
 				(font
@@ -3225,7 +3225,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0297")
+					(reference "#PWR0295")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "821015bc-7b76-440a-b0b0-9f57b6751d70")
-		(property "Reference" "#PWR0298"
+		(property "Reference" "#PWR0300"
 			(at 172.72 118.11 0)
 			(effects
 				(font
@@ -3377,7 +3377,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0298")
+					(reference "#PWR0300")
 					(unit 1)
 				)
 			)
@@ -3480,7 +3480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fe417d0-441a-459e-a22e-60f1dc045264")
-		(property "Reference" "#PWR0291"
+		(property "Reference" "#PWR0293"
 			(at 105.41 118.11 0)
 			(effects
 				(font
@@ -3530,7 +3530,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0291")
+					(reference "#PWR0293")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -3563,7 +3563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100k 1% 0402 Chip Resistor"
+		(property "Part #" "Generic 100K 5% 0402 Resistor"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -3632,7 +3632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b74bcc4d-e49d-4754-a6d2-7e2960bb24ab")
-		(property "Reference" "#PWR0295"
+		(property "Reference" "#PWR0297"
 			(at 137.16 154.94 0)
 			(effects
 				(font
@@ -3682,7 +3682,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0295")
+					(reference "#PWR0297")
 					(unit 1)
 				)
 			)
@@ -3714,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:RFM95W"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:RFM95W"
 			(at 191.77 69.85 0)
 			(effects
 				(font
@@ -3825,7 +3825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca02344d-2425-48d4-9e40-097078f0a1bd")
-		(property "Reference" "#PWR0293"
+		(property "Reference" "#PWR0291"
 			(at 91.44 95.25 0)
 			(effects
 				(font
@@ -3875,7 +3875,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0293")
+					(reference "#PWR0291")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 107.95 118.11 0)
 			(effects
 				(font
@@ -3908,7 +3908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.41 116.84 0)
 			(effects
 				(font
@@ -3944,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100k 1% 0402 Chip Resistor"
+		(property "Part #" "Generic 100K 5% 0402 Resistor"
 			(at 105.41 116.84 0)
 			(effects
 				(font
@@ -3977,7 +3977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db9fd7a4-20a5-4212-8c36-c42cfb7e5f07")
-		(property "Reference" "#PWR0294"
+		(property "Reference" "#PWR0296"
 			(at 137.16 116.84 0)
 			(effects
 				(font
@@ -4027,7 +4027,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0294")
+					(reference "#PWR0296")
 					(unit 1)
 				)
 			)
@@ -4194,7 +4194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa19b7bd-2907-40ee-a784-eb23dadfe8e1")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0304"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -4244,7 +4244,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/2e42eb37-4c52-4f5f-835d-7e84f50db3a9"
-					(reference "#PWR0308")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)

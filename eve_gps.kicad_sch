@@ -2914,7 +2914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V 0402 X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 4.7uF 6.3V 0402 X7R MLCC"
+		(property "Part #" "Generic 0603 4.7uF 6.3V X7R MLCC"
 			(at 90.17 60.96 0)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V 0402 X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 113.03 60.96 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V 0402 X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3641,7 +3641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V 0402 X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -4250,7 +4250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V 0402 X7R MLCC"
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 124.46 60.96 0)
 			(effects
 				(font
@@ -4590,7 +4590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:ZOE-M8Q"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:ZOE-M8Q"
 			(at 119.38 107.95 0)
 			(effects
 				(font

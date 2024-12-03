@@ -4631,7 +4631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 27.94 0)
 			(effects
 				(font
@@ -4650,6 +4650,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 4k7 1% 0402 Resistor"
 			(at 111.76 27.94 0)
 			(effects
 				(font
@@ -4710,12 +4719,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D4.0mm"
 			(at 30.48 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4946,7 +4956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:GC-XPORT"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:GC-XPORT"
 			(at 256.54 153.67 0)
 			(effects
 				(font
@@ -5131,7 +5141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12140f40-5efb-4169-b330-cd0d0ec60dd8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 36.83 53.34 0)
 			(effects
 				(font
@@ -5182,7 +5192,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5213,12 +5223,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D4.0mm"
 			(at 30.48 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -5326,7 +5337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "226cf574-fc33-461a-a1c7-dec3fceffb83")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 36.83 27.94 0)
 			(effects
 				(font
@@ -5377,7 +5388,7 @@
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5991,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:MS5607-02BA"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:MS5607-02BA"
 			(at 123.19 85.09 0)
 			(effects
 				(font
@@ -6720,7 +6731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 154.94 134.62 0)
 			(effects
 				(font
@@ -6739,6 +6750,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 154.94 134.62 0)
 			(effects
 				(font
@@ -6947,7 +6967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 24.13 0)
 			(effects
 				(font
@@ -6966,6 +6986,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 151.13 24.13 0)
 			(effects
 				(font
@@ -7106,7 +7135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -7125,6 +7154,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -7262,12 +7300,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D4.0mm"
 			(at 30.48 15.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8201,7 +8240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UCIRP-KiCAD-Lib:BMI088"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:BMI088"
 			(at 113.03 134.62 0)
 			(effects
 				(font
@@ -8416,7 +8455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 24.13 0)
 			(effects
 				(font
@@ -8435,6 +8474,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 129.54 24.13 0)
 			(effects
 				(font
@@ -8564,7 +8612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 41.91 0)
 			(effects
 				(font
@@ -8583,6 +8631,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 4k7 1% 0402 Resistor"
 			(at 115.57 41.91 0)
 			(effects
 				(font
@@ -8723,7 +8780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 143.51 134.62 0)
 			(effects
 				(font
@@ -8742,6 +8799,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
 			(at 143.51 134.62 0)
 			(effects
 				(font
@@ -8802,12 +8868,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D4.0mm"
 			(at 30.48 19.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
