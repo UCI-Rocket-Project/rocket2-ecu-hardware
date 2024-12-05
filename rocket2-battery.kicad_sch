@@ -13717,7 +13717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.6"
 			(at 198.12 219.71 0)
 			(effects
 				(font
@@ -21622,7 +21622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0UCIRP-KiCAD-Lib:EEV-FK1V681Q"
 			(at 198.12 186.69 0)
 			(effects
 				(font
