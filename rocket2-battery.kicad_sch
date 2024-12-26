@@ -6460,12 +6460,6 @@
 		(uuid "75f8e7b3-da47-4d53-b312-6616fc6fa4fb")
 	)
 	(junction
-		(at 31.75 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "792db1d2-d928-4888-ad59-8f17aaa55ed6")
-	)
-	(junction
 		(at 214.63 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6620,12 +6614,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd339b5f-57db-4a54-9ef9-dd6575352ec4")
-	)
-	(junction
-		(at 22.86 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d160ffb4-21d3-4fa8-9daa-fff8c86fd39c")
 	)
 	(junction
 		(at 227.33 251.46)
@@ -7523,16 +7511,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 146.05) (xy 22.86 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec3b629-c00c-4ca5-aedf-455967fbf681")
-	)
-	(wire
-		(pts
 			(xy 57.15 228.6) (xy 58.42 228.6)
 		)
 		(stroke
@@ -7540,16 +7518,6 @@
 			(type default)
 		)
 		(uuid "403ab1e6-a31d-4921-bd19-4c08d6940d4d")
-	)
-	(wire
-		(pts
-			(xy 31.75 152.4) (xy 31.75 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44718ffe-bed9-4cb1-b603-e00ac757ee92")
 	)
 	(wire
 		(pts
@@ -7943,16 +7911,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 172.72) (xy 45.72 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dcaf1c4-e823-4263-a376-82aa597c3781")
-	)
-	(wire
-		(pts
 			(xy 154.94 129.54) (xy 158.75 129.54)
 		)
 		(stroke
@@ -8050,16 +8008,6 @@
 			(type default)
 		)
 		(uuid "75b0567d-022f-4704-9239-a96213c23442")
-	)
-	(wire
-		(pts
-			(xy 40.64 167.64) (xy 45.72 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76650d26-30cb-4a09-a003-3f461d008853")
 	)
 	(wire
 		(pts
@@ -8190,16 +8138,6 @@
 			(type default)
 		)
 		(uuid "86390eb9-e70a-4d49-b2ae-53fa15973edd")
-	)
-	(wire
-		(pts
-			(xy 22.86 167.64) (xy 35.56 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888d17bf-6ed7-4ab6-8591-d9e5a7430630")
 	)
 	(wire
 		(pts
@@ -10272,7 +10210,7 @@
 	)
 	(global_label "REDs_CH3"
 		(shape input)
-		(at 44.45 231.14 180)
+		(at 57.15 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10282,7 +10220,7 @@
 		)
 		(uuid "0aa30d7f-2ca7-4a01-a34b-120e972e9a1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.9701 231.14 0)
+			(at 44.6701 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,7 +10254,7 @@
 	)
 	(global_label "REDs_CH5"
 		(shape input)
-		(at 44.45 236.22 180)
+		(at 57.15 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10326,7 +10264,7 @@
 		)
 		(uuid "0e4eca52-8b93-4ade-a9a7-ca90442f8699")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.9701 236.22 0)
+			(at 44.6701 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10474,7 @@
 	)
 	(global_label "REDs_CH1"
 		(shape input)
-		(at 44.45 226.06 180)
+		(at 57.15 233.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10546,7 +10484,7 @@
 		)
 		(uuid "25cbdc14-4cad-4abe-ab65-7d1b4bb7e10a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.9701 226.06 0)
+			(at 44.6701 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10562,7 @@
 	)
 	(global_label "REDs_CH4"
 		(shape input)
-		(at 57.15 233.68 180)
+		(at 44.45 226.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10634,7 +10572,7 @@
 		)
 		(uuid "3e487375-a568-4cc5-ab0a-336b5a3a90c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.6701 233.68 0)
+			(at 31.9701 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10844,7 +10782,7 @@
 	)
 	(global_label "REDs_CH0"
 		(shape input)
-		(at 57.15 223.52 180)
+		(at 44.45 236.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10854,7 +10792,7 @@
 		)
 		(uuid "7aec4b49-7b5b-41ac-9eb6-d57c1afceb03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.6701 223.52 0)
+			(at 31.9701 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +10936,7 @@
 	)
 	(global_label "REDs_CH2"
 		(shape input)
-		(at 57.15 228.6 180)
+		(at 44.45 231.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11008,7 +10946,7 @@
 		)
 		(uuid "9ca04051-e0a4-4b68-913c-1a2415a544ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.6701 228.6 0)
+			(at 31.9701 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21520,100 +21458,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 45.72 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da231af5-3d88-4b7c-855b-6e683aa62005")
-		(property "Reference" "D1"
-			(at 48.26 169.4815 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 48.26 172.0215 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 45.72 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 45.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "Generic 0603 Green LED"
-			(at 45.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7e390cc-d115-4b87-98ff-71f6c6186127")
-		)
-		(pin "2"
-			(uuid "4c9860c5-b6fa-4658-96d8-6024e8351ace")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "rocket2-battery"
-				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 114.3 157.48 0)
 		(unit 1)
@@ -22789,98 +22633,6 @@
 			(project "rocket2-trs"
 				(path "/f40df73a-33db-451b-892b-c732f49623c2"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 38.1 167.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f629ebf7-6541-4117-96e0-98d618c0209c")
-		(property "Reference" "R5"
-			(at 38.1 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 38.1 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Generic"
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "Generic 10K 1% 0402 Resistor"
-			(at 38.1 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8821882e-f8ca-446a-807c-8e7619fdabc6")
-		)
-		(pin "2"
-			(uuid "09a35273-6318-46d5-b028-e3430c2b5526")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "rocket2-battery"
-				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
-					(reference "R1")
 					(unit 1)
 				)
 			)
