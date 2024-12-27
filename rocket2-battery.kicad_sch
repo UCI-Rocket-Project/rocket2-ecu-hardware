@@ -6694,6 +6694,10 @@
 		(uuid "baf89aad-09df-4386-89d8-77e5a90c32f3")
 	)
 	(no_connect
+		(at 205.74 44.45)
+		(uuid "bbf143e0-d12c-407f-bc6b-3caf29698aef")
+	)
+	(no_connect
 		(at 58.42 241.3)
 		(uuid "d7cb5cbe-96af-4b1c-8dec-fa651b9d23ec")
 	)
@@ -10409,28 +10413,6 @@
 		(uuid "3504e46e-5f85-43ec-bec6-4e13baae42fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.2768 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "REDs_RADIO_DIO2"
-		(shape input)
-		(at 205.74 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3dee3dd7-bcdf-48cf-a108-74170de05389")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.2768 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

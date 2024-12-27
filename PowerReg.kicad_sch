@@ -2059,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 137.16 88.9)
+			(xy 134.62 88.9) (xy 135.89 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2079,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 91.44) (xy 269.24 91.44)
+			(xy 149.86 81.28) (xy 158.75 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2199,17 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 88.9) (xy 226.06 88.9)
+			(xy 135.89 81.28) (xy 135.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da642ed-a207-4e48-a919-94fe7ac297bf")
+	)
+	(wire
+		(pts
+			(xy 219.71 88.9) (xy 238.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 91.44) (xy 255.27 91.44)
+			(xy 135.89 81.28) (xy 144.78 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2329,17 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 95.25) (xy 255.27 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da15d295-95e6-491d-a837-d6bbd79b08a3")
-	)
-	(wire
-		(pts
-			(xy 260.35 95.25) (xy 269.24 95.25)
+			(xy 243.84 88.9) (xy 252.73 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +2467,7 @@
 	)
 	(text_box "0ohm disconnects to isolate regs first"
 		(exclude_from_sim no)
-		(at 250.19 101.6 0)
+		(at 233.68 95.25 0)
 		(size 16.51 10.16)
 		(stroke
 			(width 0)
@@ -2496,28 +2496,6 @@
 		(uuid "0d5f7ae0-0cb1-4694-b530-4b5684298fb0")
 	)
 	(label "3V3OUT"
-		(at 246.38 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33a4db7f-a4ee-4d42-acec-640340bf9b81")
-	)
-	(label "5VOUT"
-		(at 246.38 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35e9de82-7117-48ee-8c31-31370560aaaf")
-	)
-	(label "3V3OUT"
 		(at 193.04 29.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2527,17 +2505,6 @@
 			(justify left bottom)
 		)
 		(uuid "41f956c7-ac28-4a90-8c76-6c17c1c47242")
-	)
-	(label "5VOUT"
-		(at 137.16 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5649092d-b39f-4c4d-a540-49dc639be57c")
 	)
 	(label "24VIN"
 		(at 121.92 29.21 180)
@@ -2560,17 +2527,6 @@
 			(justify left bottom)
 		)
 		(uuid "90cef6fd-40eb-43de-b1da-10b1ef056338")
-	)
-	(label "3V3OUT"
-		(at 226.06 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "984a348f-d8ef-4f9c-b762-fbb02812bc34")
 	)
 	(label "24VIN"
 		(at 165.1 29.21 180)
@@ -2607,7 +2563,7 @@
 	)
 	(hierarchical_label "5VOUT"
 		(shape output)
-		(at 269.24 91.44 0)
+		(at 158.75 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2631,7 +2587,7 @@
 	)
 	(hierarchical_label "3V3OUT"
 		(shape output)
-		(at 269.24 95.25 0)
+		(at 252.73 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3068,7 +3024,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 257.81 95.25 90)
+		(at 241.3 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3076,7 +3032,7 @@
 		(dnp no)
 		(uuid "33e27f67-dbaf-4bc6-8d0d-cb6748684a17")
 		(property "Reference" "R85"
-			(at 257.81 100.33 90)
+			(at 241.3 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3040,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 257.81 97.79 90)
+			(at 241.3 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3048,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 257.81 95.25 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 95.25 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3066,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 95.25 0)
+			(at 241.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,16 +4669,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 257.81 91.44 90)
+		(at 147.32 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1551811-577d-4eb5-aaa5-fe7a687aa28e")
 		(property "Reference" "R84"
-			(at 257.81 86.36 90)
+			(at 147.32 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4685,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 257.81 88.9 90)
+			(at 147.32 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4693,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 257.81 91.44 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 91.44 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +4711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 91.44 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
