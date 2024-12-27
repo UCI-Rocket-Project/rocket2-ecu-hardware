@@ -24317,7 +24317,7 @@
 	)
 	(global_label "RADIO1_DIO1"
 		(shape input)
-		(at 193.04 76.2 0)
+		(at 193.04 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24327,7 +24327,7 @@
 		)
 		(uuid "4399d3cf-dd57-4c00-b489-4bd12cc99dc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.181 76.2 0)
+			(at 208.181 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24449,7 +24449,7 @@
 	)
 	(global_label "RADIO2_DIO1"
 		(shape input)
-		(at 256.54 114.3 0)
+		(at 256.54 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24459,7 +24459,7 @@
 		)
 		(uuid "543c374b-9246-44e0-9e9d-30de9b6c803b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.681 114.3 0)
+			(at 271.681 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24493,22 +24493,22 @@
 	)
 	(global_label "IMU_INT2"
 		(shape input)
-		(at 256.54 38.1 0)
+		(at 226.06 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5c06a51b-ac3e-41e9-8955-d1bd47e9c3fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9919 38.1 0)
+			(at 214.6081 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -24691,7 +24691,7 @@
 	)
 	(global_label "RADIO_DIO0"
 		(shape input)
-		(at 193.04 68.58 0)
+		(at 193.04 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24701,7 +24701,7 @@
 		)
 		(uuid "7e740aa9-5cbb-4254-a34c-56e02fee3e55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.9715 68.58 0)
+			(at 206.9715 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25043,7 +25043,7 @@
 	)
 	(global_label "RADIO2_DIO0"
 		(shape input)
-		(at 256.54 111.76 0)
+		(at 256.54 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25053,7 +25053,7 @@
 		)
 		(uuid "9fa86e61-9bce-4835-98b7-94f3d38f232d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.681 111.76 0)
+			(at 271.681 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25285,7 +25285,7 @@
 	)
 	(global_label "RADIO1_DIO0"
 		(shape input)
-		(at 193.04 73.66 0)
+		(at 193.04 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25295,7 +25295,7 @@
 		)
 		(uuid "cf36dd95-0b30-4f14-8f4f-fa23eb6bda27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.181 73.66 0)
+			(at 208.181 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25417,22 +25417,22 @@
 	)
 	(global_label "IMU_INT1"
 		(shape input)
-		(at 226.06 91.44 180)
+		(at 256.54 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d7a139cd-c5f1-40a5-80cd-a5b41c33d7b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.6875 91.44 0)
+			(at 267.9919 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -25659,7 +25659,7 @@
 	)
 	(global_label "RADIO_DIO1"
 		(shape input)
-		(at 193.04 71.12 0)
+		(at 193.04 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25669,7 +25669,7 @@
 		)
 		(uuid "f2480489-f51d-424c-9a20-b37b41ac9c4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.9715 71.12 0)
+			(at 206.9715 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27239,6 +27239,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "301d6a29-0085-4767-8c92-de91695ad1e2")
+		(property "Reference" "#PWR0228"
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 73.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "706e77f8-ad14-4407-9d28-3ff4295532a5")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d71af74c-6b83-4356-8066-aa44d85885b6"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 80.01 129.54 90)
 		(unit 1)
@@ -28477,71 +28542,6 @@
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d71af74c-6b83-4356-8066-aa44d85885b6"
 					(reference "#PWR0249")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 69.85 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55838e0c-7d8b-40a6-8853-56e6e1572eac")
-		(property "Reference" "#PWR0228"
-			(at 66.04 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 75.438 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "490081b2-7dde-43cc-bca3-c06de0fdf6ee")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d71af74c-6b83-4356-8066-aa44d85885b6"
-					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
