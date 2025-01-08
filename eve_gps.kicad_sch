@@ -2794,7 +2794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/732512200?display=pdf"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -2821,7 +2821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "732512200"
+		(property "Part #" "0732512200"
 			(at 194.31 86.36 0)
 			(effects
 				(font
@@ -2914,7 +2914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 4.7uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 4.7UF 6.3V X7R 0603"
 			(at 90.17 60.96 0)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
 			(at 113.03 60.96 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3641,7 +3641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
 			(at 135.89 60.96 0)
 			(effects
 				(font
@@ -4133,7 +4133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.laird.com/sites/default/files/bmi-s-101-sales.pdf"
 			(at 168.91 137.16 0)
 			(effects
 				(font
@@ -4250,7 +4250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
 			(at 124.46 60.96 0)
 			(effects
 				(font

@@ -1376,7 +1376,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 166.37 95.25 0)
 			(effects
 				(font
@@ -1816,7 +1825,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 87.63 93.98 0)
 			(effects
 				(font
@@ -2033,7 +2051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100K 5% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 100K OHM 1% 1/16W 0402"
 			(at 107.95 86.36 0)
 			(effects
 				(font
@@ -2251,7 +2269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100K 5% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 100K OHM 1% 1/16W 0402"
 			(at 187.96 86.36 0)
 			(effects
 				(font

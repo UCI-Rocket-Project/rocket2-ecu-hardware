@@ -1377,7 +1377,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG471SH1D"
+		(property "Value" "470ohm @100MHz"
 			(at 110.49 92.71 90)
 			(effects
 				(font
@@ -1466,7 +1466,7 @@
 				)
 			)
 		)
-		(property "Value" "BLM18PG471SH1D"
+		(property "Value" "470ohm @100MHz"
 			(at 110.49 110.49 90)
 			(effects
 				(font
@@ -1599,7 +1599,7 @@
 				)
 			)
 		)
-		(property "Part #" "MAX31855"
+		(property "Part #" "MAX31855JASA+"
 			(at 152.4 93.98 0)
 			(effects
 				(font
@@ -1887,7 +1887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/4071246.pdf"
 			(at 83.185 100.33 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
 			(at 152.4 77.47 0)
 			(effects
 				(font
@@ -2167,7 +2167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100K 5% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 100K OHM 1% 1/16W 0402"
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -2258,7 +2258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 10nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 10NF 6.3V X7R 0402"
 			(at 120.65 101.6 0)
 			(effects
 				(font

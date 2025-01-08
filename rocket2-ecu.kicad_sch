@@ -4950,7 +4950,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 4k7 1% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 4.7K OHM 1% 1/4W 0402"
+			(at 111.76 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 111.76 27.94 0)
 			(effects
 				(font
@@ -5029,6 +5038,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 30.48 34.29 0)
 			(effects
 				(font
@@ -5171,7 +5189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Diodes"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 58.42 184.15 0)
 			(effects
 				(font
@@ -5234,7 +5252,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GC-XPORT-ENH"
 			(at 256.54 147.32 0)
 			(effects
 				(font
@@ -5387,7 +5405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 0603"
 			(at 273.05 153.67 0)
 			(effects
 				(font
@@ -5595,6 +5613,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 30.48 30.48 0)
 			(effects
 				(font
@@ -5832,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BMM150"
 			(at 140.97 48.26 0)
 			(effects
 				(font
@@ -5867,7 +5894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bosch"
+		(property "Manufacturer" "Bosch Sensortec"
 			(at 140.97 31.75 0)
 			(effects
 				(font
@@ -6415,7 +6442,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MS560702BA03-50"
 			(at 123.19 77.47 0)
 			(effects
 				(font
@@ -6450,7 +6477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE"
+		(property "Manufacturer" "TE Connectivity"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -7448,7 +7475,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 154.94 134.62 0)
 			(effects
 				(font
@@ -7751,7 +7787,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
+			(at 151.13 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 151.13 24.13 0)
 			(effects
 				(font
@@ -7919,7 +7964,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -8564,7 +8618,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "100"
 			(at 50.8 181.61 90)
 			(effects
 				(font
@@ -8608,7 +8662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100R 1% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 100 OHM 1% 1/4W 0402"
 			(at 50.8 184.15 0)
 			(effects
 				(font
@@ -8875,7 +8929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 10K 1% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 10K OHM 1% 1/4W 0402"
 			(at 45.72 189.23 0)
 			(effects
 				(font
@@ -9060,7 +9114,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BMI088"
 			(at 113.03 134.62 0)
 			(effects
 				(font
@@ -9095,7 +9149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bosch"
+		(property "Manufacturer" "Bosch Sensortec"
 			(at 112.395 127 0)
 			(effects
 				(font
@@ -9310,7 +9364,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
+			(at 129.54 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 129.54 24.13 0)
 			(effects
 				(font
@@ -9467,7 +9530,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 4k7 1% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 4.7K OHM 1% 1/4W 0402"
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 115.57 41.91 0)
 			(effects
 				(font
@@ -9635,7 +9707,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100nF 6.3V X7R 0402 MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
+			(at 143.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 143.51 134.62 0)
 			(effects
 				(font

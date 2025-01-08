@@ -2794,7 +2794,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 1uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 1UF 50V X7R 0603"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 168.91 36.83 0)
 			(effects
 				(font
@@ -3007,6 +3016,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Generic"
+			(at 71.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 1210"
+			(at 71.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c3c22a6-2b03-48b3-aee8-d56f3e02f8cc")
 		)
@@ -3066,6 +3093,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 241.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 241.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic RES SMD 0 OHM 1206"
 			(at 241.3 88.9 0)
 			(effects
 				(font
@@ -3144,7 +3189,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 0.1uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0603"
+			(at 146.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 146.05 36.83 0)
 			(effects
 				(font
@@ -3202,7 +3256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34289/lp12bz11.pdf"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -3308,7 +3362,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 0.1uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0603"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 189.23 36.83 0)
 			(effects
 				(font
@@ -3387,6 +3450,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Generic"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 25V X7R 1206"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5146ad9-fb83-49a4-b766-6bf070e14d77")
 		)
@@ -3448,6 +3529,24 @@
 			)
 		)
 		(property "Description" "10uF 50V X7R Generic"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 1210"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -3660,6 +3759,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Generic"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 25V X7R 1206"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94e9718c-222e-42fc-8b20-a9a931c73d44")
 		)
@@ -3803,7 +3920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "RECOM"
+		(property "Manufacturer" "Recom Power"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -4333,7 +4450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34289/lp12bz11.pdf"
 			(at 92.71 88.9 0)
 			(effects
 				(font
@@ -4438,6 +4555,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Generic"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 1210"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef5523e1-e6f6-4e0b-aeb6-e96c058c90db")
 		)
@@ -4499,6 +4634,24 @@
 			)
 		)
 		(property "Description" "10uF 50V X7R Generic"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 1210"
 			(at 99.06 91.44 0)
 			(effects
 				(font
@@ -4576,7 +4729,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 1uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 1UF 50V X7R 0603"
+			(at 125.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -4711,6 +4873,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic RES SMD 0 OHM 1206"
 			(at 147.32 81.28 0)
 			(effects
 				(font
@@ -4942,6 +5122,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Generic"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 1210"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c59d127e-af80-466f-9fc5-3b77467685fc")
 		)
@@ -5070,6 +5268,24 @@
 			)
 		)
 		(property "Description" "10uF 50V X7R Generic"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 1210"
 			(at 184.15 91.44 0)
 			(effects
 				(font
@@ -5239,7 +5455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0402 1.5K 0.1% Resistor"
+		(property "Part #" "Generic RES SMD 1.5K OHM 0.1% 1/16W 0402"
 			(at 129.54 101.6 0)
 			(effects
 				(font
@@ -5309,6 +5525,24 @@
 			)
 		)
 		(property "Description" "10uF 50V X7R Generic"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 1210"
 			(at 163.83 91.44 0)
 			(effects
 				(font
@@ -5531,6 +5765,24 @@
 			)
 		)
 		(property "Description" "10uF 50V X7R Generic"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 1210"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -5832,7 +6084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "RECOM"
+		(property "Manufacturer" "Recom Power"
 			(at 200.66 96.52 0)
 			(effects
 				(font
@@ -5986,7 +6238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0402 1.5K 0.1% Resistor"
+		(property "Part #" "Generic RES SMD 1.5K OHM 0.1% 1/16W 0402"
 			(at 214.63 101.6 0)
 			(effects
 				(font

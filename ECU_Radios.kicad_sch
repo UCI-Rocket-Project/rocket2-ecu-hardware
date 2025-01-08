@@ -1947,7 +1947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/732512200?display=pdf"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -1974,7 +1974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "732512200"
+		(property "Part #" "0732512200"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -2746,7 +2746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/732512200?display=pdf"
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -2773,7 +2773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "732512200"
+		(property "Part #" "0732512200"
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -2860,7 +2860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100K 5% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 100K OHM 1% 1/16W 0402"
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -3077,7 +3077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 0603"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -3294,7 +3294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 0603"
 			(at 172.72 116.84 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/732512200?display=pdf"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -3447,7 +3447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "732512200"
+		(property "Part #" "0732512200"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100K 5% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 100K OHM 1% 1/16W 0402"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -3944,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 100K 5% 0402 Resistor"
+		(property "Part #" "Generic RES SMD 100K OHM 1% 1/16W 0402"
 			(at 105.41 116.84 0)
 			(effects
 				(font
@@ -4161,7 +4161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic 0603 10uF 6.3V X7R MLCC"
+		(property "Part #" "Generic CAP CER 10UF 50V X7R 0603"
 			(at 227.33 57.15 0)
 			(effects
 				(font
