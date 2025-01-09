@@ -9661,17 +9661,6 @@
 		)
 		(uuid "98e8815f-12cf-48d2-b354-81c1ca9749e9")
 	)
-	(text "MURK MOUNTING HOLE AND MOVE antenanan "
-		(exclude_from_sim no)
-		(at 282.702 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 22 24 1)
-			)
-		)
-		(uuid "0bf88bbc-3b2c-4961-91b0-cefd703758a9")
-	)
 	(text "STM32 +Radio"
 		(exclude_from_sim no)
 		(at 135.89 102.87 0)
