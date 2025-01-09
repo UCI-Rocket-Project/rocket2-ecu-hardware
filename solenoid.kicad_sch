@@ -1768,6 +1768,17 @@
 		)
 		(uuid "f38c9e1e-6644-4c0d-b736-ada5a2e6b30e")
 	)
+	(text "find part"
+		(exclude_from_sim no)
+		(at 147.32 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 32 32 1)
+			)
+		)
+		(uuid "21cc0264-3bfa-43b7-be6c-362792c730aa")
+	)
 	(hierarchical_label "FB"
 		(shape output)
 		(at 209.55 102.87 0)
@@ -1838,7 +1849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FIND SPEWfUAF"
 			(at 139.7 106.68 0)
 			(effects
 				(font

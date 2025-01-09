@@ -2686,6 +2686,17 @@
 		)
 		(uuid "c94eb2d8-f376-421b-951b-3b66ff49688a")
 	)
+	(text "MURK SHIELD AND  MOVE CIRCUIT COSER"
+		(exclude_from_sim no)
+		(at 185.674 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 21 1)
+			)
+		)
+		(uuid "d7981f5f-7c4f-444f-83d5-592fe56e9d24")
+	)
 	(hierarchical_label "GPS_SDA"
 		(shape input)
 		(at 78.74 90.17 180)

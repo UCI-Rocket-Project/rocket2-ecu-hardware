@@ -3622,6 +3622,17 @@
 		)
 		(uuid "9109f10e-152c-4e38-a179-1a850ba9fe97")
 	)
+	(text "FIC GROUND VIAS AND RETURN PATHS"
+		(exclude_from_sim no)
+		(at 66.548 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 41 27 1)
+			)
+		)
+		(uuid "02de313c-2dc9-4729-929f-544460f8d626")
+	)
 	(text "connect ALARM to a PWM enabled pin\n"
 		(exclude_from_sim no)
 		(at 16.51 175.26 0)
@@ -3693,6 +3704,17 @@
 			(justify left bottom)
 		)
 		(uuid "46d5a8d9-f53f-46c5-b302-255e8102c623")
+	)
+	(text "Reads battery voltage\nReads GSE voltage"
+		(exclude_from_sim no)
+		(at 251.968 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 41 27 1)
+			)
+		)
+		(uuid "54d4a156-5825-4ffe-b779-82fb20aa48a1")
 	)
 	(text "FLASH\nMEMORY"
 		(exclude_from_sim no)
