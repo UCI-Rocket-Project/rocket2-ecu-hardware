@@ -1089,6 +1089,10 @@
 		(uuid "af7593e6-2f88-4db9-ae12-6b628d4c8d8e")
 	)
 	(no_connect
+		(at 207.01 62.23)
+		(uuid "b2437a8f-291f-455d-aa38-e1bc2a026f64")
+	)
+	(no_connect
 		(at 207.01 67.31)
 		(uuid "b999b4ec-a09b-4200-993d-56bb7dd163d5")
 	)
@@ -1424,6 +1428,17 @@
 		)
 		(uuid "030da4b8-3645-4249-a9de-d110f7a8a415")
 	)
+	(text "Removed DIO0 so we have vsense"
+		(exclude_from_sim no)
+		(at 249.682 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 40 86 1)
+			)
+		)
+		(uuid "0f28c8d7-34c6-433f-b5b4-b1a31d720ac6")
+	)
 	(text "TRS Radio Module 3\n"
 		(exclude_from_sim no)
 		(at 151.13 151.13 0)
@@ -1576,28 +1591,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RADIO1_DIO0"
-		(shape input)
-		(at 207.01 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "57329842-ea67-436a-a501-637be6877c2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.151 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

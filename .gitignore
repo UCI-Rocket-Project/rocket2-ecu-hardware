@@ -21,6 +21,7 @@ fp-info-cache
 
 # Fabrication files
 fab/
+gerbers/
 fabrication/
 *.zip
 *.csv
