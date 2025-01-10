@@ -23759,6 +23759,16 @@
 		)
 		(uuid "b77a6ac9-fd4d-495a-8da9-ca8b4e356b2d")
 	)
+	(text "IN IOC PH1 is OSC OUT"
+		(exclude_from_sim no)
+		(at 255.016 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1fb67d5-f7e3-429f-a23a-4a1ceaf25827")
+	)
 	(global_label "SOLENOID3_EN"
 		(shape input)
 		(at 226.06 68.58 180)
