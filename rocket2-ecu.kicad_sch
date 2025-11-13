@@ -3339,6 +3339,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 30.48) (xy 82.55 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2682045f-35a1-4ef5-af5b-ea71b59675ac")
+	)
+	(wire
+		(pts
 			(xy 273.05 146.05) (xy 271.78 146.05)
 		)
 		(stroke
@@ -3629,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 27.94) (xy 85.09 27.94)
+			(xy 81.28 27.94) (xy 82.55 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3696,6 +3706,26 @@
 			(type default)
 		)
 		(uuid "8596ed5a-d935-4f05-b6fa-148d08de44d0")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 82.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874443b2-663f-4629-8a15-5c9ba6f3997d")
+	)
+	(wire
+		(pts
+			(xy 81.28 33.02) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888fc4ea-4e6d-4a92-8cf7-14a1ea67e4e7")
 	)
 	(wire
 		(pts
@@ -3809,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 38.1) (xy 82.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b60182-c973-4fdd-9753-82bef453dadb")
+	)
+	(wire
+		(pts
 			(xy 52.07 25.4) (xy 43.18 25.4)
 		)
 		(stroke
@@ -3906,6 +3946,16 @@
 			(type default)
 		)
 		(uuid "db5cc8c6-4281-4ba0-9d12-54698de70bf1")
+	)
+	(wire
+		(pts
+			(xy 81.28 35.56) (xy 82.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbdb63c7-9ec9-482f-9b37-e742baedbc9e")
 	)
 	(wire
 		(pts
@@ -6904,6 +6954,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "0UCIRP-KiCAD-Lib:MS5607-02BA"
@@ -11287,26 +11338,6 @@
 				(justify left top)
 			)
 		)
-		(pin "MAIN_OUT-" input
-			(at 81.28 21.59 0)
-			(uuid "f577c529-c4b6-4802-a1e2-ae5c5e894e78")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MAIN_OUT+" input
-			(at 81.28 17.78 0)
-			(uuid "52996153-f2fc-4d2a-9bc5-c069cbd6a6f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BATT_IN-" input
 			(at 52.07 25.4 180)
 			(uuid "69bca422-1421-4946-b808-f5f4171d98ab")
@@ -11368,7 +11399,7 @@
 			)
 		)
 		(pin "REDS_CH4" output
-			(at 81.28 35.56 0)
+			(at 81.28 38.1 0)
 			(uuid "c8488f50-db03-4a6c-b0b7-bd6150a2a026")
 			(effects
 				(font
@@ -11378,7 +11409,7 @@
 			)
 		)
 		(pin "REDS_CH3" output
-			(at 81.28 33.02 0)
+			(at 81.28 35.56 0)
 			(uuid "66d026aa-5c8b-46b5-adf3-0b3a671364f0")
 			(effects
 				(font
@@ -11388,7 +11419,7 @@
 			)
 		)
 		(pin "REDS_CH5" output
-			(at 81.28 38.1 0)
+			(at 81.28 40.64 0)
 			(uuid "b2f9c3a3-3115-48a1-867b-1fab108b838c")
 			(effects
 				(font
@@ -11397,9 +11428,29 @@
 				(justify right)
 			)
 		)
-		(pin "REDS_CH6" output
-			(at 81.28 40.64 0)
-			(uuid "b5877aaf-2372-431d-9966-1e313a28d6d9")
+		(pin "REDS_CH2" output
+			(at 81.28 33.02 0)
+			(uuid "13ce5ad5-801d-497d-a008-95cd484d73f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAIN_OUT-" input
+			(at 81.28 21.59 0)
+			(uuid "fe668400-1afb-439f-8ade-79b41eb62784")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAIN_OUT+" input
+			(at 81.28 17.78 0)
+			(uuid "d219cddb-e8ad-44da-9414-fdff17374705")
 			(effects
 				(font
 					(size 1.27 1.27)

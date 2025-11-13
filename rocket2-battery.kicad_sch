@@ -9995,6 +9995,17 @@
 			)
 		)
 	)
+	(hierarchical_label "MAIN_OUT+"
+		(shape input)
+		(at 90.17 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a0e543f-8642-4ea4-a954-9c9f444868c7")
+	)
 	(hierarchical_label "REDS_CH1"
 		(shape output)
 		(at 72.39 48.26 0)
@@ -10115,6 +10126,17 @@
 			(justify left)
 		)
 		(uuid "9d0d2958-8aa6-45aa-aaff-cc34946a5cf1")
+	)
+	(hierarchical_label "MAIN_OUT-"
+		(shape input)
+		(at 90.17 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e47b0443-1960-45ec-9009-77f36dcdf2c6")
 	)
 	(hierarchical_label "REDS_CH0"
 		(shape output)
