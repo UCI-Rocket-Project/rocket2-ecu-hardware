@@ -22294,6 +22294,10 @@
 		(uuid "3829fa5a-8d93-4107-a09d-8e1c0e3786eb")
 	)
 	(no_connect
+		(at 193.04 33.02)
+		(uuid "45212a0a-a4d6-45b0-9c96-a9bbcc384159")
+	)
+	(no_connect
 		(at 44.45 144.78)
 		(uuid "4bd71b79-3eb5-4408-880f-8befb322ada4")
 	)
@@ -24945,28 +24949,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MAG_DRDY"
-		(shape input)
-		(at 193.04 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b805a70-44bc-43ec-9b28-0678766da10d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.622 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
