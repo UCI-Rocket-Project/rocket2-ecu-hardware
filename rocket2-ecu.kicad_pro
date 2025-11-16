@@ -751,6 +751,14 @@
     [
       "d5dcb60d-501b-41cc-98ca-6e0288432cc2",
       "TC1"
+    ],
+    [
+      "beec90aa-dde0-4584-822f-65a1d5b7e933",
+      "PT7"
+    ],
+    [
+      "7746e965-a288-4e37-a5f8-b6381ab89ad1",
+      "Solenoid4"
     ]
   ],
   "text_variables": {}

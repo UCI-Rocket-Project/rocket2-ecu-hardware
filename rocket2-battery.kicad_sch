@@ -694,6 +694,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x07"
 			(pin_names
 				(offset 1.016)
@@ -3779,6 +3886,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "UCIRP-KiCAD-Lib:MCP6001"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Microchip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part #" "MCP6001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP6001_0_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MCP6001_1_1"
+				(pin input line
+					(at -6.35 1.27 0)
+					(length 3.81)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 3.81)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 8.89 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -8.89 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "UCIRP-KiCAD-Lib:RFM95W"
 			(pin_numbers
 				(hide yes)
@@ -5097,47 +5378,41 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pkl_misc:PAD_SMD"
+		(symbol "power:+3.3V"
+			(power)
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
+			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "PAD_SMD"
-				(at 0 3.81 0)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -6.35 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" "SMD solder pad"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5146,7 +5421,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMD pad single solder"
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5155,10 +5430,44 @@
 					(hide yes)
 				)
 			)
-			(symbol "PAD_SMD_0_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5168,11 +5477,12 @@
 					)
 				)
 			)
-			(symbol "PAD_SMD_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "PAD"
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5548,6 +5858,16 @@
 		)
 		(uuid "3e8b000b-b156-4fba-a7d3-b98026ea2b65")
 	)
+	(text "Normally open vents: https://www.peterpaul.com/valves/2-way-normally-opened/series-20-model-21\nNormally closed vents: "
+		(exclude_from_sim no)
+		(at 293.116 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "542b9876-6afb-4277-85d0-3fc02eb454eb")
+	)
 	(text "Power only from GS\n"
 		(exclude_from_sim no)
 		(at 268.986 159.004 0)
@@ -5738,6 +6058,12 @@
 		(uuid "3fea993a-e4d6-4cbe-b595-a775d581c477")
 	)
 	(junction
+		(at 113.03 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4689834d-2f61-438e-a842-3d2a8242321e")
+	)
+	(junction
 		(at 114.3 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5912,6 +6238,12 @@
 		(uuid "9bd77d14-fa71-48f2-b570-3507fdbc96ad")
 	)
 	(junction
+		(at 58.42 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a036ba93-6728-478e-a6d3-3593ccab657f")
+	)
+	(junction
 		(at 325.12 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6030,6 +6362,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e480bc7e-a119-493c-b3d3-52bd774c5004")
+	)
+	(junction
+		(at 25.4 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eec8cc6e-4955-4763-be63-357c4494bc7b")
+	)
+	(junction
+		(at 80.01 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef65d269-a782-41ae-9adc-8197059cee3d")
 	)
 	(junction
 		(at 280.67 73.66)
@@ -6289,6 +6633,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 266.7) (xy 58.42 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e3c3cb-689a-4a9d-aaa3-69d78643930b")
+	)
+	(wire
+		(pts
 			(xy 74.93 161.29) (xy 74.93 168.91)
 		)
 		(stroke
@@ -6449,6 +6803,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 257.81) (xy 80.01 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12115f40-8b97-498c-9ff2-f8b5f7d26c4c")
+	)
+	(wire
+		(pts
 			(xy 308.61 165.1) (xy 321.31 165.1)
 		)
 		(stroke
@@ -6479,6 +6843,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 260.35) (xy 119.38 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f94e47-3beb-43f6-9754-3cf4e6fd2df1")
+	)
+	(wire
+		(pts
 			(xy 176.53 111.76) (xy 191.77 111.76)
 		)
 		(stroke
@@ -6486,6 +6860,26 @@
 			(type default)
 		)
 		(uuid "13b90c48-6314-4904-9278-025d8d339025")
+	)
+	(wire
+		(pts
+			(xy 92.71 261.62) (xy 92.71 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148932e4-f5cd-49a7-bf6e-3dc6cbffc211")
+	)
+	(wire
+		(pts
+			(xy 101.6 63.5) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1670d672-744b-428b-aab7-ebf1fedef3f3")
 	)
 	(wire
 		(pts
@@ -6526,6 +6920,16 @@
 			(type default)
 		)
 		(uuid "18773326-efe2-4a26-9531-00a4938857c1")
+	)
+	(wire
+		(pts
+			(xy 80.01 250.19) (xy 80.01 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a609746-d6a5-43a5-b74f-5b44aed968f6")
 	)
 	(wire
 		(pts
@@ -6639,6 +7043,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 261.62) (xy 92.71 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f99b1cb-7755-41a9-b214-9825a7c5e5a5")
+	)
+	(wire
+		(pts
 			(xy 327.66 167.64) (xy 325.12 167.64)
 		)
 		(stroke
@@ -6739,6 +7153,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 266.7) (xy 58.42 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3374bb-18bb-4586-ae0f-5d93c1c57525")
+	)
+	(wire
+		(pts
 			(xy 184.15 129.54) (xy 184.15 123.19)
 		)
 		(stroke
@@ -6779,6 +7203,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 257.81) (xy 25.4 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3333d898-e396-4205-877e-1d9b9a4903de")
+	)
+	(wire
+		(pts
 			(xy 207.01 142.24) (xy 218.44 142.24)
 		)
 		(stroke
@@ -6786,6 +7220,16 @@
 			(type default)
 		)
 		(uuid "351ce782-1518-43d8-a19a-594da20ba713")
+	)
+	(wire
+		(pts
+			(xy 58.42 259.08) (xy 64.77 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ccd53d-7427-4738-a492-74f92cf269f3")
 	)
 	(wire
 		(pts
@@ -7139,6 +7583,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 58.42) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601333b4-73c4-4955-8bba-afdea2e263c3")
+	)
+	(wire
+		(pts
 			(xy 204.47 156.21) (xy 204.47 161.29)
 		)
 		(stroke
@@ -7169,6 +7623,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 267.97) (xy 113.03 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bee82e-16da-4a9a-9d96-31a8b3de0d1f")
+	)
+	(wire
+		(pts
 			(xy 327.66 160.02) (xy 325.12 160.02)
 		)
 		(stroke
@@ -7186,6 +7650,16 @@
 			(type default)
 		)
 		(uuid "63cacfae-888f-49b9-a588-bdbff3f6f683")
+	)
+	(wire
+		(pts
+			(xy 58.42 259.08) (xy 55.88 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6822424a-d9a4-4156-8fc9-1117d0880138")
 	)
 	(wire
 		(pts
@@ -7216,6 +7690,16 @@
 			(type default)
 		)
 		(uuid "708f87dc-e39e-4bff-9d14-10968f0d70aa")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 110.49 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71eae186-a045-4b07-a965-9ef98803fdd2")
 	)
 	(wire
 		(pts
@@ -7366,6 +7850,16 @@
 			(type default)
 		)
 		(uuid "7d347ca5-fa48-412f-9a09-c074d4ee4573")
+	)
+	(wire
+		(pts
+			(xy 80.01 259.08) (xy 95.25 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8068f1ec-1b67-4b23-b705-b8b66193aa32")
 	)
 	(wire
 		(pts
@@ -7609,6 +8103,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 260.35) (xy 38.1 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f7764d-a044-49af-be68-2271f8a8968f")
+	)
+	(wire
+		(pts
 			(xy 300.99 123.19) (xy 303.53 123.19)
 		)
 		(stroke
@@ -7626,6 +8130,16 @@
 			(type default)
 		)
 		(uuid "95bddbd8-25e0-493e-8b66-ee25b541c994")
+	)
+	(wire
+		(pts
+			(xy 113.03 267.97) (xy 113.03 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f08abb-f1fb-40c8-bdca-fe3038005522")
 	)
 	(wire
 		(pts
@@ -7929,6 +8443,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 257.81) (xy 40.64 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3ead13-7bb4-499e-8a96-28ca29f5fefc")
+	)
+	(wire
+		(pts
 			(xy 157.48 156.21) (xy 162.56 156.21)
 		)
 		(stroke
@@ -8219,6 +8743,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 260.35) (xy 38.1 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f9d2e7-5c7c-4f92-bfc3-61ccf486bbd1")
+	)
+	(wire
+		(pts
 			(xy 67.31 58.42) (xy 72.39 58.42)
 		)
 		(stroke
@@ -8226,6 +8760,16 @@
 			(type default)
 		)
 		(uuid "c6dbef7e-dc7e-4e8f-8c8a-cce830574b3c")
+	)
+	(wire
+		(pts
+			(xy 25.4 256.54) (xy 25.4 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7bbdf05-fd0b-4c44-805c-26f72f48ab0a")
 	)
 	(wire
 		(pts
@@ -8309,6 +8853,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 48.26) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdfd6ecd-2169-4090-8412-c207710ea6d4")
+	)
+	(wire
+		(pts
 			(xy 180.34 25.4) (xy 182.88 25.4)
 		)
 		(stroke
@@ -8326,6 +8880,16 @@
 			(type default)
 		)
 		(uuid "cfda9c78-8094-4999-9304-3d4b091237f7")
+	)
+	(wire
+		(pts
+			(xy 25.4 248.92) (xy 25.4 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b9df85-9552-4dc3-985d-0fbe3033ffe9")
 	)
 	(wire
 		(pts
@@ -8469,6 +9033,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 260.35) (xy 110.49 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01e672d-ca93-4a14-a610-e8d853c401e4")
+	)
+	(wire
+		(pts
 			(xy 260.35 165.1) (xy 264.16 165.1)
 		)
 		(stroke
@@ -8566,6 +9140,16 @@
 			(type default)
 		)
 		(uuid "e3c7c836-a264-4850-8f17-04d78c4c1e49")
+	)
+	(wire
+		(pts
+			(xy 80.01 259.08) (xy 80.01 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4035b69-23ca-4a56-85b6-c7b191d141c4")
 	)
 	(wire
 		(pts
@@ -8927,6 +9511,26 @@
 		)
 		(uuid "16bd02de-2122-4e8d-aafd-383c770d8cf5")
 	)
+	(label "MAIN+"
+		(at 101.6 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2718ace1-dfca-4d18-9b12-ecf85b532e61")
+	)
+	(label "GSE+"
+		(at 25.4 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28c4c677-f8d9-4c6f-9c1e-ead0ccddfd6f")
+	)
 	(label "BAT_OUT+"
 		(at 120.65 100.33 0)
 		(effects
@@ -8966,6 +9570,16 @@
 			(justify right bottom)
 		)
 		(uuid "2cf63483-dc0a-48dc-aa29-625666c000a8")
+	)
+	(label "MAIN-"
+		(at 101.6 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e8a4a0c-7a78-4aed-88b7-245a33def16c")
 	)
 	(label "MAIN+"
 		(at 29.21 43.18 180)
@@ -9027,6 +9641,16 @@
 		)
 		(uuid "649a5c49-cdaa-49c9-aee7-14d99c2d1e83")
 	)
+	(label "GSE_VSNS"
+		(at 101.6 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d565c04-e58a-44ce-81fe-1ba5fdbacd4b")
+	)
 	(label "BAT_OUT-"
 		(at 120.65 222.25 0)
 		(effects
@@ -9036,6 +9660,16 @@
 			(justify left bottom)
 		)
 		(uuid "7143b1a7-8d27-4c58-b634-5fcb2cae1d79")
+	)
+	(label "BATT_MAIN+"
+		(at 80.01 250.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cc622b7-211f-44ee-a49b-22f0465b9bb6")
 	)
 	(label "REDS_CH1"
 		(at 67.31 48.26 180)
@@ -9066,6 +9700,16 @@
 			(justify right bottom)
 		)
 		(uuid "806e829a-cdf7-4721-82d4-d72d97fcb50c")
+	)
+	(label "BATT_VSNS"
+		(at 119.38 260.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "836a201b-81b0-454e-8841-ef8fe76e889a")
 	)
 	(label "GSE+"
 		(at 22.86 90.17 180)
@@ -9157,6 +9801,16 @@
 		)
 		(uuid "c94cfba7-722a-427f-aebe-0ca5268d0774")
 	)
+	(label "BATT_VSNS"
+		(at 101.6 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca745f60-e00b-405f-ba93-002335468708")
+	)
 	(label "GSE+"
 		(at 251.46 153.67 0)
 		(effects
@@ -9226,6 +9880,16 @@
 			(justify right bottom)
 		)
 		(uuid "ec4746c2-93f1-489e-9f05-2fb1e46cdd9c")
+	)
+	(label "GSE_VSNS"
+		(at 64.77 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eee67142-523f-4d47-86eb-91be4d023a10")
 	)
 	(label "REDS_CH5"
 		(at 74.93 218.44 0)
@@ -9996,15 +10660,15 @@
 		)
 	)
 	(hierarchical_label "MAIN_OUT+"
-		(shape input)
-		(at 90.17 26.67 0)
+		(shape output)
+		(at 110.49 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3a0e543f-8642-4ea4-a954-9c9f444868c7")
+		(uuid "0251f79f-e6c2-437e-a8c7-b694a441b87f")
 	)
 	(hierarchical_label "REDS_CH1"
 		(shape output)
@@ -10072,6 +10736,17 @@
 		)
 		(uuid "5aa316fd-d29e-4912-abeb-f73f91dd3efb")
 	)
+	(hierarchical_label "BATT_VSNS"
+		(shape output)
+		(at 110.49 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61c69eea-a2da-437c-a34f-cdd04ef154eb")
+	)
 	(hierarchical_label "REDS_CH2"
 		(shape output)
 		(at 34.29 58.42 0)
@@ -10116,6 +10791,17 @@
 		)
 		(uuid "950a09cb-69f5-4c4b-b615-195874855d4f")
 	)
+	(hierarchical_label "GSE_VSNS"
+		(shape output)
+		(at 110.49 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "983657b2-c706-40ce-89be-3b173e3c953e")
+	)
 	(hierarchical_label "REDS_CH4"
 		(shape output)
 		(at 72.39 58.42 0)
@@ -10128,8 +10814,8 @@
 		(uuid "9d0d2958-8aa6-45aa-aaff-cc34946a5cf1")
 	)
 	(hierarchical_label "MAIN_OUT-"
-		(shape input)
-		(at 90.17 34.29 0)
+		(shape output)
+		(at 110.49 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10310,6 +10996,158 @@
 			(project "rocket2-trs"
 				(path "/f40df73a-33db-451b-892b-c732f49623c2"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 303.53 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "080c6064-79ba-4fb3-b148-4503e003df82")
+		(property "Reference" "TP22"
+			(at 306.07 160.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V0_REDS"
+			(at 306.07 163.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 308.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 303.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a8e1b2-6552-4ccd-961e-85f2b827102e")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 80.01 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b1964ac-7968-4fcc-bb77-2d2522ade0ce")
+		(property "Reference" "R5"
+			(at 83.82 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 83.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 80.01 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic RES SMD 100K OHM 1% 1/16W 0402"
+			(at 80.01 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76f44f88-9831-4ef6-8752-5398354f2dd2")
+		)
+		(pin "2"
+			(uuid "2bb57590-1bb4-4824-940a-bf80ded9ac2a")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10607,6 +11445,71 @@
 			(project "rocket2-trs"
 				(path "/f40df73a-33db-451b-892b-c732f49623c2"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 104.14 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ff39e1d-474d-4ab1-8afd-e84bc5ba9cc1")
+		(property "Reference" "#PWR0381"
+			(at 104.14 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 104.14 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b11d2b61-80bf-4f8a-b50a-e711ebf8823f")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "#PWR0381")
 					(unit 1)
 				)
 			)
@@ -10911,6 +11814,72 @@
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1897a8f6-609c-4902-a852-26f6a2f2addc")
+		(property "Reference" "#PWR0364"
+			(at 80.01 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.0101 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aabac99-f34f-4416-9440-95aec1b9b673")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "#PWR0364")
 					(unit 1)
 				)
 			)
@@ -11267,6 +12236,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 49.53 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20a445ca-20b3-4d8e-a232-d944e9cbe042")
+		(property "Reference" "#PWR0379"
+			(at 49.53 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 49.53 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbd49889-9902-46e0-a0f2-a3e5f16842c2")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "#PWR0379")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 271.78 114.3 0)
 		(unit 1)
@@ -11446,6 +12480,91 @@
 			(project "rocket2-battery"
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 25.4 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2963f26c-6902-46c0-a70c-635b1e9b5d0b")
+		(property "Reference" "R128"
+			(at 29.21 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 29.21 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 25.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 25.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic RES SMD 100K OHM 1% 1/16W 0402"
+			(at 25.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c40b324-7f68-4e68-8e19-ca375beff353")
+		)
+		(pin "2"
+			(uuid "5e22ef34-e674-4cde-a0b0-5b479d62d5bc")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "R128")
 					(unit 1)
 				)
 			)
@@ -12169,6 +13288,98 @@
 			(project "rocket2-battery"
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UCIRP-KiCAD-Lib:MCP6001")
+		(at 46.99 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "325b7a13-0049-4ff1-b3b4-9dcb010b57a8")
+		(property "Reference" "U53"
+			(at 57.15 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 46.99 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
+			(at 46.99 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 57.15 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part #" "MCP6001"
+			(at 57.15 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7c7af20-0a76-466c-8703-e0d4841ea016")
+		)
+		(pin "2"
+			(uuid "5234b236-4262-4540-bc49-3984a5856d92")
+		)
+		(pin "3"
+			(uuid "2d79e7dc-5900-4f58-a7bf-6040be524a84")
+		)
+		(pin "4"
+			(uuid "fc626c1c-de14-400b-bf23-95155539b358")
+		)
+		(pin "5"
+			(uuid "7069fbdf-4efe-41b4-9977-95a620e93eeb")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "U53")
 					(unit 1)
 				)
 			)
@@ -15178,6 +16389,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 104.14 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6de4b6be-3842-4f31-9b9d-838a3037b225")
+		(property "Reference" "#PWR0382"
+			(at 104.14 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df8366c8-b909-4d02-8a9c-07eb560ccc4e")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "#PWR0382")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "709af8be-f335-4f2c-b087-8a82c4da874f")
+		(property "Reference" "TP23"
+			(at 223.52 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAIN_OUT+"
+			(at 223.52 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a998142e-016a-4e83-b12f-bdccaf2963ab")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 142.24 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16168,6 +17511,91 @@
 			(project "rocket2-battery"
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 25.4 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f3987bb-6c78-4bf5-87ff-63ad07e79793")
+		(property "Reference" "R129"
+			(at 28.956 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15K"
+			(at 28.956 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 25.4 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 25.4 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic RES SMD 15K OHM 0.1% 1/16W 0402"
+			(at 25.4 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34291aa0-47a3-4b76-bc18-d5b0d8c8fa1b")
+		)
+		(pin "2"
+			(uuid "92db4341-67a8-4c52-8ea5-968cb016232c")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "R129")
 					(unit 1)
 				)
 			)
@@ -17420,87 +18848,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pkl_misc:PAD_SMD")
-		(at 223.52 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7d21cf7-1ac2-4fa1-93c9-28272aa17449")
-		(property "Reference" "P5"
-			(at 226.06 136.525 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PAD_SMD"
-			(at 226.06 139.065 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 223.52 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 140.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 223.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7031d77a-5302-4c9d-8615-4ab90fbb9c19")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-					(reference "P5")
-					(unit 1)
-				)
-			)
-			(project "rocket2-battery"
-				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
-					(reference "P5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 297.18 123.19 180)
 		(unit 1)
@@ -17912,6 +19259,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 80.01 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3796f38-bb2b-4493-bbd5-9b1246a5a49a")
+		(property "Reference" "R127"
+			(at 83.566 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15K"
+			(at 83.566 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 80.01 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 80.01 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic RES SMD 15K OHM 0.1% 1/16W 0402"
+			(at 80.01 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39ea4ef1-00cf-4073-8886-acb24bf54f8e")
+		)
+		(pin "2"
+			(uuid "07fa7ac4-abb7-4fab-8fe7-507859fb9c6e")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "R127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 340.36 129.54 180)
 		(unit 1)
@@ -17998,6 +19430,164 @@
 			(project "rocket2-battery"
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UCIRP-KiCAD-Lib:MCP6001")
+		(at 101.6 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4dfea81-81a5-4ce9-801c-ea2ddd1e4bf6")
+		(property "Reference" "U54"
+			(at 111.76 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 101.6 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
+			(at 101.6 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 111.76 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part #" "MCP6001"
+			(at 111.76 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4cf713c-fa8f-40e5-9172-c1947f503148")
+		)
+		(pin "2"
+			(uuid "f8b03640-7f19-411f-8ba6-5f93bbb79e9d")
+		)
+		(pin "3"
+			(uuid "d29402f0-8c41-45e7-8d13-4a54a35f9f0d")
+		)
+		(pin "4"
+			(uuid "beec1df2-e0d1-4700-beeb-1dfbc01c731e")
+		)
+		(pin "5"
+			(uuid "8fe3c940-4469-4096-924c-9fb97b5081e5")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "U54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5efecc7-cb5f-4c44-9ef2-c86e3c909914")
+		(property "Reference" "#PWR0193"
+			(at 25.4 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4001 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4fdf227-a896-43b0-9454-bc0704c04551")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -19295,6 +20885,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 49.53 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7fb57ca-0a11-4320-9f5f-ee07151a2d26")
+		(property "Reference" "#PWR0380"
+			(at 49.53 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e7f0283-1c87-4a63-9529-a95e73d57bec")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "#PWR0380")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 162.56 129.54 90)
 		(unit 1)
@@ -19714,6 +21369,73 @@
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
 					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 209.55 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e76e91-5bde-4086-85e0-64288ea1bf33")
+		(property "Reference" "TP21"
+			(at 212.09 180.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3_REDS"
+			(at 212.09 183.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 214.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 209.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "511b5b9f-2731-4c54-bb9e-42a54774a56c")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -20176,87 +21898,6 @@
 			(project "rocket2-battery"
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pkl_misc:PAD_SMD")
-		(at 223.52 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dccf8503-dbdc-4fc8-a769-7db03380243b")
-		(property "Reference" "P6"
-			(at 226.06 141.605 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PAD_SMD"
-			(at 226.06 144.145 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 223.52 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 146.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 223.52 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02180749-3c7f-4f8e-b3bb-e6f2da2dbe01")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
-					(reference "P6")
-					(unit 1)
-				)
-			)
-			(project "rocket2-battery"
-				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
-					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -20775,6 +22416,73 @@
 			(project "rocket2-trs"
 				(path "/f40df73a-33db-451b-892b-c732f49623c2"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f07e2a63-3e52-4f4c-af09-024b6774796b")
+		(property "Reference" "TP24"
+			(at 223.52 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15537485-12af-450b-ae7e-0725d779e513")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "TP24")
 					(unit 1)
 				)
 			)

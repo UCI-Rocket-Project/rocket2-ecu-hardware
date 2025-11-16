@@ -250,6 +250,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -993,200 +1100,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Bridged_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "UCIRP-KiCAD-Lib:EC4SAW-xxSxxN"
 			(pin_numbers
 				(hide yes)
@@ -1706,6 +1619,12 @@
 		(uuid "0291c621-dd36-4964-a280-7e63b7191f6a")
 	)
 	(junction
+		(at 180.34 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c5755b3-683c-4753-a697-335f2c7e18d9")
+	)
+	(junction
 		(at 149.86 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1728,6 +1647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ecb8413-e51a-4ed8-8d28-65551a1aec67")
+	)
+	(junction
+		(at 181.61 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849f9f93-4022-4e56-8090-a205cea86e14")
 	)
 	(junction
 		(at 148.59 111.76)
@@ -1791,16 +1716,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 106.68) (xy 165.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02055ef6-5fdc-42bf-9d14-8b449ed3d091")
-	)
-	(wire
-		(pts
 			(xy 147.32 111.76) (xy 148.59 111.76)
 		)
 		(stroke
@@ -1821,13 +1736,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 165.1 97.79)
+			(xy 165.1 96.52) (xy 165.1 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07801814-2a13-477e-af63-b7c1d449876b")
+		(uuid "0792753c-2d5e-449c-85c0-625a018e011c")
 	)
 	(wire
 		(pts
@@ -1951,7 +1866,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 191.77 111.76)
+			(xy 149.86 111.76) (xy 181.61 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2161,6 +2076,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 111.76) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6aeec63-ce93-494c-8c8e-faabd14be8e1")
+	)
+	(wire
+		(pts
 			(xy 180.34 53.34) (xy 185.42 53.34)
 		)
 		(stroke
@@ -2251,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 88.9) (xy 191.77 88.9)
+			(xy 161.29 88.9) (xy 180.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2338,6 +2263,16 @@
 			(type default)
 		)
 		(uuid "eca6f2f8-ae9c-4b00-a437-ace36e3d7520")
+	)
+	(wire
+		(pts
+			(xy 180.34 88.9) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3094024-4ca3-49f0-a878-30d8b3cb0d91")
 	)
 	(wire
 		(pts
@@ -2805,6 +2740,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 180.34 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca5947e-e29a-4ced-8ff5-64d3aba7c8d6")
+		(property "Reference" "TP7"
+			(at 182.88 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 182.88 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c310808d-83c5-47fe-8e3d-c03b5cca019c")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
+					(reference "TP8")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
+					(reference "TP7")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
+					(reference "TP12")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
+					(reference "TP11")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
+					(reference "TP10")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UCIRP-KiCAD-Lib:EC4SAW-xxSxxN")
 		(at 81.915 100.33 0)
 		(unit 1)
@@ -3075,6 +3097,93 @@
 				)
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 125.73 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "554b3e6f-2196-4902-b1a6-faeb9c197019")
+		(property "Reference" "TP1"
+			(at 128.27 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISO_5V"
+			(at 128.27 77.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24edb7e0-03ef-49fe-b85b-09fb32240b3f")
+		)
+		(instances
+			(project ""
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
+					(reference "TP2")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
+					(reference "TP1")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
+					(reference "TP4")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3457,95 +3566,6 @@
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
 					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 165.1 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6db88dfa-31d1-4c20-ae3c-95dee267ade4")
-		(property "Reference" "JP1"
-			(at 157.48 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Bridge"
-			(at 157.48 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4a94b8d-b68b-47e2-b7f2-e0c0bd1acd2d")
-		)
-		(pin "2"
-			(uuid "5549f386-c038-4063-935c-c07da0c54c7d")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-					(reference "JP2")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-					(reference "JP1")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-					(reference "JP6")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-					(reference "JP5")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-					(reference "JP4")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -4615,6 +4635,93 @@
 				)
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f02c7b-2752-46cd-91fd-d2d8e6805e0f")
+		(property "Reference" "TP13"
+			(at 184.15 113.7919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BAT-"
+			(at 184.15 116.3319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 176.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31f8cd6e-ebf9-4eb6-841f-cb9bef0a947e")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
+					(reference "TP13")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
+					(reference "TP16")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
