@@ -1649,12 +1649,6 @@
 		(uuid "7ecb8413-e51a-4ed8-8d28-65551a1aec67")
 	)
 	(junction
-		(at 181.61 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "849f9f93-4022-4e56-8090-a205cea86e14")
-	)
-	(junction
 		(at 148.59 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1846,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43865a17-5471-47d1-825e-fb279b473bb4")
+	)
+	(wire
+		(pts
 			(xy 161.29 95.25) (xy 165.1 95.25)
 		)
 		(stroke
@@ -1863,16 +1867,6 @@
 			(type default)
 		)
 		(uuid "4ad88e96-49b1-4549-a8e2-8567a5a3f1a5")
-	)
-	(wire
-		(pts
-			(xy 149.86 111.76) (xy 181.61 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f20ac10-fccf-43e0-8731-865d3f4e5e4f")
 	)
 	(wire
 		(pts
@@ -1986,16 +1980,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 92.71) (xy 171.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6faf5ad5-4e1b-439e-92dd-206e141e5f1c")
-	)
-	(wire
-		(pts
 			(xy 114.3 77.47) (xy 114.3 80.01)
 		)
 		(stroke
@@ -2076,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 111.76) (xy 191.77 111.76)
+			(xy 149.86 111.76) (xy 191.77 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3948,6 +3932,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 168.91 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c477dc15-51cd-40aa-b5ea-e8e2557fc726")
+		(property "Reference" "D43"
+			(at 172.72 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 172.72 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 168.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic 0603 Blue LED"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3665b87-50be-4546-b92e-79e997742d3a")
+		)
+		(pin "2"
+			(uuid "1addd6aa-0cd6-4d8e-8274-290077cb0bea")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
+					(reference "D44")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
+					(reference "D43")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
+					(reference "D47")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
+					(reference "D46")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 129.54 104.14 0)
 		(unit 1)
@@ -4635,93 +4726,6 @@
 				)
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 181.61 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8f02c7b-2752-46cd-91fd-d2d8e6805e0f")
-		(property "Reference" "TP13"
-			(at 184.15 113.7919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAT-"
-			(at 184.15 116.3319 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 176.53 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31f8cd6e-ebf9-4eb6-841f-cb9bef0a947e")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/1a39f8df-dcec-4a97-951c-60148a5067ca"
-					(reference "TP14")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/218966e8-0599-4bad-8241-95ca09109d89"
-					(reference "TP13")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/5c1dbfcc-3925-4da2-a038-2c416606c068"
-					(reference "TP18")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/8ab1e7d4-e52f-422c-912d-30fd70001231"
-					(reference "TP17")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/b5f91759-085b-4a53-bede-6cb17536657b"
-					(reference "TP16")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361/eb655268-f2ac-4ac0-945d-2ba286ede0a5"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
