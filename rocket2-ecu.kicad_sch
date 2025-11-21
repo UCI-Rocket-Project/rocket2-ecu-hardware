@@ -4760,28 +4760,6 @@
 			)
 		)
 	)
-	(global_label "PT6"
-		(shape input)
-		(at 73.66 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2a75fcd-f6d6-4455-8434-2102f80c1e00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.0923 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PT2"
 		(shape input)
 		(at 27.94 157.48 0)
@@ -5020,28 +4998,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PT6"
-		(shape input)
-		(at 73.66 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1e2f61e-eb6c-4130-a568-45fd4f7f01c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.0923 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10264,58 +10220,6 @@
 		)
 	)
 	(sheet
-		(at 60.96 137.16)
-		(size 12.7 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3d799cad-6a91-4c66-b83c-eca427fa432c")
-		(property "Sheetname" "PT6"
-			(at 60.96 136.4484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 60.96 144.0946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 73.66 142.24 0)
-			(uuid "8c5fcc42-ec37-4a70-8f1a-c88ad3d08b3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994"
-					(page "24")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 38.1 137.16)
 		(size 12.7 6.35)
 		(exclude_from_sim no)
@@ -10688,58 +10592,6 @@
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994"
 					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 60.96 152.4)
-		(size 12.7 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "beec90aa-dde0-4584-822f-65a1d5b7e933")
-		(property "Sheetname" "PT7"
-			(at 60.96 151.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pt.kicad_sch"
-			(at 60.96 159.3346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUT" output
-			(at 73.66 157.48 0)
-			(uuid "79a2167f-76da-41be-aecd-87ad19198944")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994"
-					(page "26")
 				)
 			)
 		)
