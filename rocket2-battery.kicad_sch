@@ -6216,6 +6216,12 @@
 		(uuid "4689834d-2f61-438e-a842-3d2a8242321e")
 	)
 	(junction
+		(at 317.5 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d5c7aa-eeb8-46ef-8cd9-031bcc3dd525")
+	)
+	(junction
 		(at 114.3 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6895,6 +6901,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 165.1) (xy 321.31 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0daf3305-fe75-4a4a-9291-66b8bce6fb48")
+	)
+	(wire
+		(pts
 			(xy 158.75 138.43) (xy 176.53 138.43)
 		)
 		(stroke
@@ -6965,7 +6981,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 165.1) (xy 321.31 165.1)
+			(xy 308.61 165.1) (xy 317.5 165.1)
 		)
 		(stroke
 			(width 0)
@@ -18129,6 +18145,72 @@
 			(project "rocket2-battery"
 				(path "/453543af-7e3c-49a0-a644-4bd49c4f86f8"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 317.5 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96dda02c-8689-4d9d-9dfa-0236351ba3de")
+		(property "Reference" "#PWR023"
+			(at 317.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V0_REDS"
+			(at 317.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf5435e6-1c73-4a4f-996b-82eff2d8d646")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/c8976b66-9d7c-47d1-8ab5-e6fd9c707361"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
