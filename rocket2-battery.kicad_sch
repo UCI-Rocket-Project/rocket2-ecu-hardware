@@ -19507,7 +19507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal"
+		(property "Footprint" "0UCIRP-KiCAD-Lib:CONN_73391-0070_MOL"
 			(at 297.18 93.98 0)
 			(effects
 				(font
@@ -19516,7 +19516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/732512200?display=pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733910070?display=pdf"
 			(at 297.18 93.98 0)
 			(effects
 				(font
