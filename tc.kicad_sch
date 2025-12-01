@@ -145,157 +145,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1139,17 +988,40 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 120.65 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8328a4da-bfbc-41a3-bf67-634765efbe09")
+	(text "Filter Design Calculations (Optimized for C_diff > 10*C_cm)\n---------------------------------------------------------\nR_series (R) = 1k\nC_diff      = 100nF\nC_cm        = 10nF  <-- Changed from 100nF\n\n1. Differential Mode Cutoff (Low Pass)\nFormula: fc_dm = 1 / (2 * π * 2*R * (C_diff + C_cm/2))\nCalculation:\n   Req = 2 * 1k = 2k\n   Ceq = 100nF + (10nF / 2) = 105nF\n   fc_dm = 1 / (2 * π * 2000 * 105e-9)\n   fc_dm ≈ 758 Hz\n\n2. Common Mode Cutoff (Low Pass)\nFormula: fc_cm = 1 / (2 * π * R * C_cm)\nCalculation:\n   fc_cm = 1 / (2 * π * 1000 * 10e-9)\n   fc_cm ≈ 15.9 kHz"
+		(exclude_from_sim no)
+		(at 77.724 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "042b5923-6897-422d-9ef0-2298e44df905")
 	)
 	(junction
-		(at 120.65 96.52)
+		(at 121.92 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b25a6250-92cc-4c71-8036-e595e4f14d20")
+		(uuid "105c3152-0616-4113-ac8a-fdfbb1d25dea")
+	)
+	(junction
+		(at 113.03 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c3a0859-67e2-42bc-b298-04be9cc8d34f")
+	)
+	(junction
+		(at 121.92 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "866458c9-1bb1-4a59-9dc6-862b542c9bfb")
+	)
+	(junction
+		(at 113.03 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8b2393b-97e8-4820-9948-f1ca145a7615")
 	)
 	(junction
 		(at 172.72 100.33)
@@ -1157,9 +1029,15 @@
 		(color 0 0 0 0)
 		(uuid "e88c54cc-e5b3-4b3a-9115-a29d4c42ec46")
 	)
+	(junction
+		(at 121.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f889e842-0509-49d8-9ade-2cb989f55f64")
+	)
 	(wire
 		(pts
-			(xy 107.95 96.52) (xy 102.87 96.52)
+			(xy 105.41 90.17) (xy 102.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1169,13 +1047,33 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 130.81 100.33)
+			(xy 113.03 90.17) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048eb81d-547d-4314-8f6c-df41d40953e4")
+	)
+	(wire
+		(pts
+			(xy 130.81 90.17) (xy 130.81 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a4626bf-bc0d-4ce6-b349-269ecfd88543")
+	)
+	(wire
+		(pts
+			(xy 121.92 92.71) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114026ff-6a3b-43a7-a5c5-19d71fdf1a93")
 	)
 	(wire
 		(pts
@@ -1199,33 +1097,43 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 120.65 106.68)
+			(xy 121.92 101.6) (xy 121.92 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "302823a8-01e8-41e3-bdaa-3166260a719f")
+		(uuid "2eda7fcf-16de-4906-a9b0-a42809a3cacd")
 	)
 	(wire
 		(pts
-			(xy 120.65 106.68) (xy 130.81 106.68)
+			(xy 113.03 111.76) (xy 121.92 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33d7446c-feee-4c0f-a244-262088610400")
+		(uuid "483c9094-46af-4f77-a439-81b191c934fa")
 	)
 	(wire
 		(pts
-			(xy 102.87 104.14) (xy 102.87 106.68)
+			(xy 102.87 104.14) (xy 102.87 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "514ba863-f0d9-4712-925d-64cdb63a08d5")
+	)
+	(wire
+		(pts
+			(xy 110.49 111.76) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5223b32b-5c01-49da-a46d-866db6d3d749")
 	)
 	(wire
 		(pts
@@ -1239,17 +1147,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 120.65 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "675efc50-8bc8-4ae4-9f47-26df4c1e5475")
-	)
-	(wire
-		(pts
-			(xy 102.87 96.52) (xy 102.87 99.06)
+			(xy 102.87 90.17) (xy 102.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 130.81 106.68)
+			(xy 130.81 102.87) (xy 130.81 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1289,13 +1187,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 120.65 96.52)
+			(xy 121.92 110.49) (xy 121.92 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94544362-5ec3-41e2-9a67-4dc94fc24bd2")
+		(uuid "96b38391-1252-415b-9484-b96bfc2710ee")
+	)
+	(wire
+		(pts
+			(xy 121.92 90.17) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d6f76f-b165-46af-a26e-0e16f2caabe4")
 	)
 	(wire
 		(pts
@@ -1309,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 106.68) (xy 107.95 106.68)
+			(xy 102.87 111.76) (xy 105.41 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1329,23 +1237,53 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 104.14) (xy 120.65 106.68)
+			(xy 121.92 111.76) (xy 130.81 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca4c55fb-1212-42a0-93fd-023ba15ae745")
+		(uuid "c07beeb7-df49-4947-9c07-5110640c9bed")
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 113.03 96.52)
+			(xy 113.03 104.14) (xy 113.03 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed7a5d54-5ce2-4838-8456-07e45ea97b7f")
+		(uuid "c560c5db-cac7-4c2e-a91b-da3c69c810ac")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b21841-4a90-47b6-934d-468555bfff8c")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8baaefc-1c3a-48e8-9f6a-8937202a7790")
+	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a7b523-cf98-48e3-9de6-96e579773c7e")
 	)
 	(hierarchical_label "MISO"
 		(shape output)
@@ -1381,32 +1319,17 @@
 		(uuid "fd98566b-a4d0-43e5-a623-57c58f457160")
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 110.49 96.52 90)
+		(lib_id "power:GND")
+		(at 121.92 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "30114819-2059-44e6-8b5b-a633a44a67c1")
-		(property "Reference" "FB1"
-			(at 110.49 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470ohm @100MHz"
-			(at 110.49 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 110.49 98.298 90)
+		(fields_autoplaced yes)
+		(uuid "1f5c8b5d-c05f-4d9d-8c46-4d93bfa9e0d8")
+		(property "Reference" "#PWR0297"
+			(at 128.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,8 +1337,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796737273886/QNFA9101.pdf"
-			(at 110.49 96.52 0)
+		(property "Value" "GND"
+			(at 125.73 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,25 +1365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 110.49 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "BLM18PG471SH1D"
-			(at 110.49 96.52 0)
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,108 +1374,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e6ff182-8e83-4210-86cc-e4076294e042")
-		)
-		(pin "2"
-			(uuid "ef3bbdc2-9502-4441-bb4e-3a508215aead")
+			(uuid "e45aed13-7431-44cf-aa32-58fbd6855251")
 		)
 		(instances
 			(project "rocket2-ecu"
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "FB1")
+					(reference "#PWR0297")
 					(unit 1)
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 110.49 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a4f856e-7c5a-428b-81a4-974cb48e2074")
-		(property "Reference" "FB2"
-			(at 110.49 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470ohm @100MHz"
-			(at 110.49 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 110.49 104.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796737273886/QNFA9101.pdf"
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "BLM18PG471SH1D"
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c07857b-e875-4ab4-a1fb-57292811924f")
-		)
-		(pin "2"
-			(uuid "2ce88ef4-8793-4951-9670-886e53b7b33d")
-		)
-		(instances
-			(project "rocket2-ecu"
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
-					(reference "FB2")
-					(unit 1)
-				)
-				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
-					(reference "FB4")
+					(reference "#PWR0300")
 					(unit 1)
 				)
 			)
@@ -1874,6 +1705,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 121.92 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7906a0c1-f252-48f6-adfc-f3d8fb7d011e")
+		(property "Reference" "C94"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10NF 6.3V X7R 0402"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bda4b54-f3b0-4bcf-a68f-f1b6ef9a673d")
+		)
+		(pin "2"
+			(uuid "a5240c77-9100-4149-861f-459041fd1ece")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
+					(reference "C94")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermocouple")
 		(at 97.79 101.6 0)
 		(unit 1)
@@ -2126,6 +2048,78 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 107.95 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5fe63b5-921b-4102-8df3-03e584250564")
+		(property "Reference" "R121"
+			(at 107.95 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 107.95 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "809bb195-e3aa-4221-8943-d2f01b853244")
+		)
+		(pin "1"
+			(uuid "5072348d-8db3-4a14-90b4-fedbc932f5c4")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
+					(reference "R121")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 172.72 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2217,15 +2211,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 120.65 101.6 0)
+		(at 121.92 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3cf5b99-8bbc-4b6a-a93c-a7fc0b817a2e")
-		(property "Reference" "C41"
-			(at 123.19 100.33 0)
+		(uuid "d7ed74d0-a047-4b3b-8df9-ed5f617cdeaf")
+		(property "Reference" "C118"
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2228,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 123.19 102.87 0)
+			(at 124.46 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2237,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 120.65 101.6 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 101.6 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 101.6 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2264,7 @@
 			)
 		)
 		(property "Manufacturer" "Generic"
-			(at 120.65 101.6 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2273,98 @@
 			)
 		)
 		(property "Part #" "Generic CAP CER 10NF 6.3V X7R 0402"
-			(at 120.65 101.6 0)
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20678a3c-7dd6-4d64-9b0a-011e2571980d")
+		)
+		(pin "2"
+			(uuid "a574eb3a-f9c9-47a9-90cc-399de260d629")
+		)
+		(instances
+			(project "rocket2-ecu"
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
+					(reference "C118")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
+					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3cf5b99-8bbc-4b6a-a93c-a7fc0b817a2e")
+		(property "Reference" "C41"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic CAP CER 10NF 6.3V X7R 0402"
+			(at 113.03 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,6 +2455,78 @@
 				)
 				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
 					(reference "#PWR0331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 107.95 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4194627-225b-43fc-aeb3-1d9f31da978f")
+		(property "Reference" "R16"
+			(at 107.95 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 107.95 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cbc7c59-8146-44c2-8a58-4d6d5b4e7fcd")
+		)
+		(pin "1"
+			(uuid "6fa74956-d8d8-4a9f-8601-5be706333ea0")
+		)
+		(instances
+			(project ""
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/224b2102-9471-4db4-a51e-6702830844ba"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/02606b2c-b376-4ffb-9781-f9cea3f70994/d5dcb60d-501b-41cc-98ca-6e0288432cc2"
+					(reference "R18")
 					(unit 1)
 				)
 			)
