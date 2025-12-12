@@ -1802,7 +1802,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a7579ec4-d69c-4565-8caf-65acf7372f80")
 		(property "Reference" "TC1"
 			(at 85.09 100.33 0)
@@ -2099,6 +2099,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "Generic RES SMD 1K OHM 1% 1/16W 0402"
+			(at 107.95 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "809bb195-e3aa-4221-8943-d2f01b853244")
 		)
@@ -2363,7 +2372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "Generic CAP CER 10NF 6.3V X7R 0402"
+		(property "Part #" "Generic CAP CER 0.1UF 6.3V X7R 0402"
 			(at 113.03 101.6 0)
 			(effects
 				(font
@@ -2506,6 +2515,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "Generic RES SMD 1K OHM 1% 1/16W 0402"
+			(at 107.95 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -12557,7 +12557,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1fa07db2-873e-4dac-86e7-72588efd2ab1")
 		(property "Reference" "J2"
@@ -16242,7 +16242,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66e71bf3-765e-4eb5-9091-aa33b8476cff")
 		(property "Reference" "U9"
 			(at 325.12 57.15 0)
@@ -16297,7 +16297,7 @@
 				(justify left)
 			)
 		)
-		(property "Part #" "RFM96W"
+		(property "Part #" "RFM95W"
 			(at 325.12 62.23 0)
 			(effects
 				(font
@@ -16571,6 +16571,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 157.48 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "V3FM15-M3/H "
 			(at 157.48 199.39 0)
 			(effects
 				(font
@@ -17823,6 +17832,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 157.48 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "V3FM15-M3/H "
 			(at 157.48 191.77 0)
 			(effects
 				(font

@@ -5461,7 +5461,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0d551247-1acf-454a-a349-e0dcf8310274")
 		(property "Reference" "U4"
 			(at 256.54 137.16 0)
@@ -5727,7 +5727,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "13c15f4a-ca31-4c36-a13f-2da4ee883127")
 		(property "Reference" "J24"
 			(at 17.272 16.51 0)
@@ -6867,7 +6867,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6ba6660b-e126-48ad-b26c-10da70b6f203")
 		(property "Reference" "J14"
 			(at 20.32 30.48 0)
@@ -9596,7 +9596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BMM350"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bosch-sensortec/BMM350/17827582"
 			(at 124.46 49.53 0)
 			(effects
 				(font
@@ -9607,6 +9607,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "BMM350"
 			(at 114.3 41.91 0)
 			(effects
 				(font
