@@ -1436,7 +1436,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.6V"
+		(property "Value" "3.9V"
 			(at 57.15 93.345 90)
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4849/DS_31_BZT52C2V4LP-BZT52C39LP.pdf"
 			(at 54.61 91.44 90)
 			(effects
 				(font
@@ -1472,7 +1472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Nexperia USA Inc."
+		(property "Manufacturer" "  Diodes Incorporated"
 			(at 54.61 91.44 0)
 			(effects
 				(font
@@ -1481,7 +1481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "BZV55-B5V1"
+		(property "Part #" " BZT52C3V9LP-7"
 			(at 54.61 91.44 0)
 			(effects
 				(font

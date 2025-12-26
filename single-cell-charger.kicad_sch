@@ -3593,7 +3593,7 @@
 				)
 			)
 		)
-		(property "Value" "VOS615A-1"
+		(property "Value" "PS2811-1-F3-A"
 			(at 193.04 50.8 0)
 			(effects
 				(font
@@ -3610,7 +3610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85373/vos615a.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2583/PS2811-1%2C%20PS2811-4%20Rev2006.pdf"
 			(at 193.04 55.88 0)
 			(effects
 				(font
@@ -3628,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "  CEL"
 			(at 193.04 55.88 0)
 			(effects
 				(font
@@ -3637,7 +3637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "VOS615A-1X001T"
+		(property "Part #" "PS2811-1-F3-A"
 			(at 193.04 55.88 0)
 			(effects
 				(font

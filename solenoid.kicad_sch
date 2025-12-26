@@ -3220,7 +3220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SDT8A100P5.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBR10E45P5.pdf"
 			(at 151.13 81.28 90)
 			(effects
 				(font
@@ -3247,7 +3247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "SDT8A100P5-7"
+		(property "Part #" "SBR10E45P5-13"
 			(at 151.13 81.28 0)
 			(effects
 				(font
