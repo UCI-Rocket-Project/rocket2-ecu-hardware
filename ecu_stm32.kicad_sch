@@ -866,6 +866,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -21513,8 +21522,12 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -21614,8 +21627,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -21635,8 +21647,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -21712,8 +21728,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -21824,6 +21839,16 @@
 		)
 		(uuid "884983e4-4798-4969-abfa-6f5e3c279117")
 	)
+	(text "SPI5"
+		(exclude_from_sim no)
+		(at 182.626 103.124 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "90516c72-0005-4e20-bc40-70594411aa29")
+	)
 	(text "USB-C + SWD"
 		(exclude_from_sim no)
 		(at 106.172 178.054 0)
@@ -21856,6 +21881,16 @@
 			)
 		)
 		(uuid "cbd03696-9559-421b-8de4-7ea8472942ad")
+	)
+	(text "SPI6"
+		(exclude_from_sim no)
+		(at 242.57 117.094 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "e713b69f-b473-4dcf-b705-813687d5badd")
 	)
 	(text "IN IOC PH1\nis OSC OUT"
 		(exclude_from_sim no)
@@ -21939,7 +21974,7 @@
 	)
 	(text_box "PWM Configurable from 0-255"
 		(exclude_from_sim no)
-		(at 146.05 107.95 0)
+		(at 142.24 101.6 0)
 		(size 11.43 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -22438,6 +22473,10 @@
 		(uuid "91c4a9f0-e9a6-4181-bd23-a439938029c3")
 	)
 	(no_connect
+		(at 162.56 38.1)
+		(uuid "937cca69-693f-4c2c-ad9a-f0e1fc77d628")
+	)
+	(no_connect
 		(at 44.45 156.21)
 		(uuid "976505c5-ea3f-44cc-bc67-7c9de19ce894")
 	)
@@ -22472,10 +22511,6 @@
 	(no_connect
 		(at 278.13 83.82)
 		(uuid "b8255d22-7535-4c02-a801-81ea20b73136")
-	)
-	(no_connect
-		(at 261.62 129.54)
-		(uuid "b8debcdf-79d2-43a5-8d20-4ae6df3a421c")
 	)
 	(no_connect
 		(at 231.14 91.44)
@@ -24903,6 +24938,28 @@
 			)
 		)
 	)
+	(global_label "RADIO1_DIO0"
+		(shape input)
+		(at 261.62 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "884b4cc2-54c0-41fe-99f0-6b18bb67b935")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.761 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_TMS"
 		(shape input)
 		(at 127 152.4 0)
@@ -25717,28 +25774,6 @@
 			)
 		)
 	)
-	(global_label "PT6"
-		(shape input)
-		(at 162.56 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef639e77-eae7-48c9-b477-490bd86d01dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1277 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RADIO_DIO1"
 		(shape input)
 		(at 193.04 82.55 0)
@@ -25937,7 +25972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 48.26 20.32 0)
 			(effects
 				(font
@@ -26158,7 +26193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 97.79 22.86 0)
 			(effects
 				(font
@@ -26245,7 +26280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 87.63 22.86 0)
 			(effects
 				(font
@@ -26331,7 +26366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 36.83 20.32 0)
 			(effects
 				(font
@@ -26396,7 +26431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 54.61 53.34 0)
 			(effects
 				(font
@@ -26461,7 +26496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 25.4 0)
 			(effects
 				(font
@@ -26526,7 +26561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 119.38 36.83 0)
 			(effects
 				(font
@@ -26683,7 +26718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 130.81 71.12 0)
 			(effects
 				(font
@@ -26748,7 +26783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 17.78 36.83 0)
 			(effects
 				(font
@@ -26814,7 +26849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -26913,7 +26948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 26.67 22.86 0)
 			(effects
 				(font
@@ -26999,7 +27034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 58.42 36.83 0)
 			(effects
 				(font
@@ -27066,7 +27101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 99.06 152.4 0)
 			(effects
 				(font
@@ -27137,7 +27172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 25.4 0)
 			(effects
 				(font
@@ -27202,7 +27237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 119.38 41.91 0)
 			(effects
 				(font
@@ -27267,7 +27302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -27331,7 +27366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 77.47 147.32 0)
 			(effects
 				(font
@@ -27429,7 +27464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 69.85 67.31 0)
 			(effects
 				(font
@@ -27495,7 +27530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -27593,7 +27628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 275.59 88.9 0)
 			(effects
 				(font
@@ -27659,7 +27694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 57.15 64.77 0)
 			(effects
 				(font
@@ -27724,7 +27759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 120.65 53.34 0)
 			(effects
 				(font
@@ -27788,7 +27823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 251.46 154.94 0)
 			(effects
 				(font
@@ -27807,6 +27842,15 @@
 			)
 		)
 		(property "Part #" "Generic 0603 Red LED"
+			(at 251.46 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 251.46 154.94 0)
 			(effects
 				(font
@@ -27875,7 +27919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -27952,7 +27996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -28029,7 +28073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 254 154.94 0)
 			(effects
 				(font
@@ -28060,7 +28104,7 @@
 		(dnp no)
 		(uuid "48ddc9d8-c9ed-4346-bc98-52d098e6cc05")
 		(property "Reference" "D35"
-			(at 35.56 138.43 90)
+			(at 40.64 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28068,8 +28112,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8V"
-			(at 35.56 140.97 90)
+		(property "Value" "6.5V"
+			(at 40.64 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28086,7 +28130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fesd321"
+		(property "Datasheet" "~"
 			(at 39.37 144.78 90)
 			(effects
 				(font
@@ -28095,7 +28139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, small symbol"
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -28194,7 +28238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 27.94 39.37 0)
 			(effects
 				(font
@@ -28281,7 +28325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 58.42 39.37 0)
 			(effects
 				(font
@@ -28368,7 +28412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -28455,7 +28499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 109.22 39.37 0)
 			(effects
 				(font
@@ -28541,7 +28585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 26.67 20.32 0)
 			(effects
 				(font
@@ -28606,7 +28650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -28671,7 +28715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 39.37 147.32 0)
 			(effects
 				(font
@@ -28748,7 +28792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 97.79 36.83 0)
 			(effects
 				(font
@@ -28814,7 +28858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 200.66 143.51 0)
 			(effects
 				(font
@@ -28901,7 +28945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 17.78 39.37 0)
 			(effects
 				(font
@@ -28987,7 +29031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -29659,7 +29703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 87.63 39.37 0)
 			(effects
 				(font
@@ -29745,7 +29789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 41.91 0)
 			(effects
 				(font
@@ -29810,7 +29854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 198.12 154.94 0)
 			(effects
 				(font
@@ -29876,7 +29920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 132.08 0)
 			(effects
 				(font
@@ -29947,7 +29991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 25.4 0)
 			(effects
 				(font
@@ -30013,7 +30057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -30100,7 +30144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 119.38 39.37 0)
 			(effects
 				(font
@@ -30186,7 +30230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 109.22 36.83 0)
 			(effects
 				(font
@@ -30250,7 +30294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 77.47 139.7 0)
 			(effects
 				(font
@@ -30348,7 +30392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 38.1 36.83 0)
 			(effects
 				(font
@@ -31020,7 +31064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 77.47 39.37 0)
 			(effects
 				(font
@@ -31106,7 +31150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 48.26 36.83 0)
 			(effects
 				(font
@@ -31171,7 +31215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 25.4 0)
 			(effects
 				(font
@@ -31236,7 +31280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 41.91 0)
 			(effects
 				(font
@@ -31416,7 +31460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 99.06 53.34 0)
 			(effects
 				(font
@@ -31481,7 +31525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 58.42 20.32 0)
 			(effects
 				(font
@@ -31547,7 +31591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 36.83 22.86 0)
 			(effects
 				(font
@@ -31633,7 +31677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 41.91 0)
 			(effects
 				(font
@@ -32305,7 +32349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 69.85 109.22 0)
 			(effects
 				(font
@@ -32391,7 +32435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 130.81 53.34 0)
 			(effects
 				(font
@@ -32456,7 +32500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 158.75 0)
 			(effects
 				(font
@@ -32528,7 +32572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 120.65 55.88 0)
 			(effects
 				(font
@@ -32615,7 +32659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 38.1 39.37 0)
 			(effects
 				(font
@@ -32702,7 +32746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 139.7 0)
 			(effects
 				(font
@@ -32745,7 +32789,7 @@
 		(dnp no)
 		(uuid "89f9ad17-688f-4af7-8c8b-3eb85ef9133f")
 		(property "Reference" "D34"
-			(at 29.21 143.51 90)
+			(at 28.702 143.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32753,8 +32797,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8V"
-			(at 25.4 146.05 90)
+		(property "Value" "6.5V"
+			(at 28.448 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32771,7 +32815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fesd321"
+		(property "Datasheet" "~"
 			(at 34.29 144.78 90)
 			(effects
 				(font
@@ -32780,7 +32824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener diode, small symbol"
 			(at 34.29 144.78 0)
 			(effects
 				(font
@@ -32798,7 +32842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "ESD321DPYR"
+		(property "Part #" "ESD351DPYR"
 			(at 34.29 144.78 0)
 			(effects
 				(font
@@ -32878,7 +32922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 147.32 0)
 			(effects
 				(font
@@ -33561,7 +33605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 67.31 41.91 0)
 			(effects
 				(font
@@ -33626,7 +33670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 97.79 20.32 0)
 			(effects
 				(font
@@ -33691,7 +33735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 77.47 20.32 0)
 			(effects
 				(font
@@ -33757,7 +33801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -33834,7 +33878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 107.95 25.4 0)
 			(effects
 				(font
@@ -33899,7 +33943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87.63 41.91 0)
 			(effects
 				(font
@@ -33964,7 +34008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 25.4 0)
 			(effects
 				(font
@@ -34029,7 +34073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87.63 25.4 0)
 			(effects
 				(font
@@ -34094,7 +34138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 107.95 20.32 0)
 			(effects
 				(font
@@ -34159,7 +34203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 67.31 25.4 0)
 			(effects
 				(font
@@ -34224,7 +34268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 87.63 20.32 0)
 			(effects
 				(font
@@ -34289,7 +34333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 17.78 25.4 0)
 			(effects
 				(font
@@ -34355,7 +34399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -34441,7 +34485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 111.76 0)
 			(effects
 				(font
@@ -34506,7 +34550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -34572,7 +34616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 67.31 22.86 0)
 			(effects
 				(font
@@ -34632,7 +34676,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 245.618 152.4 90)
 			(effects
 				(font
@@ -34659,7 +34703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 243.84 154.94 0)
 			(effects
 				(font
@@ -34746,7 +34790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 17.78 22.86 0)
 			(effects
 				(font
@@ -34832,7 +34876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -34897,7 +34941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 60.96 111.76 0)
 			(effects
 				(font
@@ -34963,7 +35007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -35655,7 +35699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 41.91 0)
 			(effects
 				(font
@@ -35721,7 +35765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.26 39.37 0)
 			(effects
 				(font
@@ -35807,7 +35851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 161.29 0)
 			(effects
 				(font
@@ -35885,7 +35929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 67.31 39.37 0)
 			(effects
 				(font
@@ -35971,7 +36015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -36037,7 +36081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 275.59 80.01 0)
 			(effects
 				(font
@@ -36103,7 +36147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -36190,7 +36234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 58.42 22.86 0)
 			(effects
 				(font
@@ -36276,7 +36320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 17.78 41.91 0)
 			(effects
 				(font
@@ -36342,7 +36386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 130.81 55.88 0)
 			(effects
 				(font
@@ -36428,7 +36472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 97.79 25.4 0)
 			(effects
 				(font
@@ -36493,7 +36537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 130.81 58.42 0)
 			(effects
 				(font
@@ -36558,7 +36602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -36624,7 +36668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 24.13 78.74 0)
 			(effects
 				(font
@@ -36695,7 +36739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 17.78 20.32 0)
 			(effects
 				(font
@@ -36761,7 +36805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 107.95 22.86 0)
 			(effects
 				(font
@@ -36847,7 +36891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 87.63 36.83 0)
 			(effects
 				(font
@@ -36911,7 +36955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 111.76 132.08 0)
 			(effects
 				(font
@@ -37003,7 +37047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 99.06 58.42 0)
 			(effects
 				(font
@@ -37675,7 +37719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -37762,7 +37806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 48.26 22.86 0)
 			(effects
 				(font
@@ -37848,7 +37892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 203.2 143.51 0)
 			(effects
 				(font
@@ -37913,7 +37957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 130.81 76.2 0)
 			(effects
 				(font
@@ -37977,7 +38021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 121.92 132.08 0)
 			(effects
 				(font
@@ -38070,7 +38114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -38156,7 +38200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 41.91 0)
 			(effects
 				(font
@@ -38221,7 +38265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 67.31 36.83 0)
 			(effects
 				(font
@@ -38286,7 +38330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 74.93 0)
 			(effects
 				(font
@@ -38351,7 +38395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 129.54 0)
 			(effects
 				(font
@@ -38428,7 +38472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 27.94 36.83 0)
 			(effects
 				(font
@@ -38494,7 +38538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 147.32 0)
 			(effects
 				(font
@@ -38572,7 +38616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 67.31 53.34 0)
 			(effects
 				(font
@@ -38670,7 +38714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 67.31 20.32 0)
 			(effects
 				(font
@@ -38736,7 +38780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 77.47 22.86 0)
 			(effects
 				(font

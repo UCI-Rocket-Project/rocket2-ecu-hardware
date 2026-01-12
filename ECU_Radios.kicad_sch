@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -363,6 +363,15 @@
 				)
 			)
 			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1005,8 +1014,12 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1106,8 +1119,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1127,8 +1139,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1204,8 +1220,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1224,7 +1239,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TRS Radio Module 2"
+	(text "TRS Radio Module 1"
 		(exclude_from_sim no)
 		(at 201.676 93.98 0)
 		(effects
@@ -1236,18 +1251,7 @@
 		)
 		(uuid "030da4b8-3645-4249-a9de-d110f7a8a415")
 	)
-	(text "Removed DIO0 so we have vsense"
-		(exclude_from_sim no)
-		(at 249.682 61.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 40 86 1)
-			)
-		)
-		(uuid "0f28c8d7-34c6-433f-b5b4-b1a31d720ac6")
-	)
-	(text "TRS Radio Module"
+	(text "TRS Radio Module 0"
 		(exclude_from_sim no)
 		(at 101.346 92.456 0)
 		(effects
@@ -1906,7 +1910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733910070?display=pdf"
+		(property "Datasheet" "~"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -1915,7 +1919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -2000,7 +2004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -2019,6 +2023,15 @@
 			)
 		)
 		(property "Part #" "Generic 0603 Red LED"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -2086,7 +2099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 191.77 53.34 0)
 			(effects
 				(font
@@ -2151,7 +2164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 158.75 82.55 0)
 			(effects
 				(font
@@ -2216,7 +2229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -2255,7 +2268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 141.986 68.58 0)
 			(effects
 				(font
@@ -2282,7 +2295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -2368,7 +2381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -2498,7 +2511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 91.44 53.34 0)
 			(effects
 				(font
@@ -2526,7 +2539,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "45d74d2e-15c3-4819-8849-46a77a653fc6")
 		(property "Reference" "U43"
 			(at 96.52 49.53 0)
@@ -2692,7 +2705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 59.69 57.15 0)
 			(effects
 				(font
@@ -2843,7 +2856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 127 54.61 0)
 			(effects
 				(font
@@ -2909,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -2995,7 +3008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 191.77 88.9 0)
 			(effects
 				(font
@@ -3059,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode, small symbol"
 			(at 36.83 71.12 0)
 			(effects
 				(font
@@ -3078,6 +3091,15 @@
 			)
 		)
 		(property "Part #" "Generic 0603 Red LED"
+			(at 36.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 36.83 71.12 0)
 			(effects
 				(font
@@ -3145,7 +3167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 59.69 0)
 			(effects
 				(font
@@ -3203,7 +3225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733910070?display=pdf"
+		(property "Datasheet" "~"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -3212,7 +3234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -3272,7 +3294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "470"
 			(at 41.656 67.31 0)
 			(effects
 				(font
@@ -3299,7 +3321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 36.83 66.04 0)
 			(effects
 				(font
@@ -3386,7 +3408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 160.02 57.15 0)
 			(effects
 				(font
@@ -3435,7 +3457,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c12a8f1c-5564-4334-a7af-7904cd262888")
 		(property "Reference" "U45"
 			(at 196.85 49.53 0)
@@ -3600,7 +3622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 73.66 0)
 			(effects
 				(font
@@ -3665,7 +3687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -3730,7 +3752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 82.55 0)
 			(effects
 				(font
@@ -3796,7 +3818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 227.33 57.15 0)
 			(effects
 				(font
@@ -3882,7 +3904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 227.33 54.61 0)
 			(effects
 				(font
