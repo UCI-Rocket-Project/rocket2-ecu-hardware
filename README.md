@@ -1,5 +1,5 @@
 ## MOCH4 ENGINE CONTROL UNIT
-# By Robert Woo
+### By Robert Woo
 
 <p align="center">
   <img width="763" height="511" alt="image" src="https://github.com/user-attachments/assets/6f9c8a03-0a79-463c-b0a4-8b353b503f21" />
