@@ -2,3 +2,6 @@
 	path = UCIRP-KiCAD-Lib
 	url = https://github.com/UCI-Rocket-Project/UCIRP-KiCAD-Lib.git
 	branch = ECU
+[submodule "rocket2-ecu-adapter-board"]
+	path = rocket2-ecu-adapter-board
+	url = https://github.com/UCI-Rocket-Project/rocket2-ecu-adapter-board.git
