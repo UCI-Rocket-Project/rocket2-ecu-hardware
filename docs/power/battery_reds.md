@@ -1,4 +1,4 @@
-# Battery & REDS (Recovery Event Driver System)
+# Battery & REDS 
 
 ## Overview
 The **REDS** (Recovery Event Driver System) is a safety-critical power hub. It provides an isolated environment for 6-cell battery charging, precise rail monitoring via buffered dividers, and high-side switching for propulsion vent valves. 
