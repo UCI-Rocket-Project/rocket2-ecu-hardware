@@ -1,0 +1,15 @@
+site_name: ECU Hardware Documentation
+theme: 
+    name: mkdocs
+
+nav:
+  - Home: index.md
+  - Power Systems:
+      - Voltage Regulation: power/regulation.md
+      - Battery & REDS: power/battery_reds.md
+  - Hardware Interface: hardware/hardware.md
+  - Processing & Comms:
+      - Processing: logic/processing.md
+      - Telemetry: logic/comms.md
+  - Actuators & Alarms: actuators/actuators.md
+  - Sensors: sensors/sensors.md
