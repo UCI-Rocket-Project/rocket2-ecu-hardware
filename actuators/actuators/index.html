@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Actuators & Alarms - ECU Hardware Documentation</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">ECU Hardware Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Power Systems</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../power/regulation/" class="dropdown-item">Voltage Regulation</a>
+</li>
+                                    
+<li>
+    <a href="../../power/battery_reds/" class="dropdown-item">Battery & REDS</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../hardware/hardware/" class="nav-link">Hardware Interface</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Processing & Comms</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../logic/processing/" class="dropdown-item">Processing</a>
+</li>
+                                    
+<li>
+    <a href="../../logic/comms/" class="dropdown-item">Telemetry</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Actuators & Alarms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../sensors/sensors/" class="nav-link">Sensors</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../logic/comms/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../sensors/sensors/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#actuators-alarms" class="nav-link">Actuators &amp; Alarms</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#solenoid-valve-drivers" class="nav-link">Solenoid Valve Drivers</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#emergency-alarm-system" class="nav-link">Emergency Alarm System</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#integration-summary" class="nav-link">Integration Summary</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="actuators-alarms">Actuators &amp; Alarms</h1>
+<h2 id="solenoid-valve-drivers">Solenoid Valve Drivers</h2>
+<p>The ECU features five independent high-side driver channels designed to actuate 24V propulsion solenoids (e.g., PeterPaul Series 20). </p>
+<p><img alt="Schematic Snippet: Solenoid Driver" src="../../assets/sch_solenoid_driver.png" />
+<em>Figure 20: High-side NMOS driver with integrated current feedback.</em></p>
+<h3 id="driver-specifications">Driver Specifications</h3>
+<ul>
+<li><strong>MOSFET:</strong> <a href="https://www.diodes.com/assets/Datasheets/DMG3402L.pdf">DMG3402L</a> (N-Channel).</li>
+<li><strong>Flyback Protection:</strong> A <strong>45V 10A</strong> Schottky diode (<strong>D23</strong>) clamps inductive kickback from the valve coils to prevent rail transients.</li>
+<li><strong>Safety Logic:</strong> A <strong>10k&Omega;</strong> pulldown resistor (<strong>R75</strong>) ensures the valve remains <strong>CLOSED</strong> if the MCU pin floats during boot or reset.</li>
+</ul>
+<h3 id="current-feedback-health-monitoring">Current Feedback (Health Monitoring)</h3>
+<p>Unlike v1.0, this revision provides active feedback to confirm solenoid actuation.</p>
+<ul>
+<li><strong>Shunt Resistor:</strong> A <strong>0.1&Omega;</strong> precision resistor (<strong>R77</strong>) placed in the source path translates load current into a small voltage.</li>
+<li><strong>Protection:</strong> A <strong>3.3V Zener</strong> (<strong>D24</strong>) clamps the feedback signal to protect the MCU ADC.</li>
+<li><strong>Active Buffer:</strong> An <strong>MCP6001</strong> op-amp (<strong>U29</strong>) buffers the signal, allowing the firmware to distinguish between a healthy firing, an open-circuit (broken wire), or a short-circuit.</li>
+</ul>
+<hr />
+<h2 id="emergency-alarm-system">Emergency Alarm System</h2>
+<p>The alarm circuit is designed to provide audible status alerts at the launchpad. <strong>Note: This circuit is currently marked as UNTESTED in the hardware rev and requires PWM validation.</strong></p>
+<p><img alt="Schematic Snippet: Alarm Circuit" src="../../assets/sch_alarm.png" />
+<em>Figure 21: Piezo/Siren driver circuit for audible telemetry.</em></p>
+<h3 id="hardware-implementation">Hardware Implementation</h3>
+<ul>
+<li><strong>Driver:</strong> <strong>Q1</strong> (<a href="https://www.diodes.com/assets/Datasheets/DMG3402L.pdf">DMG3402L</a>) switches the low side of the <strong>J1</strong> alarm header.</li>
+<li><strong>Power Source:</strong> Tied to the <strong>+3.3V</strong> logic rail.</li>
+<li><strong>Pin Assignment:</strong> Connected to the <strong>ALARM</strong> net (<strong>PE9</strong>).</li>
+</ul>
+<h3 id="firmware-requirements-for-actually-working">Firmware Requirements (For "Actually Working")</h3>
+<p>To achieve the desired audible tones, the following software parameters must be met:
+1. <strong>PWM Frequency:</strong> Must be tuned to the resonant frequency of the connected piezo (typically <strong>2kHz - 4kHz</strong>).
+2. <strong>Duty Cycle:</strong> A <strong>50% duty cycle</strong> is recommended for maximum volume. 
+3. <strong>Timer Config:</strong> Pin <strong>PE9</strong> must be configured in Timer Alternate Function mode to allow hardware PWM generation without CPU overhead.</p>
+<hr />
+<h2 id="integration-summary">Integration Summary</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Channel</th>
+<th style="text-align: left;">MCU Pin</th>
+<th style="text-align: left;">Function</th>
+<th style="text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>SOL0</strong></td>
+<td style="text-align: left;">PE13</td>
+<td style="text-align: left;">Vent Valve</td>
+<td style="text-align: left;">NO (Normally Open)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>SOL1</strong></td>
+<td style="text-align: left;">PE14</td>
+<td style="text-align: left;">Main Fuel</td>
+<td style="text-align: left;">NC (Normally Closed)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>SOL2</strong></td>
+<td style="text-align: left;">PE15</td>
+<td style="text-align: left;">Main LOX</td>
+<td style="text-align: left;">NC (Normally Closed)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ALARM</strong></td>
+<td style="text-align: left;">PE9</td>
+<td style="text-align: left;">Piezo Siren</td>
+<td style="text-align: left;">PWM Configurable (0-255)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Operational Safety:</strong> All propulsion solenoids are hardware-interlocked to the <a href="../../power/battery_reds/">REDS Recovery System</a>. In a total power loss scenario, the mechanical "Normal" state of the valve is the final fail-safe.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

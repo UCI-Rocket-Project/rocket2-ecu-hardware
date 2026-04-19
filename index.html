@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>ECU Hardware Documentation</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">ECU Hardware Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="." class="nav-link active" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Power Systems</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="power/regulation/" class="dropdown-item">Voltage Regulation</a>
+</li>
+                                    
+<li>
+    <a href="power/battery_reds/" class="dropdown-item">Battery & REDS</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="hardware/hardware/" class="nav-link">Hardware Interface</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Processing & Comms</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="logic/processing/" class="dropdown-item">Processing</a>
+</li>
+                                    
+<li>
+    <a href="logic/comms/" class="dropdown-item">Telemetry</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="actuators/actuators/" class="nav-link">Actuators & Alarms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="sensors/sensors/" class="nav-link">Sensors</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="power/regulation/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#moch4-engine-control-unit-ecu" class="nav-link">MOCH4 Engine Control Unit (ECU)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#system-overview" class="nav-link">System Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#stakeholders" class="nav-link">Stakeholders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#quick-specs" class="nav-link">Quick Specs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#hardware-architecture-layout" class="nav-link">Hardware Architecture &amp; Layout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#core-functionality" class="nav-link">Core Functionality</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#debug-failure-modes" class="nav-link">Debug &amp; Failure Modes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="moch4-engine-control-unit-ecu">MOCH4 Engine Control Unit (ECU)</h1>
+<hr />
+<h2 id="system-overview">System Overview</h2>
+<p>The Rocket2 ECU is the central flight hardware for the MOCH4 vehicle. It manages power distribution, sensor data acquisition, and valve actuation for the rocket's liquid propulsion system.</p>
+<p><img alt="Rocket2 ECU Render" src="assets/ecu_render.png" />
+<em>Figure 1: Top-down render of the Rocket2 ECU v2.0 PCB.</em></p>
+<h2 id="stakeholders">Stakeholders</h2>
+<ul>
+<li><strong>AV - Hardware:</strong> Reference for the <a href="hardware/hardware/">6-layer stackup</a> signal integrity, <a href="hardware/hardware/">JTAG debugging</a> procedures, and general design logic/justifications.</li>
+<li><strong>AV - Software:</strong> Mapping for SPI/I2C/UART buses and <a href="logic/processing/">STM32 pin assignments</a>.</li>
+<li><strong>Propulsion:</strong> Solenoid limits, actuation behavior, and sensor scaling  </li>
+<li><strong>Launch Vehicle:</strong> <a href="hardware/hardware/">Mounting specifications</a>, structural constraints, and connector access.</li>
+</ul>
+<h2 id="quick-specs">Quick Specs</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: left;">Value</th>
+<th style="text-align: left;">Requirement Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Input Voltage</strong></td>
+<td style="text-align: left;">24V DC</td>
+<td style="text-align: left;">24V Battery/GSE Requirement</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Battery Life</strong></td>
+<td style="text-align: left;">&gt; 4 Hours</td>
+<td style="text-align: left;">System Operations Window</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Logic Level</strong></td>
+<td style="text-align: left;">3.3V</td>
+<td style="text-align: left;">STM32 Standard</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Mounting Pattern</strong></td>
+<td style="text-align: left;">4x M3 holes with 3.2mm clearance</td>
+<td style="text-align: left;">Avionics</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Dimensions</strong></td>
+<td style="text-align: left;">150mm x 100mm</td>
+<td style="text-align: left;">Fits MOCH4 AV Bay</td>
+</tr>
+</tbody>
+</table>
+<h2 id="hardware-architecture-layout">Hardware Architecture &amp; Layout</h2>
+<p>To ensure flight reliability, the hardware follows a strict isolation and integration strategy:</p>
+<ul>
+<li><strong>6-Layer Stackup:</strong> Dedicated ground planes (L2, L5) to shield logic (L3) from 24V power noise (L4)[cite: 617, 632]. See <a href="hardware/hardware/">Electrical Design</a>.</li>
+<li><strong>Integrated Connectors:</strong> Standard <a href="hardware/hardware/">HD15 and GX-series</a> connectors are soldered directly to the board to eliminate wire-failure points.</li>
+<li><strong>Component Zoning:</strong> The Battery Management System (BMS) and regulators are physically isolated on the left side, separated from RF antennas to minimize noise.</li>
+<li><strong>Accessibility:</strong> All major test points and JTAG headers are accessible from the board's bottom side for post-integration debugging.</li>
+</ul>
+<h2 id="core-functionality">Core Functionality</h2>
+<ul>
+<li><strong>Propulsion:</strong> 5 channels of high-side solenoid switching.</li>
+<li><strong>Instrumentation:</strong> Dual-redundant <a href="sensors/sensors/">Pressure (PT)</a> and <a href="sensors/sensors/">Temperature (TC)</a> collection.</li>
+<li><strong>REDS:</strong> <a href="power/battery_reds/">Emergency depressurization</a> capable of switching between Battery and GSE power.</li>
+<li><strong>Media:</strong> Integrated charging for the onboard Insta360 camera.</li>
+</ul>
+<h2 id="debug-failure-modes">Debug &amp; Failure Modes</h2>
+<ul>
+<li><strong>Visual Feedback:</strong> Onboard LEDs indicate 3.3V rail health and MCU heartbeat.</li>
+<li><strong>Alarm:</strong> <a href="actuators/actuators/">Integrated siren</a> triggers on loss of GSE heartbeat or sensor failure (Note: Currently NOT IN USE).</li>
+<li><strong>Safe State:</strong> All solenoids default to CLOSED on power loss or MCU reset to prevent unintended propellant flow.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2026-04-19 22:14:09.265386+00:00
+-->

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Battery & REDS - ECU Hardware Documentation</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">ECU Hardware Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Power Systems</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../regulation/" class="dropdown-item">Voltage Regulation</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Battery & REDS</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../hardware/hardware/" class="nav-link">Hardware Interface</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Processing & Comms</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../logic/processing/" class="dropdown-item">Processing</a>
+</li>
+                                    
+<li>
+    <a href="../../logic/comms/" class="dropdown-item">Telemetry</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../actuators/actuators/" class="nav-link">Actuators & Alarms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../sensors/sensors/" class="nav-link">Sensors</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../regulation/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../hardware/hardware/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#battery-reds" class="nav-link">Battery &amp; REDS</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#overview" class="nav-link">Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#stakeholder-relevance" class="nav-link">Stakeholder Relevance</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#power-system-reference" class="nav-link">Power System Reference</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#design-details" class="nav-link">Design Details</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#hardwaresoftware-interface" class="nav-link">Hardware&ndash;Software Interface</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#errata-revision-notes" class="nav-link">Errata / Revision Notes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="battery-reds">Battery &amp; REDS</h1>
+<h2 id="overview">Overview</h2>
+<p>The <strong>REDS</strong> (Recovery Event Driver System) is a safety-critical power hub. It provides an isolated environment for 6-cell battery charging, precise rail monitoring via buffered dividers, and high-side switching for propulsion vent valves. </p>
+<p><img alt="REDS System Architecture" src="../../assets/reds_system_diagram.png" />
+<em>Figure 4: High-level block diagram of charging isolation and recovery logic.</em></p>
+<h2 id="stakeholder-relevance">Stakeholder Relevance</h2>
+<ul>
+<li><strong>Avionics:</strong> Critical facet of power on electronics; ensures logic survival during high-current events.</li>
+<li><strong>Propulsion:</strong> Drive capacity for <a href="https://www.peterpaul.com/valves/2-way-normally-opened/series-20-model-21">PeterPaul Series 20</a> (NO/NC) vent valves.</li>
+<li><strong>Operations:</strong> Pre-launch camera power and battery health monitoring.</li>
+</ul>
+<hr />
+<h2 id="power-system-reference">Power System Reference</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Net Name</th>
+<th style="text-align: left;">Source</th>
+<th style="text-align: left;">Nominal Voltage</th>
+<th style="text-align: left;">Max Current</th>
+<th style="text-align: left;">Notes &amp; Hardware Specs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>GSE+</strong></td>
+<td style="text-align: left;">Ground pad</td>
+<td style="text-align: left;">24V</td>
+<td style="text-align: left;">5A*</td>
+<td style="text-align: left;">External input used at pad.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>BATT_MAIN+</strong></td>
+<td style="text-align: left;">6S LiPo</td>
+<td style="text-align: left;">22.2V - 25.2V</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Primary vehicle battery bus.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>GND</strong></td>
+<td style="text-align: left;">Ground</td>
+<td style="text-align: left;">0V</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Reference for ECU logic and valve returns.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ISO_5V</strong></td>
+<td style="text-align: left;">Cincon EC4SAW</td>
+<td style="text-align: left;">5V</td>
+<td style="text-align: left;">600mA</td>
+<td style="text-align: left;">Isolated supply per charging block; floats relative to cell GND.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ISO_GND</strong></td>
+<td style="text-align: left;">Cincon EC4SAW</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;"><strong>Isolated return</strong>; MUST NOT be shorted to System GND.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3V3_REDS</strong></td>
+<td style="text-align: left;"><a href="https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf">RECOM RPM-3.0</a></td>
+<td style="text-align: left;">3.3V</td>
+<td style="text-align: left;">3A</td>
+<td style="text-align: left;">Independent logic rail; survives primary ECU bus failure.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3V3_MAIN</strong></td>
+<td style="text-align: left;">ECU Buck Reg</td>
+<td style="text-align: left;">3.3V</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Primary logic rail for non-recovery ECU functions.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>GSE_VSNS</strong></td>
+<td style="text-align: left;"><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf">MCP6001</a></td>
+<td style="text-align: left;">0&ndash;3.3V</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Buffered ADC signal scaling GSE+ rail (1V:7.67V).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>BATT_VSNS</strong></td>
+<td style="text-align: left;"><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf">MCP6001</a></td>
+<td style="text-align: left;">0&ndash;3.3V</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Buffered ADC signal scaling BATT_MAIN+ (1V:7.67V).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>5V0_REDS</strong></td>
+<td style="text-align: left;"><a href="https://html.alldatasheet.com/html-pdf/1131972/INJOINIC/IP6525T/458/1/IP6525T.html">IP6525T</a></td>
+<td style="text-align: left;">5V</td>
+<td style="text-align: left;">3A</td>
+<td style="text-align: left;">Aux rail for Insta360; sourced from GSE+ via D3.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>STAT_OUT[0-5]</strong></td>
+<td style="text-align: left;"><a href="http://www.vishay.com/docs/81753/vo615a.pdf">PS2811-1</a></td>
+<td style="text-align: left;">3.3V Logic</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Isolated charge status (Active-Low) from BQ25170.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="design-details">Design Details</h2>
+<h3 id="1-isolated-charging-architecture">1. Isolated Charging Architecture</h3>
+<p>To prevent ground loops and cell-balance shorts during charging, the system utilizes 6 independent charging blocks.</p>
+<p><img alt="Schematic Snippet: BQ25170 Charging Block" src="../../assets/sch_charging_block.png" />
+<em>Figure 5: Isolated charging stage showing Cincon DC-DC and BQ25170.</em></p>
+<p><img alt="Schematic Snippet: Optocoupler Interface" src="../../assets/sch_optocoupler_isolation.png" />
+<em>Figure 6: Isolated status feedback via PS2811-1 Optocouplers.</em></p>
+<ul>
+<li><strong>Power Isolation:</strong> Each cell uses a <strong>Cincon EC4SAW (U10)</strong> to decouple the GSE power from the specific battery cell potential.</li>
+<li><strong>Signal Isolation:</strong> <code>STAT_OUT</code> signals use <a href="http://www.vishay.com/docs/81753/vo615a.pdf">PS2811-1</a> optocouplers (U12) to cross the isolation barrier to the 3.3V logic rail. </li>
+<li><strong>Design Deviation (ISET):</strong> Target I_SET was 375 &Omega;. Current assembly uses <strong>500 &Omega;</strong> (&plusmn;1%, &lt;200 ppm/&ordm;C) due to availability, resulting in a slightly lower, safer charge rate for the <a href="https://www.ti.com/product/BQ25170">BQ25170</a>.</li>
+</ul>
+<h3 id="2-33v_reds-logic-rail">2. 3.3V_REDS Logic Rail</h3>
+<p>The <code>3V3_REDS</code> rail is independent of the main ECU 3.3V bus to ensure recovery capability  during bus failures.</p>
+<p><img alt="Schematic Snippet: U50 Regulator" src="../../assets/sch_3v3_reds_reg.png" />
+<em>Figure 7: U50 RECOM regulator stage with input Pi-filter.</em></p>
+<ul>
+<li><strong>Regulator:</strong> <strong>U50</strong> (<a href="https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf">RECOM RPM-3.0</a>) 24V to 3.3V.</li>
+<li><strong>Input Pi-Filter:</strong> L3 (2.2 &mu;H) and C102-104. </li>
+<li><strong>Thermal Note:</strong> Inductor <strong>L3</strong> is rated for <strong>3A</strong>. While the RECOM module is robust, L3 is the primary thermal bottleneck if draw exceeds 3A.</li>
+</ul>
+<h3 id="3-rail-voltage-sensing-main-reds">3. Rail Voltage Sensing (MAIN &amp; REDS)</h3>
+<p>The ECU employs two identical dual-stage sensing circuits to monitor the health of the 24V GSE and Battery rails for both the primary ECU (MAIN) and REDS.</p>
+<p><img alt="Schematic Snippet: V_Sense MAIN" src="../../assets/sch_vsense_main.png" />
+<em>Figure 8: V_Sense MAIN buffers (U53/U54) monitoring primary power rails.</em></p>
+<ul>
+<li><strong>Circuit Identity:</strong> The REDS sensing stage (U5/U44) is topologically identical to the MAIN stage (U53/U54) shown above.</li>
+<li><strong>Precision Divider:</strong> A 100 k&Omega; / 15 k&Omega; network provides a 1V : 7.67V scaling ratio.</li>
+<li><strong>High-Impedance Buffering:</strong> <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf">MCP6001</a> Op-amps are configured as voltage followers. This ensures that the sensing network does not load the battery and prevents ADC input impedance from introducing measurement error.</li>
+<li><strong>Component Requirement:</strong> Resistors must be &plusmn;1% tolerance or better to ensure measurement accuracy across the flight temperature envelope.</li>
+</ul>
+<h3 id="4-valve-drive-circuitry">4. Valve Drive Circuitry</h3>
+<p>The board features two high-side MOSFET driver channels (Q4/Q5 and Q8/Q9) designed to drive solenoids.</p>
+<p><img alt="Schematic Snippet: MOSFET Drivers" src="../../assets/sch_mosfet_driver.png" />
+<em>Figure 9: Typical NMOS-to-PMOS level shifting for 24V valve control (Channel 1 shown).</em></p>
+<ul>
+<li><strong>Topology:</strong> NMOS-to-PMOS level shifting (3.3V to 24V).</li>
+<li><strong>Flyback Protection:</strong> Integrated 100V 8A Schottky diodes (D1, D7) clamp inductive spikes from solenoids.</li>
+<li><strong>Safety Logic:</strong> NMOS pulldowns ensure valves remain in their "Normal" state if logic pins float.</li>
+</ul>
+<h3 id="5-insta360-camera">5. Insta360 Camera</h3>
+<p>A dedicated high-current 5V rail is provided for external peripherals, primarily the Insta360 flight camera.</p>
+<p><img alt="Schematic Snippet: 5V 3A Insta360" src="../../assets/sch_5v_insta360.png" />
+<em>Figure 10: IP6525T Step-down converter for USB-C power delivery.</em></p>
+<ul>
+<li><strong>Regulator:</strong> <strong>U6</strong> (<a href="https://html.alldatasheet.com/html-pdf/1131972/INJOINIC/IP6525T/458/1/IP6525T.html">IP6525T</a>) provides a stable 5V output at up to 3A.</li>
+<li><strong>Power Source:</strong> This rail is tied to <strong>GSE+</strong> via a 30V 5A Schottky diode (<strong>D3</strong>). </li>
+<li><strong>Ops Note:</strong> Ops must verify the camera switches to internal battery smoothly during disconnect to ensure recording does not stop at T-0.</li>
+<li><strong>Filtering:</strong> A 22 &mu;H inductor (<strong>L1</strong>) and a bulk 220 &mu;F capacitor (<strong>C108</strong>) minimize switching ripple to prevent video artifacts.</li>
+<li><strong>Indicator:</strong> <strong>LED D5</strong> (Green) indicates the 5V Aux rail is active.</li>
+</ul>
+<hr />
+<h2 id="hardwaresoftware-interface">Hardware&ndash;Software Interface</h2>
+<h3 id="optocoupler-logic-calculation">Optocoupler Logic Calculation</h3>
+<p>The pull-up resistor (R36) for the <code>STAT_OUT</code> signal is <strong>1.5 k&Omega;</strong>.
+* <strong>CTR Calculation:</strong> * V_{CC} - V_{OUT} = 3.3V - 0.8V = 2.5V
+    * 2.5V / 2mA = 1250 &Omega; &approx; <strong>1.5 k&Omega;</strong>
+* <strong>Diagnostic:</strong> If status signals fail to toggle, verify the optocoupler is driving at least 2mA.</p>
+<h2 id="errata-revision-notes">Errata / Revision Notes</h2>
+<ul>
+<li><strong>Diode Corrected:</strong> Fixed orientation of 30V 2A diode (reversed in v1.0).</li>
+<li><strong>ADC Simplification:</strong> Deleted ADC from schematic for charge status; routed charging status to main ECU MC.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Sensors - ECU Hardware Documentation</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">ECU Hardware Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Power Systems</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../power/regulation/" class="dropdown-item">Voltage Regulation</a>
+</li>
+                                    
+<li>
+    <a href="../../power/battery_reds/" class="dropdown-item">Battery & REDS</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../hardware/hardware/" class="nav-link">Hardware Interface</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Processing & Comms</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../logic/processing/" class="dropdown-item">Processing</a>
+</li>
+                                    
+<li>
+    <a href="../../logic/comms/" class="dropdown-item">Telemetry</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../actuators/actuators/" class="nav-link">Actuators & Alarms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Sensors</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../actuators/actuators/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#sensors" class="nav-link">Sensors</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#flight-sensors" class="nav-link">Flight Sensors</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#propulsion-sensors" class="nav-link">Propulsion Sensors</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="sensors">Sensors</h1>
+<h2 id="flight-sensors">Flight Sensors</h2>
+<p>The ECU utilizes a multi-sensor architecture for real-time orientation and altitude tracking. </p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Sensor</th>
+<th style="text-align: left;">Model</th>
+<th style="text-align: left;">Bus</th>
+<th style="text-align: left;">Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>IMU</strong></td>
+<td style="text-align: left;"><a href="https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf">BMI088</a></td>
+<td style="text-align: left;">SPI</td>
+<td style="text-align: left;">±24g / ±2000°/s</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Magnetometer</strong></td>
+<td style="text-align: left;"><a href="https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf">BMM350</a></td>
+<td style="text-align: left;">I2C</td>
+<td style="text-align: left;">±2000μT</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Altimeter</strong></td>
+<td style="text-align: left;"><a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7FMS5607-02BA03%7FB4%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B4.pdf%7FMS560702BA03-50">MS5607</a></td>
+<td style="text-align: left;">SPI</td>
+<td style="text-align: left;">10–1200 mbar</td>
+</tr>
+</tbody>
+</table>
+<h3 id="magnetometer-bmm350">Magnetometer (BMM350)</h3>
+<p>The BMM350 replaces the deprecated BMM150. It provides improved resolution (0.1μT) and a higher max sampling rate (400Hz).</p>
+<p><img alt="Schematic Snippet: Magnetometer" src="../../assets/sch_magnetometer.png" />
+<em>Figure 23: BMM350 I2C interface with 4.7kΩ pull-up resistors (R3, R4).</em></p>
+<h3 id="imu-bmi088">IMU (BMI088)</h3>
+<p>Utilizes SPI for deterministic data acquisition. Provides ±24g acceleration range and ±2000°/s rate sensing.</p>
+<p><img alt="Schematic Snippet: IMU" src="../../assets/sch_imu.png" />
+<em>Figure 24: BMI088 SPI interface with independent Accel and Gyro Chip Selects.</em></p>
+<h3 id="altimeter-ms5607">Altimeter (MS5607)</h3>
+<p>The Altimeter is connected via SPI, schematic attached below.</p>
+<p><img alt="Schematic Snippet: Altimeter" src="../../assets/sch_altimeter.png" />
+<em>Figure 25: MS5607 SPI interface with localized decoupling capacitors.</em></p>
+<hr />
+<h2 id="propulsion-sensors">Propulsion Sensors</h2>
+<p>Propulsion sensors are subject to high EMI and vibration. Therefore, signal conditioning and filtering are critical for data integrity.</p>
+<h3 id="pressure-transducers-pt">Pressure Transducers (PT)</h3>
+<p>The PT circuit translates 0–5V analog signals from the transducer down to a 0–3.3V range suitable for the STM32 ADC.</p>
+<p><img alt="Schematic Snippet: PT Signal Conditioning" src="../../assets/sch_pt_filter.png" />
+<em>Figure 26: PT conditioning stage featuring voltage clamping and active buffering.</em></p>
+<ul>
+<li><strong>Sensor Model:</strong> <a href="https://transducersdirect.com/products/pressure-transducers/standard-pressure-transducers/tdh40-pressure-transducer-low-price-high-accuracy-volume-discount/">Transducers Direct TDH40</a></li>
+<li><strong>Voltage Divider &amp; Clamping:</strong> A 1kΩ (<strong>R72</strong>) and 2kΩ (<strong>R123</strong>) divider scales the signal. A 3.9V Zener (<strong>D22</strong>) provides overvoltage protection.</li>
+<li><strong>Active Buffer:</strong> An <strong>MCP6001</strong> op-amp (<strong>U28</strong>) provides a low-impedance input to the ADC to prevent sampling errors.</li>
+<li><strong>Noise Filtering:</strong> An integrated RC lpf (<strong>R72, C120</strong>) provides a cutoff frequency of <strong>1591 Hz</strong> to reject high-frequency valve and engine noise.</li>
+</ul>
+<h3 id="thermocouples-tc">Thermocouples (TC)</h3>
+<p>Uses the <strong>MAX31855JASA+</strong> cold-junction compensated converter.</p>
+<p><img alt="Schematic Snippet: Thermocouple Interface" src="../../assets/sch_tc_filter.png" />
+<em>Figure 27: TC front-end with optimized differential and common-mode filtering.</em></p>
+<h4 id="filter-design-justification">Filter Design &amp; Justification</h4>
+<p>The TC front-end uses an optimized RC filter network to reject common-mode noise while maintaining a high signal-to-noise ratio (SNR). The design adheres to the <strong>C<sub>diff</sub> &gt; 10 &times; C<sub>cm</sub></strong> rule to minimize the impact of component tolerances on noise rejection.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: left;">Value</th>
+<th style="text-align: left;">Formula / Calculation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Series Resistance (R)</strong></td>
+<td style="text-align: left;">1 k&Omega;</td>
+<td style="text-align: left;">R16, R121</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Diff. Capacitance (C<sub>diff</sub>)</strong></td>
+<td style="text-align: left;">100 nF</td>
+<td style="text-align: left;">C41</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Common Mode Cap (C<sub>cm</sub>)</strong></td>
+<td style="text-align: left;">10 nF</td>
+<td style="text-align: left;">C94, C118</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Diff. Mode Cutoff (f<sub>c,dm</sub>)</strong></td>
+<td style="text-align: left;"><strong>~758 Hz</strong></td>
+<td style="text-align: left;">1 / (2&pi; &times; 2R &times; (C<sub>diff</sub> + C<sub>cm</sub>/2))</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Common Mode Cutoff (f<sub>c,cm</sub>)</strong></td>
+<td style="text-align: left;"><strong>~15.9 kHz</strong></td>
+<td style="text-align: left;">1 / (2&pi; &times; R &times; C<sub>cm</sub>)</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Common Mode Rejection:</strong> 10nF common-mode capacitors (<strong>C94, C118</strong>) reject noise that applies equally to both TC high and low voltages.</li>
+<li><strong>Sampling Sync:</strong> The ~758Hz differential cutoff is specifically tuned to reject high-frequency engine noise while maintaining the 14Hz sampling resolution of the MAX31855.</li>
+</ul>
+<hr />
+<h3 id="integration-cabling-note">Integration &amp; Cabling Note</h3>
+<p>As documented in the <a href="../../hardware/hardware/">Hardware Interface</a>, the physical sensor connection has been upgraded from direct-to-GX soldering to a standardized <strong>Universal Adapter Board</strong> system.</p>
+<ul>
+<li><strong>Sensor End:</strong> PT/TC connects to a slot on the Universal Adapter Board.</li>
+<li><strong>Cable:</strong> Standard VGA cables with <strong>HD15 (D-Sub)</strong> connectors are used for the main cable run.</li>
+<li><strong>ECU End:</strong> Cable connects to the <strong>ECU Adapter Board</strong> stacked on the main ECU, completing the electrical path to the conditioned ADC pins.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
