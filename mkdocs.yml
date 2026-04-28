@@ -13,3 +13,4 @@ nav:
       - Telemetry: logic/comms.md
   - Actuators & Alarms: actuators/actuators.md
   - Sensors: sensors/sensors.md
+  - Bring-Up: bring_up/testplan.md

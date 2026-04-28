@@ -10041,7 +10041,7 @@
 				(justify left)
 			)
 		)
-		(pin "3V3_REDSOUT" output
+		(pin "3V3" output
 			(at 48.26 57.15 0)
 			(uuid "f74a5f46-0b61-43a5-bb22-77378c49436a")
 			(effects
