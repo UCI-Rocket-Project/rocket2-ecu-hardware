@@ -99,17 +99,23 @@ Please **refer to schematic** for additional test points or connection clarifica
 | 7 | **KEY** | 8 | **NC** |
 | 9 | **GND** | 10 | **nRESET** |
 
-
 ## Hardware Debug Log (April 2026)
 
-### Issue: 5V Regulator Input Instability
-* Unstable resistance readings across the Schottky diode (D3) entering the 5V regulator.
-* Reverse bias reads 1M&Omega;; Forward voltage reads 50k&Omega; (unusually high).
-    * Suspected bad diode or interference from feedback network.
-    * Next Steps: Remove diode, install jumper wire across pads, and re-test regulator stability.
+### 5V Regulator Input Instability
+* **Observations:**
+    * Detected unstable resistance readings across the **Schottky diode (D3)** at the 5V regulator input.
+    * **Reverse bias:** 1MΩ.
+    * **Forward voltage:** 20v (likely faulty diode)
+* **Steps Taken:**
+    * Desoldered D3 and installed a jumper wire across the pads to bypass the diode for testing.
+    * **Result:** Regulator circuit now displays stable, expected voltage values. 
+    * **Validation:** Verified successful USBC handshake and fast-charging.
+* **Next: May 2026:**
+    * Parallel pathing for flashing **REDs firmware**.
+    * Verifying **Ethernet communication** tests to verify Radio functionality and mirrored Main circuitry. 
 
 ### Issue: Balance Connector Mismatch
 * Issue: balance connector currently on the board does not match the existing battery inventory.
-* Solution: Buy new batteries with the JST-style balance connector that maches the pcb footprint.
+* Solution Complete: Buy new batteries with the JST-style balance connector that maches the pcb footprint.
 
 ---

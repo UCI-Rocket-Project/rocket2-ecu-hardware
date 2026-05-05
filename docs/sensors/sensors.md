@@ -70,21 +70,8 @@ The TC front-end uses an optimized RC filter network to reject common-mode noise
 
 
 ### Integration & Cabling Note
-As documented in the [Hardware Interface](../hardware/hardware.md), the physical sensor connection has been upgraded from direct-to-GX soldering to a standardized **Universal Adapter Board** system.
+As documented in the [Hardware Interface](../hardware/hardware.md), the connector system has been upgraded from direct-to-GX soldering to a standardized DSUB to VGA cable system. This system has been implemented for the ECU throught ECU Adaper Board, and will interface on the physical sensor end with a **Universal Adapter Board** system as described below. 
 
 * **Sensor End:** PT/TC connects to a slot on the Universal Adapter Board.
 * **Cable:** Standard VGA cables with **HD15 (D-Sub)** connectors are used for the main cable run.
 * **ECU End:** Cable connects to the **ECU Adapter Board** stacked on the main ECU, completing the electrical path to the conditioned ADC pins.
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -23,6 +23,7 @@ The board provides two primary methods for firmware deployment and real-time tel
 
 ### SWD (Serial Wire Debug)
 The **J17** header utilizes the standard **ARM Cortex 10-pin** (2x5) 1.27mm pitch layout.
+
 * **Signals:** SWDIO, SWCLK, and SWO are routed for real-time instruction tracing.
 * **Reset:** The **MCU_nRST** line is tied to a **100nF** capacitor (**C72**) and a **10k&Omega;** pull-up to prevent accidental resets from EMI.
 
@@ -70,5 +71,3 @@ The ECU features a dual-chip external storage configuration providing a total of
 
 ### Fail-Safe Execution
 * **Default States:** All solenoid enable pins are hardware-referenced to GND, ensuring valves remain in a safe/closed state during an MCU power loss or reset event.
-
-

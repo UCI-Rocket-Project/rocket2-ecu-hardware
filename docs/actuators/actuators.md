@@ -21,8 +21,8 @@ Unlike v1.0, this revision provides active feedback to confirm solenoid actuatio
 
 ---
 
-## Emergency Alarm System
-The alarm circuit is designed to provide audible status alerts at the launchpad. **Note: This circuit is currently marked as UNTESTED in the hardware rev and requires PWM validation.**
+## Emergency Alarm System: Deprecated
+The alarm circuit is designed to provide audible status alerts at the launchpad. 
 
 ![Schematic Snippet: Alarm Circuit](../assets/sch_alarm.png)
 *Figure 21: Piezo/Siren driver circuit for audible telemetry.*
@@ -46,6 +46,6 @@ To achieve the desired audible tones, the following software parameters must be 
 | **SOL0** | PE13 | Vent Valve | NO (Normally Open) |
 | **SOL1** | PE14 | Main Fuel | NC (Normally Closed) |
 | **SOL2** | PE15 | Main LOX | NC (Normally Closed) |
-| **ALARM** | PE9 | Piezo Siren | PWM Configurable (0-255) |
+| **ALARM** | PE9 | Piezo Siren | Deprecated |
 
 **Operational Safety:** All propulsion solenoids are hardware-interlocked to the [REDS Recovery System](../power/battery_reds.md). In a total power loss scenario, the mechanical "Normal" state of the valve is the final fail-safe.
