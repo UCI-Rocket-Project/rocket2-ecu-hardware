@@ -1,4 +1,4 @@
-# Rocket2's Engine Control Unit (ECU)
+# rocket2's Engine Control Unit (ECU)
 Documenation for ECU is hosted with MKDocs: [Click Here](https://uci-rocket-project.github.io/rocket2-ecu-hardware/)
   
 # CAD
